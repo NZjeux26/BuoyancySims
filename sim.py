@@ -1,5 +1,6 @@
 import pygame
-from values import Airship, Atmosphere, BuoyancyData, Constants
+from values import Airship, Atmosphere, Constants
+import math
 
 # Initialize pygame
 pygame.init()
@@ -8,65 +9,73 @@ pygame.init()
 screen_width = 600
 screen_height = 1200
 
-#create airship
-airship = Airship(232.2,30.5,195,0,0,100,150)
+# Create airship
+airship = Airship(232.2, 30.5, 155, 0, 0, 100, 100)
 
+# Create the atmosphere
 atmosphere = Atmosphere(
-    pressure = Constants.standard_pressure_sea_level,
-    density = Constants.air_density_sea_level,
+    pressure=Constants.standard_pressure_sea_level,
+    density=Constants.air_density_sea_level,
 )
 
-bforce = atmosphere.density * Constants.gravity_on_earth * airship.volume
-masslift = bforce / Constants.gravity_on_earth
-a = bforce / airship.mass
 # Create the screen
 screen = pygame.display.set_mode((screen_width, screen_height))
 
 # Set the window title
-pygame.display.set_caption("Pygame Rectangle")
+pygame.display.set_caption("Buoyancy Simulation")
 
-# Define a color for the rectangle
+# Define color for the rectangle
 rectangle_color = (255, 0, 0)
-
-# Define rectangle position and size
-rectangle_x = 100
-rectangle_y = 150
-rectangle_width = 200
-rectangle_height = 100
 
 # Create the rectangle object
 airrectangle = pygame.Rect(airship.xpos, airship.ypos, 100, 100)
-airrectangle.y = airship.ypos
-# Draw the rectangle on the screen
-pygame.draw.rect(screen, rectangle_color, airrectangle)
 
+# Set up the clock to control the frame rate
+clock = pygame.time.Clock()
+
+# Main loop
 running = True
 while running:
-    # Check for events (e.g., quit)
     for event in pygame.event.get():
         if event.type == pygame.QUIT:
             running = False
-            
+        elif event.type == pygame.KEYDOWN:
+            if event.key == pygame.K_ESCAPE:
+                running = False
+
+    dt = clock.tick(60) / 1000.0  # 60 frames per second 
+     
+    # Calculate pressure and density at current altitude
+    atmosphere.pressure *= (1 - 0.0065 * airship.ypos / 288.15) ** 5.255
+    atmosphere.density = atmosphere.pressure / (Constants.gas_constant * 288.15 *
+                                                (1 + 0.001 * airship.ypos / 288.15))
+
+    # Calculate buoyancy force
     bforce = atmosphere.density * Constants.gravity_on_earth * airship.volume
-    masslift = bforce / Constants.gravity_on_earth
-    a = bforce / airship.mass
-    
-    # Print buoyancy and acceleration values
-    print("Buoyancy force:", bforce, "Newtons")
-    print("Mass lifted:", masslift, "kg")
-    print("Acceleration:", a, "m/s^2")
-    
-    airship.yval = a
-    #something not working around here, the rectangle isn't moving
-    airrectangle.y += airship.yval
-   
-    
-    # Print altitude and velocity
-    print("Altitude:", airship.ypos, "m")
-    print("Vertical velocity:", airship.yval, "m/s")
-    
+
+    # Calculate acceleration
+    a = (bforce / (airship.mass * 1000)) - Constants.gravity_on_earth
+
+    # Update position and velocity
+    airship.yval += a * dt
+    airship.ypos += airship.yval
+    airrectangle.y += airship.ypos
+    airrectangle.y = max(0, min(screen_height - airrectangle.height, airship.ypos))
+    # Draw the rectangle on the screen
+    screen.fill((255, 255, 255))
+    pygame.draw.rect(screen, rectangle_color, airrectangle)
+
     # Update the display
     pygame.display.flip()
+
+    # Print relevant values for debugging
+    print("Altitude:", airship.ypos, "m")
+    print("Vertical velocity:", airship.yval, "m/s")
+    print("Buoyancy force:", bforce, "Newtons")
+    print("Acceleration:", a, "m/s^2")
+
+    # Cap the frame rate to 60 FPS
+    clock.tick(60)
 
 # Quit pygame
 pygame.quit()
