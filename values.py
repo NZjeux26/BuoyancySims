@@ -2,9 +2,9 @@ import math
 
 class Airship:
     def __init__(self, length, diameter, mass, xval, yval, xpos, ypos):
-        self.length = length
-        self.diameter = diameter
-        self.mass = mass
+        self.length = length #in meters
+        self.diameter = diameter #in meters
+        self.mass = mass #in Kilograms
         self.xval = xval
         self.yval = yval
         self.xpos = xpos
@@ -13,9 +13,10 @@ class Airship:
         self.volume = math.pi * (diameter / 2)**2 * length  # Derived from dimensions
 
 class Atmosphere:
-    def __init__(self, pressure, density):
+    def __init__(self, pressure, density, temperature):
         self.pressure = pressure
         self.density = density
+        self.temperature = temperature
 
 class BuoyancyData:
     def __init__(self, buoyancy_force, mass_lifted, acceleration):
@@ -24,7 +25,11 @@ class BuoyancyData:
         self.acceleration = acceleration
 
 class Constants:
-    gravity_on_earth = 3.711  # m/s^2
-    air_density_sea_level = 0.988  # kg/m^3
-    standard_pressure_sea_level = 93555  # Pascals
+    gravity_on_earth = 9.81  # m/s^2
+    air_density_sea_level = 1.225 # kg/m^3
+    standard_pressure_sea_level = 101325  # Pascals
     gas_constant = 287.058  # J/(kg·K)
+    temperature_lapse_rate = 0.0065  # degrees Celsius per meter
+    standard_temperature_at_sea_level = 294.65 # Kelvin Might need ot change to Celsius
+    exponent_constant = 5.255
+    inertia_coefficient = 0.1
