@@ -100,3 +100,9 @@ while running:
 
 # Quit pygame
 pygame.quit()
+
+
+#NOTES
+#Something in the calculation for pressure is not right, it's dropping way to fast and doesn't match the suposed altitude of ship
+#Change the values to use consistant values, either all Kelvin or all Celcius
+ 

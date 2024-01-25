@@ -1,5 +1,5 @@
 Altitude: 0 m
-Vertical velocity: 0.050537830006883874 m/s
+Vertical velocity: 0.017578375654568306 m/s
 Buoyancy force: 1996.282671549125 Newtons
 Airship Mass 183 KG
 Acceleration: 1.098648478410519 m/s^2
@@ -7,1362 +7,3322 @@ Denisty 1.197955021437117 kg/m^3
 Air Pressure 101325.0 Pascals 
 
 Altitude: 0 m
-Vertical velocity: 0.06811471131062727 m/s
-Buoyancy force: 1996.2706336945657 Newtons
+Vertical velocity: 0.03625535873100683 m/s
+Buoyancy force: 1996.2824053713007 Newtons
 Airship Mass 183 KG
-Acceleration: 1.098555081483962 m/s^2
-Denisty 1.1979477976062827 kg/m^3
-Air Pressure 101324.4063755173 Pascals 
+Acceleration: 1.0986460633199133 m/s^2
+Denisty 1.1979548617056992 kg/m^3
+Air Pressure 101324.99253455098 Pascals 
 
 Altitude: 0 m
-Vertical velocity: 0.08678739077291694 m/s
-Buoyancy force: 1996.2427139181316 Newtons
+Vertical velocity: 0.05493225979465381 m/s
+Buoyancy force: 1996.281709297552 Newtons
 Airship Mass 183 KG
-Acceleration: 1.098392909546451 m/s^2
-Denisty 1.1979310431471806 kg/m^3
-Air Pressure 101323.0126786444 Pascals 
+Acceleration: 1.0986412390380575 m/s^2
+Denisty 1.1979544439967975 kg/m^3
+Air Pressure 101324.96967162508 Pascals 
 
 Altitude: 0 m
-Vertical velocity: 0.10545542572194429 m/s
-Buoyancy force: 1996.1945843668423 Newtons
+Vertical velocity: 0.07251039118103099 m/s
+Buoyancy force: 1996.280427054287 Newtons
 Airship Mass 183 KG
-Acceleration: 1.0981197028839613 m/s^2
-Denisty 1.1979021609460434 kg/m^3
-Air Pressure 101320.59961708463 Pascals 
+Acceleration: 1.0986332116485737 m/s^2
+Denisty 1.1979536745317412 kg/m^3
+Air Pressure 101324.9234792226 Pascals 
 
 Altitude: 0 m
-Vertical velocity: 0.12411653762769762 m/s
-Buoyancy force: 1996.1219266456817 Newtons
+Vertical velocity: 0.09008833163145137 m/s
+Buoyancy force: 1996.2784190055952 Newtons
 Airship Mass 183 KG
-Acceleration: 1.0977124650443137 m/s^2
-Denisty 1.1978585595647604 kg/m^3
-Air Pressure 101316.94799955422 Pascals 
+Acceleration: 1.098621278151274 m/s^2
+Denisty 1.1979524695160149 kg/m^3
+Air Pressure 101324.84649198574 Pascals 
+
+Altitude: 0 m
+Vertical velocity: 0.10876460940333704 m/s
+Buoyancy force: 1996.2755380747915 Newtons
+Airship Mass 183 KG
+Acceleration: 1.0986045748168038 m/s^2
+Denisty 1.1979507406899463 kg/m^3
+Air Pressure 101324.73124464866 Pascals 
 
 Altitude: 1 m
-Vertical velocity: 0.14276804709982918 m/s
-Buoyancy force: 1996.020425383179 Newtons
+Vertical velocity: 0.12744050590293562 m/s
+Buoyancy force: 1996.2716205535378 Newtons
 Airship Mass 183 KG
-Acceleration: 1.0971476160077387 m/s^2
-Denisty 1.1977976493796296 kg/m^3
-Air Pressure 101311.83878669282 Pascals 
+Acceleration: 1.098582147035211 m/s^2
+Denisty 1.1979483898133272 kg/m^3
+Air Pressure 101324.56980551302 Pascals 
 
 Altitude: 1 m
-Vertical velocity: 0.16140687428318617 m/s
-Buoyancy force: 1995.885769425553 Newtons
+Vertical velocity: 0.14611591031939083 m/s
+Buoyancy force: 1996.2665101821947 Newtons
 Airship Mass 183 KG
-Acceleration: 1.096401599021 m/s^2
-Denisty 1.1977168432979544 kg/m^3
-Air Pressure 101305.05315139855 Pascals 
+Acceleration: 1.0985532009679542 m/s^2
+Denisty 1.1979453231158603 kg/m^3
+Air Pressure 101324.35424309238 Pascals 
 
 Altitude: 1 m
-Vertical velocity: 0.1789340884933317 m/s
-Buoyancy force: 1995.713653215968 Newtons
+Vertical velocity: 0.16479069732668947 m/s
+Buoyancy force: 1996.260050708259 Newtons
 Airship Mass 183 KG
-Acceleration: 1.0954508881340956 m/s^2
-Denisty 1.1976135575857245 kg/m^3
-Air Pressure 101296.37254856006 Pascals 
+Acceleration: 1.0985168827822722 m/s^2
+Denisty 1.197941446831531 kg/m^3
+Air Pressure 101324.07662618883 Pascals 
 
 Altitude: 1 m
-Vertical velocity: 0.1975367468448172 m/s
-Buoyancy force: 1995.5000391924877 Newtons
+Vertical velocity: 0.18236625474582324 m/s
+Buoyancy force: 1996.252085888316 Newtons
 Airship Mass 183 KG
-Acceleration: 1.094274020675618 m/s^2
-Denisty 1.197485369330762 kg/m^3
-Air Pressure 101285.59165675608 Pascals 
+Acceleration: 1.0984723386958617 m/s^2
+Denisty 1.1979366671997775 kg/m^3
+Air Pressure 101323.72902398177 Pascals 
 
 Altitude: 1 m
-Vertical velocity: 0.21611513429468773 m/s
-Buoyancy force: 1995.2406303409382 Newtons
+Vertical velocity: 0.20103937546624115 m/s
+Buoyancy force: 1996.2424761235168 Newtons
 Airship Mass 183 KG
-Acceleration: 1.0928463205806196 m/s^2
-Denisty 1.197329699925448 kg/m^3
-Air Pressure 101272.49273616234 Pascals 
+Acceleration: 1.098418865906936 m/s^2
+Denisty 1.197930900448325 kg/m^3
+Air Pressure 101323.30397264738 Pascals 
+
+Altitude: 1 m
+Vertical velocity: 0.21971141811711375 m/s
+Buoyancy force: 1996.2310577531482 Newtons
+Airship Mass 183 KG
+Acceleration: 1.0983554500513293 m/s^2
+Denisty 1.197924048365544 kg/m^3
+Air Pressure 101322.79354243197 Pascals 
 
 Altitude: 2 m
-Vertical velocity: 0.23466459941936071 m/s
-Buoyancy force: 1994.9311478554976 Newtons
+Vertical velocity: 0.23728391887871395 m/s
+Buoyancy force: 1996.2176745749834 Newtons
 Airship Mass 183 KG
-Acceleration: 1.0911450073337043 m/s^2
-Denisty 1.1971439816888654 kg/m^3
-Air Pressure 101256.85859162557 Pascals 
+Acceleration: 1.0982812976000123 m/s^2
+Denisty 1.1979160172155903 kg/m^3
+Air Pressure 101322.18980429707 Pascals 
 
 Altitude: 2 m
-Vertical velocity: 0.25318009455096585 m/s
-Buoyancy force: 1994.5673258178092 Newtons
+Vertical velocity: 0.2559532458806226 m/s
+Buoyancy force: 1996.2021870362057 Newtons
 Airship Mass 183 KG
-Acceleration: 1.0891467724473607 m/s^2
-Denisty 1.1969256546737739 kg/m^3
-Air Pressure 101238.47267895834 Pascals 
+Acceleration: 1.0981957059946268 m/s^2
+Denisty 1.1979067232538116 kg/m^3
+Air Pressure 101321.4852964925 Pascals 
 
 Altitude: 2 m
-Vertical velocity: 0.2716561771899031 m/s
-Buoyancy force: 1994.1449134756617 Newtons
+Vertical velocity: 0.27462090612131973 m/s
+Buoyancy force: 1996.184431535257 Newtons
 Airship Mass 183 KG
-Acceleration: 1.086828390525719 m/s^2
-Denisty 1.1966721680340286 kg/m^3
-Air Pressure 101217.11922033207 Pascals 
+Acceleration: 1.0980976612174764 m/s^2
+Denisty 1.197896068304078 kg/m^3
+Air Pressure 101320.67209182844 Pascals 
 
 Altitude: 2 m
-Vertical velocity: 0.29117117837821327 m/s
-Buoyancy force: 1993.6596776988727 Newtons
+Vertical velocity: 0.29218868804289044 m/s
+Buoyancy force: 1996.164251937026 Newtons
 Airship Mass 183 KG
-Acceleration: 1.084166732683899 m/s^2
-Denisty 1.196380981498339 kg/m^3
-Air Pressure 101192.58332866746 Pascals 
+Acceleration: 1.0979863700981678 m/s^2
+Denisty 1.19788395867082 kg/m^3
+Air Pressure 101319.74226427666 Pascals 
 
 Altitude: 3 m
-Vertical velocity: 0.3095505036295003 m/s
-Buoyancy force: 1993.1071477640455 Newtons
+Vertical velocity: 0.3108523272607113 m/s
+Buoyancy force: 1996.14150876107 Newtons
 Airship Mass 183 KG
-Acceleration: 1.0811367794874727 m/s^2
-Denisty 1.1960494122174181 kg/m^3
-Air Pressure 101164.6384255837 Pascals 
+Acceleration: 1.0978611304600534 m/s^2
+Denisty 1.1978703106528175 kg/m^3
+Air Pressure 101318.68835545018 Pascals 
 
 Altitude: 3 m
-Vertical velocity: 0.32787169034212926 m/s
-Buoyancy force: 1992.4831414274863 Newtons
+Vertical velocity: 0.32951358305052203 m/s
+Buoyancy force: 1996.116038495941 Newtons
 Airship Mass 183 KG
-Acceleration: 1.0777168654487603 m/s^2
-Denisty 1.1956749504565947 kg/m^3
-Air Pressure 101133.07182617279 Pascals 
+Acceleration: 1.0977209288123948 m/s^2
+Denisty 1.1978550261280136 kg/m^3
+Air Pressure 101317.50244216707 Pascals 
 
 Altitude: 3 m
-Vertical velocity: 0.3461277123999645 m/s
-Buoyancy force: 1991.7834952033782 Newtons
+Vertical velocity: 0.34707462261075084 m/s
+Buoyancy force: 1996.0876851059477 Newtons
 Airship Mass 183 KG
-Acceleration: 1.0738836504608944 m/s^2
-Denisty 1.1952550977376661 kg/m^3
-Air Pressure 101097.67216557682 Pascals 
+Acceleration: 1.0975649725143004 m/s^2
+Denisty 1.1978380114605012 kg/m^3
+Air Pressure 101316.17660296152 Pascals 
 
 Altitude: 4 m
-Vertical velocity: 0.3643111596968405 m/s
-Buoyancy force: 1991.0040748493761 Newtons
+Vertical velocity: 0.36573029612974306 m/s
+Buoyancy force: 1996.056309215378 Newtons
 Airship Mass 183 KG
-Acceleration: 1.0696145468750604 m/s^2
-Denisty 1.1947873731312293 kg/m^3
-Air Pressure 101058.22955853131 Pascals 
+Acceleration: 1.0973925599407188 m/s^2
+Denisty 1.1978191830119074 kg/m^3
+Air Pressure 101314.70338441289 Pascals 
 
 Altitude: 4 m
-Vertical velocity: 0.3824142411641952 m/s
-Buoyancy force: 1990.140778676317 Newtons
+Vertical velocity: 0.38438274166163466 m/s
+Buoyancy force: 1996.0217474403826 Newtons
 Airship Mass 183 KG
-Acceleration: 1.0648871451385098 m/s^2
-Denisty 1.1942693152428137 kg/m^3
-Air Pressure 101014.53576711699 Pascals 
+Acceleration: 1.097202678346564 m/s^2
+Denisty 1.1977984427367472 kg/m^3
+Air Pressure 101313.07486911483 Pascals 
 
 Altitude: 5 m
-Vertical velocity: 0.3993691088880061 m/s
-Buoyancy force: 1989.1895410152033 Newtons
+Vertical velocity: 0.4030316487706582 m/s
+Buoyancy force: 1995.983843883376 Newtons
 Airship Mass 183 KG
-Acceleration: 1.0596792327381799 m/s^2
-Denisty 1.1936984842933933 kg/m^3
-Air Pressure 100966.38437650104 Pascals 
+Acceleration: 1.0969945358249138 m/s^2
+Denisty 1.197775697081989 kg/m^3
+Air Pressure 101311.28314204002 Pascals 
 
 Altitude: 5 m
-Vertical velocity: 0.4172866119243173 m/s
-Buoyancy force: 1988.1465872429453 Newtons
+Vertical velocity: 0.42167669254423734 m/s
+Buoyancy force: 1995.9424427026631 Newtons
 Airship Mass 183 KG
-Acceleration: 1.0539707668418377 m/s^2
-Denisty 1.193072615158521 kg/m^3
-Air Pressure 100913.58337628882 Pascals 
+Acceleration: 1.0967672807987725 m/s^2
+Denisty 1.1977508525281415 kg/m^3
+Air Pressure 101309.32029078656 Pascals 
 
 Altitude: 5 m
-Vertical velocity: 0.4350981713472381 m/s
-Buoyancy force: 1987.0079271549864 Newtons
+Vertical velocity: 0.4403175335986836 m/s
+Buoyancy force: 1995.8973881177294 Newtons
 Airship Mass 183 KG
-Acceleration: 1.0477387895835744 m/s^2
-Denisty 1.1923893133448444 kg/m^3
-Air Pressure 100855.93053434684 Pascals 
+Acceleration: 1.0965200620262507 m/s^2
+Denisty 1.1977238155924264 kg/m^3
+Air Pressure 101307.1784058368 Pascals 
 
 Altitude: 6 m
-Vertical velocity: 0.45279453176796175 m/s
-Buoyancy force: 1985.7696249343364 Newtons
+Vertical velocity: 0.45895381808540814 m/s
+Buoyancy force: 1995.8485244147826 Newtons
 Airship Mass 183 KG
-Acceleration: 1.0409623776896257 m/s^2
-Denisty 1.1916462169966038 kg/m^3
-Air Pressure 100793.2260099826 Pascals 
+Acceleration: 1.0962520286308557 m/s^2
+Denisty 1.1976944928321052 kg/m^3
+Air Pressure 101304.84958082835 Pascals 
 
 Altitude: 6 m
-Vertical velocity: 0.47036607702350414 m/s
-Buoyancy force: 1984.4277960275451 Newtons
+Vertical velocity: 0.4775851776976695 m/s
+Buoyancy force: 1995.7956959525238 Newtons
 Airship Mass 183 KG
-Acceleration: 1.033620309149553 m/s^2
-Denisty 1.190840995020924 kg/m^3
-Air Pressure 100725.27255846298 Pascals 
+Acceleration: 1.0959623301330215 m/s^2
+Denisty 1.1976627908479425 kg/m^3
+Air Pressure 101302.32591283735 Pascals 
 
 Altitude: 7 m
-Vertical velocity: 0.48780283532885915 m/s
-Buoyancy force: 1982.9786113065238 Newtons
+Vertical velocity: 0.4951155795613976 m/s
+Buoyancy force: 1995.7387471681673 Newtons
 Airship Mass 183 KG
-Acceleration: 1.025691665020883 m/s^2
-Denisty 1.1899713495852953 kg/m^3
-Air Pressure 100651.87574206716 Pascals 
+Acceleration: 1.0956501164830073 m/s^2
+Denisty 1.1976286162878178 kg/m^3
+Air Pressure 101299.59950267407 Pascals 
 
 Altitude: 7 m
-Vertical velocity: 0.50407732897416 m/s
-Buoyancy force: 1981.4183013516615 Newtons
+Vertical velocity: 0.5137359292676914 m/s
+Buoyancy force: 1995.6775391706053 Newtons
 Airship Mass 183 KG
-Acceleration: 1.017155852831305 m/s^2
-Denisty 1.1890350186878402 kg/m^3
-Air Pressure 100572.84414730656 Pascals 
+Acceleration: 1.0953146886055176 m/s^2
+Denisty 1.197591885804166 kg/m^3
+Air Pressure 101296.66292044867 Pascals 
 
 Altitude: 8 m
-Vertical velocity: 0.5212132354674232 m/s
-Buoyancy force: 1979.7434011603766 Newtons
+Vertical velocity: 0.5323501648986274 m/s
+Buoyancy force: 1995.6119091511327 Newtons
 Airship Mass 183 KG
-Acceleration: 1.0079944996037113 m/s^2
-Denisty 1.1880299230051738 kg/m^3
-Air Pressure 100488.00145880945 Pascals 
-
-Altitude: 8 m
-Vertical velocity: 0.5381824074275968 m/s
-Buoyancy force: 1977.9502665418865 Newtons
-Airship Mass 183 KG
-Acceleration: 0.9981865858925669 m/s^2
-Denisty 1.1869538756843474 kg/m^3
-Air Pressure 100397.16295363856 Pascals 
+Acceleration: 1.0949550371138805 m/s^2
+Denisty 1.1975525016966424 kg/m^3
+Air Pressure 101293.50827534117 Pascals 
 
 Altitude: 9 m
-Vertical velocity: 0.5549735317735975 m/s
-Buoyancy force: 1976.0353332594557 Newtons
+Vertical velocity: 0.5498632908718246 m/s
+Buoyancy force: 1995.5417018200915 Newtons
 Airship Mass 183 KG
-Acceleration: 0.9877131968235684 m/s^2
-Denisty 1.1858047378522663 kg/m^3
-Air Pressure 100300.14761279858 Pascals 
+Acceleration: 1.0945703733248227 m/s^2
+Denisty 1.1975103707770278 kg/m^3
+Air Pressure 101290.127681219 Pascals 
 
 Altitude: 9 m
-Vertical velocity: 0.5715749716513902 m/s
-Buoyancy force: 1973.9951148611801 Newtons
+Vertical velocity: 0.5673698508656025 m/s
+Buoyancy force: 1995.466778561744 Newtons
 Airship Mass 183 KG
-Acceleration: 0.976555286928976 m/s^2
-Denisty 1.1845804173139598 kg/m^3
-Air Pressure 100196.77835845487 Pascals 
+Acceleration: 1.0941599996111204 m/s^2
+Denisty 1.1974654098630055 kg/m^3
+Air Pressure 101286.51372174986 Pascals 
 
 Altitude: 10 m
-Vertical velocity: 0.5879747741044844 m/s
-Buoyancy force: 1971.8262074334154 Newtons
+Vertical velocity: 0.5848694198057552 m/s
+Buoyancy force: 1995.3869934515048 Newtons
 Airship Mass 183 KG
-Acceleration: 0.9646942619467218 m/s^2
-Denisty 1.1832788714050797 kg/m^3
-Air Pressure 100086.88229509132 Pascals 
+Acceleration: 1.093723058759542 m/s^2
+Denisty 1.1974175313862703 kg/m^3
+Air Pressure 101282.65898575954 Pascals 
+
+Altitude: 10 m
+Vertical velocity: 0.6023615598699936 m/s
+Buoyancy force: 1995.302200678924 Newtons
+Airship Mass 183 KG
+Acceleration: 1.0932587540148955 m/s^2
+Denisty 1.1973666478470089 kg/m^3
+Air Pressure 101278.55606757736 Pascals 
 
 Altitude: 11 m
-Vertical velocity: 0.604160678192152 m/s
-Buoyancy force: 1969.5252944211263 Newtons
+Vertical velocity: 0.6198458204985637 m/s
+Buoyancy force: 1995.2122545548693 Newtons
 Airship Mass 183 KG
-Acceleration: 0.9521120051569163 m/s^2
-Denisty 1.181898109884557 kg/m^3
-Air Pressure 99970.2909540808 Pascals 
-
-Altitude: 11 m
-Vertical velocity: 0.6191813326565442 m/s
-Buoyancy force: 1967.0891515043047 Newtons
-Airship Mass 183 KG
-Acceleration: 0.9387909040245095 m/s^2
-Denisty 1.1804361978609053 kg/m^3
-Air Pressure 99846.8405411176 Pascals 
+Acceleration: 1.0927662892856311 m/s^2
+Denisty 1.1973126718182099 kg/m^3
+Air Pressure 101274.19756739207 Pascals 
 
 Altitude: 12 m
-Vertical velocity: 0.6349014977354113 m/s
-Buoyancy force: 1964.5148716293052 Newtons
+Vertical velocity: 0.638413983274696 m/s
+Buoyancy force: 1995.1170095189239 Newtons
 Airship Mass 183 KG
-Acceleration: 0.9247155928745325 m/s^2
-Denisty 1.1788913908319252 kg/m^3
-Air Pressure 99716.3830407661 Pascals 
+Acceleration: 1.0922448691842543 m/s^2
+Denisty 1.1972555159501037 kg/m^3
+Air Pressure 101269.57609161855 Pascals 
+
+Altitude: 12 m
+Vertical velocity: 0.656972773608575 m/s
+Buoyancy force: 1995.0163036162946 Newtons
+Airship Mass 183 KG
+Acceleration: 1.091693549051703 m/s^2
+Denisty 1.1971950830547715 kg/m^3
+Air Pressure 101264.68378956248 Pascals 
 
 Altitude: 13 m
-Vertical velocity: 0.6503692619500908 m/s
-Buoyancy force: 1961.7994225783825 Newtons
+Vertical velocity: 0.6755216698717007 m/s
+Buoyancy force: 1994.9099824425596 Newtons
 Airship Mass 183 KG
-Acceleration: 0.9098684832164423 m/s^2
-Denisty 1.1772618691853314 kg/m^3
-Air Pressure 99578.76471322429 Pascals 
-
-Altitude: 13 m
-Vertical velocity: 0.6655712424084926 m/s
-Buoyancy force: 1958.9398853901675 Newtons
-Airship Mass 183 KG
-Acceleration: 0.8942341446118718 m/s^2
-Denisty 1.1755458812731836 kg/m^3
-Air Pressure 99433.83724136911 Pascals 
+Acceleration: 1.0911115448897455 m/s^2
+Denisty 1.197131280475219 kg/m^3
+Air Pressure 101259.51281783055 Pascals 
 
 Altitude: 14 m
-Vertical velocity: 0.6804937955828166 m/s
-Buoyancy force: 1955.9334530596109 Newtons
+Vertical velocity: 0.6940601361072665 m/s
+Buoyancy force: 1994.7978917524952 Newtons
 Airship Mass 183 KG
-Acceleration: 0.8777972455484697 m/s^2
-Denisty 1.1737417426317325 kg/m^3
-Air Pressure 99281.45798326157 Pascals 
+Acceleration: 1.0904980138568092 m/s^2
+Denisty 1.1970640156499852 kg/m^3
+Air Pressure 101254.0553407549 Pascals 
+
+Altitude: 14 m
+Vertical velocity: 0.7114977699317471 m/s
+Buoyancy force: 1994.6798774688584 Newtons
+Airship Mass 183 KG
+Acceleration: 1.0898521140300392 m/s^2
+Denisty 1.1969931961184135 kg/m^3
+Air Pressure 101248.3035308295 Pascals 
 
 Altitude: 15 m
-Vertical velocity: 0.6951230281739761 m/s
-Buoyancy force: 1952.7774355079218 Newtons
+Vertical velocity: 0.7300137135518706 m/s
+Buoyancy force: 1994.5558021825586 Newtons
 Airship Mass 183 KG
-Acceleration: 0.8605430935976148 m/s^2
-Denisty 1.1718478389638436 kg/m^3
-Air Pressure 99121.4902244174 Pascals 
-
-Altitude: 15 m
-Vertical velocity: 0.7094448084358919 m/s
-Buoyancy force: 1949.4692645340285 Newtons
-Airship Mass 183 KG
-Acceleration: 0.8424576624656339 m/s^2
-Denisty 1.1698626291103351 kg/m^3
-Air Pressure 98953.80342915999 Pascals 
+Acceleration: 1.0891731541249143 m/s^2
+Denisty 1.1969187394222864 kg/m^3
+Air Pressure 101242.2500317806 Pascals 
 
 Altitude: 16 m
-Vertical velocity: 0.7234447779566542 m/s
-Buoyancy force: 1946.0064987337553 Newtons
+Vertical velocity: 0.7485175358429533 m/s
+Buoyancy force: 1994.4255047999675 Newtons
 Airship Mass 183 KG
-Acceleration: 0.8235276188683702 m/s^2
-Denisty 1.1677846480019387 kg/m^3
-Air Pressure 98778.27349035541 Pascals 
+Acceleration: 1.0884601347695728 m/s^2
+Denisty 1.1968405488904645 kg/m^3
+Air Pressure 101235.88703370896 Pascals 
 
 Altitude: 17 m
-Vertical velocity: 0.7379121042413865 m/s
-Buoyancy force: 1942.3868283725742 Newtons
+Vertical velocity: 0.7670086445458866 m/s
+Buoyancy force: 1994.2888318010516 Newtons
 Airship Mass 183 KG
-Acceleration: 0.8037403491517949 m/s^2
-Denisty 1.1656125095834056 kg/m^3
-Air Pressure 98594.78297681213 Pascals 
+Acceleration: 1.0877122766431313 m/s^2
+Denisty 1.1967585323966687 kg/m^3
+Air Pressure 101229.20673624825 Pascals 
+
+Altitude: 17 m
+Vertical velocity: 0.7843995044177623 m/s
+Buoyancy force: 1994.145629871024 Newtons
+Airship Mass 183 KG
+Acceleration: 1.0869287419922333 m/s^2
+Denisty 1.1966725979377861 kg/m^3
+Air Pressure 101222.20134904791 Pascals 
 
 Altitude: 18 m
-Vertical velocity: 0.7512245072527207 m/s
-Buoyancy force: 1938.6078942147858 Newtons
+Vertical velocity: 0.8017772459135492 m/s
+Buoyancy force: 1993.9957623531066 Newtons
 Airship Mass 183 KG
-Acceleration: 0.7830825300784792 m/s^2
-Denisty 1.1633447980941853 kg/m^3
-Air Pressure 98403.21220558776 Pascals 
-
-Altitude: 18 m
-Vertical velocity: 0.764170754898389 m/s
-Buoyancy force: 1934.6676706364487 Newtons
-Airship Mass 183 KG
-Acceleration: 0.7615439791569578 m/s^2
-Denisty 1.1609802979717698 kg/m^3
-Air Pressure 98203.45788240978 Pascals 
+Acceleration: 1.086108843486679 m/s^2
+Denisty 1.1965826635070573 kg/m^3
+Air Pressure 101214.86355355535 Pascals 
 
 Altitude: 19 m
-Vertical velocity: 0.7767356923032418 m/s
-Buoyancy force: 1930.5642726689055 Newtons
+Vertical velocity: 0.8191412736881162 m/s
+Buoyancy force: 1993.8390854440702 Newtons
 Airship Mass 183 KG
-Acceleration: 0.7391139649913416 m/s^2
-Denisty 1.158517878059885 kg/m^3
-Air Pressure 97995.42411479441 Pascals 
+Acceleration: 1.0852517359104414 m/s^2
+Denisty 1.196488642809188 kg/m^3
+Air Pressure 101207.18604177023 Pascals 
 
 Altitude: 20 m
-Vertical velocity: 0.7889040036083224 m/s
-Buoyancy force: 1926.2959658533325 Newtons
+Vertical velocity: 0.8364909798436025 m/s
+Buoyancy force: 1993.6754555661128 Newtons
 Airship Mass 183 KG
-Acceleration: 0.7157830179459133 m/s^2
-Denisty 1.1559564975221368 kg/m^3
-Air Pressure 97779.02264297429 Pascals 
+Acceleration: 1.084356634717901 m/s^2
+Denisty 1.1963904496841613 kg/m^3
+Air Pressure 101199.16151673107 Pascals 
 
 Altitude: 21 m
-Vertical velocity: 0.7999686838502004 m/s
-Buoyancy force: 1921.8611706668407 Newtons
+Vertical velocity: 0.8549091667066582 m/s
+Buoyancy force: 1993.5047293768096 Newtons
 Airship Mass 183 KG
-Acceleration: 0.6915425151173746 m/s^2
-Denisty 1.1532952084980828 kg/m^3
-Air Pressure 97554.17306473748 Pascals 
+Acceleration: 1.083422756650334 m/s^2
+Denisty 1.1962879981132082 kg/m^3
+Air Pressure 101190.78269301186 Pascals 
 
 Altitude: 21 m
-Vertical velocity: 0.8112972449413212 m/s
-Buoyancy force: 1917.2586250845673 Newtons
+Vertical velocity: 0.8733108026145606 m/s
+Buoyancy force: 1993.3267473943813 Newtons
 Airship Mass 183 KG
-Acceleration: 0.666385946536515 m/s^2
-Denisty 1.150533253655586 kg/m^3
-Air Pressure 97320.81085893961 Pascals 
+Acceleration: 1.0824491710530832 m/s^2
+Denisty 1.1961811923924484 kg/m^3
+Air Pressure 101182.04183754494 Pascals 
 
 Altitude: 22 m
-Vertical velocity: 0.8221824412545111 m/s
-Buoyancy force: 1912.487066507657 Newtons
+Vertical velocity: 0.8906137643311521 m/s
+Buoyancy force: 1993.141357741542 Newtons
 Airship Mass 183 KG
-Acceleration: 0.6403056654817636 m/s^2
-Denisty 1.1476698753180605 kg/m^3
-Air Pressure 97078.87192665129 Pascals 
+Acceleration: 1.0814351072869712 m/s^2
+Denisty 1.1960699413814033 kg/m^3
+Air Pressure 101172.93123037493 Pascals 
 
 Altitude: 23 m
-Vertical velocity: 0.8326084749143123 m/s
-Buoyancy force: 1907.5454041113971 Newtons
+Vertical velocity: 0.9089802223834831 m/s
+Buoyancy force: 1992.9484251715596 Newtons
 Airship Mass 183 KG
-Acceleration: 0.6132960976353647 m/s^2
-Denisty 1.1447044188893614 kg/m^3
-Air Pressure 96828.30065238474 Pascals 
+Acceleration: 1.0803798854312348 m/s^2
+Denisty 1.1959541639194722 kg/m^3
+Air Pressure 101163.44362399385 Pascals 
 
 Altitude: 24 m
-Vertical velocity: 0.8425594627479482 m/s
-Buoyancy force: 1902.432718115454 Newtons
+Vertical velocity: 0.9273280252323537 m/s
+Buoyancy force: 1992.7477910577131 Newtons
 Airship Mass 183 KG
-Acceleration: 0.5853522255079913 m/s^2
-Denisty 1.1416363324158567 kg/m^3
-Air Pressure 96569.05009678453 Pascals 
+Acceleration: 1.079282520521799 m/s^2
+Denisty 1.1958337648158885 kg/m^3
+Air Pressure 101153.57132624804 Pascals 
 
 Altitude: 25 m
-Vertical velocity: 0.8520194525095967 m/s
-Buoyancy force: 1897.1482633804903 Newtons
+Vertical velocity: 0.9456564434228943 m/s
+Buoyancy force: 1992.5393043901902 Newtons
 Airship Mass 183 KG
-Acceleration: 0.5564699859793194 m/s^2
-Denisty 1.1384651687447347 kg/m^3
-Air Pressure 96301.08217947387 Pascals 
+Acceleration: 1.0781422465023933 m/s^2
+Denisty 1.195708653450739 kg/m^3
+Air Pressure 101143.30665980169 Pascals 
 
 Altitude: 26 m
-Vertical velocity: 0.8604457931304418 m/s
-Buoyancy force: 1891.6914727961669 Newtons
+Vertical velocity: 0.9628877752618498 m/s
+Buoyancy force: 1992.3228144724872 Newtons
 Airship Mass 183 KG
-Acceleration: 0.5266462888028194 m/s^2
-Denisty 1.1351905875571175 kg/m^3
-Air Pressure 96024.36785133327 Pascals 
+Acceleration: 1.076958239934715 m/s^2
+Denisty 1.1955787393921244 kg/m^3
+Air Pressure 101132.64196273073 Pascals 
 
 Altitude: 27 m
-Vertical velocity: 0.868875752614948 m/s
-Buoyancy force: 1886.0620790301737 Newtons
+Vertical velocity: 0.981175182320179 m/s
+Buoyancy force: 1992.0981872115315 Newtons
 Airship Mass 183 KG
-Acceleration: 0.49587996967683345 m/s^2
-Denisty 1.1318124284287887 kg/m^3
-Air Pressure 95738.89310385038 Pascals 
-
-Altitude: 27 m
-Vertical velocity: 0.8767666313058782 m/s
-Buoyancy force: 1880.2598758364509 Newtons
-Airship Mass 183 KG
-Acceleration: 0.46416933476059796 m/s^2
-Denisty 1.1283305675929558 kg/m^3
-Air Pressure 95444.64736759159 Pascals 
+Acceleration: 1.07572982696054 m/s^2
+Denisty 1.1954439421717467 kg/m^3
+Air Pressure 101121.57004585153 Pascals 
 
 Altitude: 28 m
-Vertical velocity: 0.8841023793788461 m/s
-Buoyancy force: 1874.2848470956671 Newtons
+Vertical velocity: 0.9983664788042885 m/s
+Buoyancy force: 1991.865265288826 Newtons
 Airship Mass 183 KG
-Acceleration: 0.4315145925275221 m/s^2
-Denisty 1.124744995376523 kg/m^3
-Air Pressure 95141.62954739087 Pascals 
+Acceleration: 1.0744560302568456 m/s^2
+Denisty 1.1953041673838949 kg/m^3
+Air Pressure 101110.08327975281 Pascals 
 
 Altitude: 29 m
-Vertical velocity: 0.8908669632327004 m/s
-Buoyancy force: 1868.137165841194 Newtons
+Vertical velocity: 1.0155366586154349 m/s
+Buoyancy force: 1991.6239152547741 Newtons
 Airship Mass 183 KG
-Acceleration: 0.39791669728555235 m/s^2
-Denisty 1.1210558156155845 kg/m^3
-Air Pressure 94829.84814540089 Pascals 
+Acceleration: 1.0731362381966445 m/s^2
+Denisty 1.1951593349464165 kg/m^3
+Air Pressure 101098.17450784818 Pascals 
 
 Altitude: 30 m
-Vertical velocity: 0.8970443832600464 m/s
-Buoyancy force: 1861.8171964024602 Newtons
+Vertical velocity: 1.0326849726147667 m/s
+Buoyancy force: 1991.3739967339443 Newtons
 Airship Mass 183 KG
-Acceleration: 0.36337764866741473 m/s^2
-Denisty 1.1172632469416377 kg/m^3
-Air Pressure 94509.32137029209 Pascals 
+Acceleration: 1.0717696249582414 m/s^2
+Denisty 1.195009360621014 kg/m^3
+Air Pressure 101085.83659068399 Pascals 
 
 Altitude: 31 m
-Vertical velocity: 0.9022907912885066 m/s
-Buoyancy force: 1855.3254962638398 Newtons
+Vertical velocity: 1.0508810148477175 m/s
+Buoyancy force: 1991.1153697103143 Newtons
 Airship Mass 183 KG
-Acceleration: 0.32790050177876395 m/s^2
-Denisty 1.1133676238970869 kg/m^3
-Air Pressure 94180.07723202878 Pascals 
+Acceleration: 1.0703554254676941 m/s^2
+Denisty 1.194854160385069 kg/m^3
+Air Pressure 101073.06240654817 Pascals 
 
 Altitude: 32 m
-Vertical velocity: 0.9072461204455762 m/s
-Buoyancy force: 1848.6628900052303 Newtons
+Vertical velocity: 1.067983298525138 m/s
+Buoyancy force: 1990.8478783706457 Newtons
 Airship Mass 183 KG
-Acceleration: 0.2914899504158548 m/s^2
-Denisty 1.109369441306459 kg/m^3
-Air Pressure 93842.15719126511 Pascals 
+Acceleration: 1.0688927298387831 m/s^2
+Denisty 1.1946936407361668 kg/m^3
+Air Pressure 101059.84439839104 Pascals 
 
 Altitude: 33 m
-Vertical velocity: 0.9115666842262156 m/s
-Buoyancy force: 1841.830322956575 Newtons
+Vertical velocity: 1.0861287743972448 m/s
+Buoyancy force: 1990.5713906915453 Newtons
 Airship Mass 183 KG
-Acceleration: 0.2541508106258483 m/s^2
-Denisty 1.1052692664555244 kg/m^3
-Air Pressure 93495.60904504871 Pascals 
+Acceleration: 1.0673809336533324 m/s^2
+Denisty 1.1945277224480084 kg/m^3
+Air Pressure 101046.17548201093 Pascals 
 
 Altitude: 34 m
-Vertical velocity: 0.9154526956426211 m/s
-Buoyancy force: 1834.8289394018786 Newtons
+Vertical velocity: 1.1042476986426117 m/s
+Buoyancy force: 1990.285751693754 Newtons
 Airship Mass 183 KG
-Acceleration: 0.2158895231336384 m/s^2
-Denisty 1.101067786020969 kg/m^3
-Air Pressure 93140.49058227432 Pascals 
-
-Altitude: 35 m
-Vertical velocity: 0.918280104494828 m/s
-Buoyancy force: 1827.6600340166808 Newtons
-Airship Mass 183 KG
-Acceleration: 0.1767130532629313 m/s^2
-Denisty 1.0967657769283683 kg/m^3
-Air Pressure 92776.86729213192 Pascals 
+Acceleration: 1.0658190732568862 m/s^2
+Denisty 1.1943563125186436 kg/m^3
+Air Pressure 101032.0481405092 Pascals 
 
 Altitude: 36 m
-Vertical velocity: 0.9206028208760312 m/s
-Buoyancy force: 1820.3251867022252 Newtons
+Vertical velocity: 1.1223392074771414 m/s
+Buoyancy force: 1989.9908140486878 Newtons
 Airship Mass 183 KG
-Acceleration: 0.13663037536489497 m/s^2
-Denisty 1.092364187265213 kg/m^3
-Air Pressure 92404.81894924823 Pascals 
-
-Altitude: 36 m
-Vertical velocity: 0.9222288823528094 m/s
-Buoyancy force: 1812.8261338262303 Newtons
-Airship Mass 183 KG
-Acceleration: 0.09565067510460423 m/s^2
-Denisty 1.0878640590134112 kg/m^3
-Air Pressure 92024.43344972977 Pascals 
+Acceleration: 1.0642064020311537 m/s^2
+Denisty 1.194179322537238 kg/m^3
+Air Pressure 101017.45487816118 Pascals 
 
 Altitude: 37 m
-Vertical velocity: 0.9231432210689942 m/s
-Buoyancy force: 1805.1648102448128 Newtons
+Vertical velocity: 1.13933988135499 m/s
+Buoyancy force: 1989.6864308699671 Newtons
 Airship Mass 183 KG
-Acceleration: 0.0537846303638112 m/s^2
-Denisty 1.0832665532663461 kg/m^3
-Air Pressure 91635.80870916684 Pascals 
+Acceleration: 1.0625421173655312 m/s^2
+Denisty 1.1939966643583206 kg/m^3
+Air Pressure 101002.38822111378 Pascals 
 
 Altitude: 38 m
-Vertical velocity: 0.9233309673186779 m/s
-Buoyancy force: 1797.3433474804679 Newtons
+Vertical velocity: 1.1573739159575451 m/s
+Buoyancy force: 1989.372471767495 Newtons
 Airship Mass 183 KG
-Acceleration: 0.011043897040224238 m/s^2
-Denisty 1.0785729491354945 kg/m^3
-Air Pressure 91239.0526265099 Pascals 
+Acceleration: 1.0608255648561808 m/s^2
+Denisty 1.1938082597357225 kg/m^3
+Air Pressure 100986.84116820815 Pascals 
 
 Altitude: 39 m
-Vertical velocity: 0.9227774677147585 m/s
-Buoyancy force: 1789.3640726545414 Newtons
+Vertical velocity: 1.1753778644147947 m/s
+Buoyancy force: 1989.0487836024931 Newtons
 Airship Mass 183 KG
-Acceleration: -0.03255880023055013 m/s^2
-Denisty 1.0737846431098115 kg/m^3
-Air Pressure 90834.28303039704 Pascals 
+Acceleration: 1.0590557916029155 m/s^2
+Denisty 1.193614016771953 kg/m^3
+Air Pressure 100970.80629127538 Pascals 
 
 Altitude: 40 m
-Vertical velocity: 0.921545312901696 m/s
-Buoyancy force: 1781.2295070723678 Newtons
+Vertical velocity: 1.193350809447584 m/s
+Buoyancy force: 1988.715220896316 Newtons
 Airship Mass 183 KG
-Acceleration: -0.07700967581641471 m/s^2
-Denisty 1.068903148206681 kg/m^3
-Air Pressure 90421.62760785363 Pascals 
+Acceleration: 1.0572320607523054 m/s^2
+Denisty 1.193413848166312 kg/m^3
+Air Pressure 100954.27618615798 Pascals 
 
 Altitude: 41 m
-Vertical velocity: 0.9194663144952144 m/s
-Buoyancy force: 1772.942348155636 Newtons
+Vertical velocity: 1.211291820309602 m/s
+Buoyancy force: 1988.3716386698165 Newtons
 Airship Mass 183 KG
-Acceleration: -0.12229402391067978 m/s^2
-Denisty 1.0639300831296585 kg/m^3
-Air Pressure 90001.22301115641 Pascals 
-
-Altitude: 42 m
-Vertical velocity: 0.9166035845394527 m/s
-Buoyancy force: 1764.5055006370726 Newtons
-Airship Mass 183 KG
-Acceleration: -0.16839587975069392 m/s^2
-Denisty 1.0588671909881768 kg/m^3
-Air Pressure 89573.21637112845 Pascals 
+Acceleration: 1.0553535801187 m/s^2
+Denisty 1.1932076669178457 kg/m^3
+Air Pressure 100937.24347344687 Pascals 
 
 Altitude: 43 m
-Vertical velocity: 0.9131588104446022 m/s
-Buoyancy force: 1755.9220566486024 Newtons
+Vertical velocity: 1.2291999528351765 m/s
+Buoyancy force: 1988.0178924582106 Newtons
 Airship Mass 183 KG
-Acceleration: -0.2152983809281519 m/s^2
-Denisty 1.0537163273485937 kg/m^3
-Air Pressure 89137.76435787283 Pascals 
+Acceleration: 1.0534195603279102 m/s^2
+Denisty 1.1929953863342653 kg/m^3
+Air Pressure 100919.70079922819 Pascals 
 
 Altitude: 44 m
-Vertical velocity: 0.9086880828707581 m/s
-Buoyancy force: 1747.1952484684873 Newtons
+Vertical velocity: 1.2460228202735677 m/s
+Buoyancy force: 1987.6538383261284 Newtons
 Airship Mass 183 KG
-Acceleration: -0.2629839749320073 m/s^2
-Denisty 1.0484794318780866 kg/m^3
-Air Pressure 88695.03082360166 Pascals 
+Acceleration: 1.0514292148994535 m/s^2
+Denisty 1.1927769200409801 kg/m^3
+Air Pressure 100901.64083583959 Pascals 
 
 Altitude: 45 m
-Vertical velocity: 0.9033937132672365 m/s
-Buoyancy force: 1738.3285371939078 Newtons
+Vertical velocity: 1.2628129307445086 m/s
+Buoyancy force: 1987.27934873959 Newtons
 Airship Mass 183 KG
-Acceleration: -0.3114335060895055 m/s^2
-Denisty 1.043158581556437 kg/m^3
-Air Pressure 88245.19110947158 Pascals 
+Acceleration: 1.0493819044338082 m/s^2
+Denisty 1.1925521915057566 kg/m^3
+Air Pressure 100883.0567276565 Pascals 
 
 Altitude: 46 m
-Vertical velocity: 0.8972630508079097 m/s
-Buoyancy force: 1729.3255611326915 Newtons
+Vertical velocity: 1.2806166370007126 m/s
+Buoyancy force: 1986.8942895931514 Newtons
 Airship Mass 183 KG
-Acceleration: -0.3606272034898108 m/s^2
-Denisty 1.0377559597062744 kg/m^3
-Air Pressure 87788.42962196167 Pascals 
-
-Altitude: 47 m
-Vertical velocity: 0.8902837989992892 m/s
-Buoyancy force: 1720.1901333064018 Newtons
-Airship Mass 183 KG
-Acceleration: -0.4105442240364976 m/s^2
-Denisty 1.0322738544946977 kg/m^3
-Air Pressure 87324.93964117982 Pascals 
-
-Altitude: 47 m
-Vertical velocity: 0.8824440315264835 m/s
-Buoyancy force: 1710.9262373491097 Newtons
-Airship Mass 183 KG
-Acceleration: -0.46116279251798 m/s^2
-Denisty 1.0267146564721563 kg/m^3
-Air Pressure 86854.92311315886 Pascals 
+Acceleration: 1.04727683860024 m/s^2
+Denisty 1.192321120252872 kg/m^3
+Air Pressure 100863.9416456795 Pascals 
 
 Altitude: 48 m
-Vertical velocity: 0.8737322076896362 m/s
-Buoyancy force: 1701.5380231006197 Newtons
+Vertical velocity: 1.2983835604510923 m/s
+Buoyancy force: 1986.4985115439874 Newtons
 Airship Mass 183 KG
-Acceleration: -0.512460225696902 m/s^2
-Denisty 1.0210808559279787 kg/m^3
-Air Pressure 86378.59042662926 Pascals 
+Acceleration: 1.045113144139986 m/s^2
+Denisty 1.1920836166627604 kg/m^3
+Air Pressure 100844.2883451541 Pascals 
 
 Altitude: 49 m
-Vertical velocity: 0.8641371874034705 m/s
-Buoyancy force: 1692.0298019049844 Newtons
+Vertical velocity: 1.3150698021194998 m/s
+Buoyancy force: 1986.0918729180148 Newtons
 Airship Mass 183 KG
-Acceleration: -0.5644129580097523 m/s^2
-Denisty 1.0153750400690418 kg/m^3
-Air Pressure 85896.16017481673 Pascals 
+Acceleration: 1.0428901042754664 m/s^2
+Denisty 1.1918395957178127 kg/m^3
+Air Pressure 100824.08961066617 Pascals 
 
 Altitude: 50 m
-Vertical velocity: 0.8536482457336829 m/s
-Buoyancy force: 1682.4060416263212 Newtons
+Vertical velocity: 1.3317195155766364 m/s
+Buoyancy force: 1985.6742483640214 Newtons
 Airship Mass 183 KG
-Acceleration: -0.6169965688110342 m/s^2
-Denisty 1.0095998900287995 kg/m^3
-Air Pressure 85407.85890287263 Pascals 
-
-Altitude: 51 m
-Vertical velocity: 0.8422550869451478 m/s
-Buoyancy force: 1672.6713613950485 Newtons
-Airship Mass 183 KG
-Acceleration: -0.6701858110903007 m/s^2
-Denisty 1.0037581777145368 kg/m^3
-Air Pressure 84913.9208416016 Pascals 
+Acceleration: 1.0406070910710383 m/s^2
+Denisty 1.1915889821956587 kg/m^3
+Air Pressure 100803.33869805069 Pascals 
 
 Altitude: 52 m
-Vertical velocity: 0.829947858038215 m/s
-Buoyancy force: 1662.8305260987715 Newtons
+Vertical velocity: 1.3483317288125443 m/s
+Buoyancy force: 1985.2455060808516 Newtons
 Airship Mass 183 KG
-Acceleration: -0.7239546415842799 m/s^2
-Denisty 0.9978527625013884 kg/m^3
-Air Pressure 84414.5876282067 Pascals 
-
-Altitude: 52 m
-Vertical velocity: 0.8167171617508019 m/s
-Buoyancy force: 1652.8884406330628 Newtons
-Airship Mass 183 KG
-Acceleration: -0.7782762522007705 m/s^2
-Denisty 0.9918865877822739 kg/m^3
-Air Pressure 83910.10801482471 Pascals 
+Acceleration: 1.0382633272442376 m/s^2
+Denisty 1.1913316970033632 kg/m^3
+Air Pressure 100782.02889279363 Pascals 
 
 Altitude: 53 m
-Vertical velocity: 0.8025540690054876 m/s
-Buoyancy force: 1642.850143928381 Newtons
+Vertical velocity: 1.3649054583479987 m/s
+Buoyancy force: 1984.8055148790488 Newtons
 Airship Mass 183 KG
-Acceleration: -0.8331231026655423 m/s^2
-Denisty 0.9858626773834939 kg/m^3
-Air Pressure 83400.73756567444 Pascals 
-
-Altitude: 54 m
-Vertical velocity: 0.7883385977367129 m/s
-Buoyancy force: 1632.7208027702895 Newtons
-Airship Mass 183 KG
-Acceleration: -0.8884669542984209 m/s^2
-Denisty 0.9797841318562871 kg/m^3
-Air Pressure 82886.73834368784 Pascals 
+Acceleration: 1.0358580959659047 m/s^2
+Denisty 1.1910676614150673 kg/m^3
+Air Pressure 100760.15351080109 Pascals 
 
 Altitude: 55 m
-Vertical velocity: 0.7732301124355805 m/s
-Buoyancy force: 1622.5055332280722 Newtons
+Vertical velocity: 1.3824730999731825 m/s
+Buoyancy force: 1984.3541441962677 Newtons
 Airship Mass 183 KG
-Acceleration: -0.9442803313207726 m/s^2
-Denisty 0.9736540213174141 kg/m^3
-Air Pressure 82368.3700937791 Pascals 
+Acceleration: 1.0333906838343392 m/s^2
+Denisty 1.1907967970812363 kg/m^3
+Air Pressure 100737.70589917574 Pascals 
 
 Altitude: 56 m
-Vertical velocity: 0.7572215652693571 m/s
-Buoyancy force: 1612.2095647975643 Newtons
+Vertical velocity: 1.3999977240440729 m/s
+Buoyancy force: 1983.8912485529368 Newtons
 Airship Mass 183 KG
-Acceleration: -1.0005341978889586 m/s^2
-Denisty 0.9674754839501014 kg/m^3
-Air Pressure 81845.89809007864 Pascals 
-
-Altitude: 56 m
-Vertical velocity: 0.7392491752297611 m/s
-Buoyancy force: 1601.8382293773466 Newtons
-Airship Mass 183 KG
-Acceleration: -1.0571994140938834 m/s^2
-Denisty 0.9612517193887344 kg/m^3
-Air Pressure 81319.59281377553 Pascals 
+Acceleration: 1.0308602394641362 m/s^2
+Denisty 1.1905190167006154 kg/m^3
+Air Pressure 100714.67900024314 Pascals 
 
 Altitude: 57 m
-Vertical velocity: 0.7203070163483305 m/s
-Buoyancy force: 1591.397155782124 Newtons
+Vertical velocity: 1.4174782471734884 m/s
+Buoyancy force: 1983.4166901350661 Newtons
 Airship Mass 183 KG
-Acceleration: -1.1142446400841486 m/s^2
-Denisty 0.954986105444951 kg/m^3
-Air Pressure 80789.73953830986 Pascals 
-
-Altitude: 58 m
-Vertical velocity: 0.7015607895744904 m/s
-Buoyancy force: 1580.8920619758385 Newtons
-Airship Mass 183 KG
-Acceleration: -1.1716391733650067 m/s^2
-Denisty 0.9486820734282116 kg/m^3
-Air Pressure 80256.62835191988 Pascals 
-
-Altitude: 58 m
-Vertical velocity: 0.6806617864073219 m/s
-Buoyancy force: 1570.3285337500256 Newtons
-Airship Mass 183 KG
-Acceleration: -1.2293531274805023 m/s^2
-Denisty 0.9423429753322565 kg/m^3
-Air Pressure 79720.54295933008 Pascals 
+Acceleration: 1.0282660664362044 m/s^2
+Denisty 1.1902342375720103 kg/m^3
+Air Pressure 100691.06579053932 Pascals 
 
 Altitude: 59 m
-Vertical velocity: 0.6587767854734271 m/s
-Buoyancy force: 1559.7124678902444 Newtons
+Vertical velocity: 1.434913573238296 m/s
+Buoyancy force: 1982.9303318330476 Newtons
 Airship Mass 183 KG
-Acceleration: -1.287352996111455 m/s^2
-Denisty 0.9359723497761256 kg/m^3
-Air Pressure 79181.78222487021 Pascals 
+Acceleration: 1.0256074155769177 m/s^2
+Denisty 1.1899423774169209 kg/m^3
+Air Pressure 100666.85928165996 Pascals 
 
 Altitude: 60 m
-Vertical velocity: 0.6359014694103242 m/s
-Buoyancy force: 1549.0498282933816 Newtons
+Vertical velocity: 1.4512797099047818 m/s
+Buoyancy force: 1982.432037258663 Newtons
 Airship Mass 183 KG
-Acceleration: -1.345606827241344 m/s^2
-Denisty 0.9295737756518891 kg/m^3
-Air Pressure 78640.64875090444 Pascals 
-
-Altitude: 60 m
-Vertical velocity: 0.6134361627417332 m/s
-Buoyancy force: 1538.3466451249308 Newtons
-Airship Mass 183 KG
-Acceleration: -1.4040816667869418 m/s^2
-Denisty 0.9231508716189362 kg/m^3
-Air Pressure 78097.44851395197 Pascals 
-
-Altitude: 61 m
-Vertical velocity: 0.5885694738464972 m/s
-Buoyancy force: 1527.6087513910861 Newtons
-Airship Mass 183 KG
-Acceleration: -1.46274640560212 m/s^2
-Denisty 0.916707138022764 kg/m^3
-Air Pressure 77552.47786072764 Pascals 
+Acceleration: 1.022883541655359 m/s^2
+Denisty 1.1896433543897482 kg/m^3
+Air Pressure 100642.0525211175 Pascals 
 
 Altitude: 62 m
-Vertical velocity: 0.5611812880105098 m/s
-Buoyancy force: 1516.8423009481803 Newtons
+Vertical velocity: 1.4676012114000794 m/s
+Buoyancy force: 1981.9216861495645 Newtons
 Airship Mass 183 KG
-Acceleration: -1.5215658797770732 m/s^2
-Denisty 0.9102462677487543 kg/m^3
-Air Pressure 77006.04869234492 Pascals 
-
-Altitude: 62 m
-Vertical velocity: 0.534312708194389 m/s
-Buoyancy force: 1506.053758931736 Newtons
-Airship Mass 183 KG
-Acceleration: -1.5805046950659296 m/s^2
-Denisty 0.9037721404787141 kg/m^3
-Air Pressure 76458.48870267035 Pascals 
+Acceleration: 1.0200938434560953 m/s^2
+Denisty 1.1893370963219136 kg/m^3
+Air Pressure 100616.63902515615 Pascals 
 
 Altitude: 63 m
-Vertical velocity: 0.5080802194189836 m/s
-Buoyancy force: 1495.2493409021208 Newtons
+Vertical velocity: 1.484894250159062 m/s
+Buoyancy force: 1981.3991520646932 Newtons
 Airship Mass 183 KG
-Acceleration: -1.6395305484628349 m/s^2
-Denisty 0.8972884861261774 kg/m^3
-Air Pressure 75910.11372047116 Pascals 
-
-Altitude: 63 m
-Vertical velocity: 0.4792038338445946 m/s
-Buoyancy force: 1484.4350103682245 Newtons
-Airship Mass 183 KG
-Acceleration: -1.6986109161405327 m/s^2
-Denisty 0.8907988833503797 kg/m^3
-Air Pressure 75361.22680717077 Pascals 
-
-Altitude: 63 m
-Vertical velocity: 0.4510804799474963 m/s
-Buoyancy force: 1473.6170601853228 Newtons
-Airship Mass 183 KG
-Acceleration: -1.7577096185686436 m/s^2
-Denisty 0.8843071084489791 kg/m^3
-Air Pressure 74812.14690940846 Pascals 
-
-Altitude: 64 m
-Vertical velocity: 0.4201949521160914 m/s
-Buoyancy force: 1462.8014849216956 Newtons
-Airship Mass 183 KG
-Acceleration: -1.8167957547885205 m/s^2
-Denisty 0.8778167587197302 kg/m^3
-Air Pressure 74263.17870837613 Pascals 
-
-Altitude: 64 m
-Vertical velocity: 0.388305794094576 m/s
-Buoyancy force: 1451.9946125577221 Newtons
-Airship Mass 183 KG
-Acceleration: -1.8758328247950251 m/s^2
-Denisty 0.8713316315386151 kg/m^3
-Air Pressure 73714.6429288894 Pascals 
+Acceleration: 1.017237574057809 m/s^2
+Denisty 1.1890235273370373 kg/m^3
+Air Pressure 100590.61234609023 Pascals 
 
 Altitude: 65 m
-Vertical velocity: 0.35541441109738126 m/s
-Buoyancy force: 1441.2027665507837 Newtons
+Vertical velocity: 1.5011232726784889 m/s
+Buoyancy force: 1980.864294008446 Newtons
 Airship Mass 183 KG
-Acceleration: -1.934787235129103 m/s^2
-Denisty 0.8648555215673975 kg/m^3
-Air Pressure 73166.86052491555 Pascals 
-
-Altitude: 65 m
-Vertical velocity: 0.32152279557629 m/s
-Buoyancy force: 1430.4322684787742 Newtons
-Airship Mass 183 KG
-Acceleration: -1.9936244424171345 m/s^2
-Denisty 0.858392222339974 kg/m^3
-Air Pressure 72620.15236408266 Pascals 
-
-Altitude: 65 m
-Vertical velocity: 0.2866335264831916 m/s
-Buoyancy force: 1419.6894320420872 Newtons
-Airship Mass 183 KG
-Acceleration: -2.0523099466528434 m/s^2
-Denisty 0.8519455226630088 kg/m^3
-Air Pressure 72074.83892291781 Pascals 
+Acceleration: 1.0143139074641763 m/s^2
+Denisty 1.188702562824662 kg/m^3
+Air Pressure 100563.96564376132 Pascals 
 
 Altitude: 66 m
-Vertical velocity: 0.2507497679970876 m/s
-Buoyancy force: 1408.980557296352 Newtons
-Airship Mass 183 KG
-Acceleration: -2.1108093227120026 m/s^2
-Denisty 0.8455192031550407 kg/m^3
-Air Pressure 71531.23999377056 Pascals 
-
-Altitude: 66 m
-Vertical velocity: 0.21387526773846788 m/s
-Buoyancy force: 1398.3119251340113 Newtons
-Airship Mass 183 KG
-Acceleration: -2.1690882505070412 m/s^2
-Denisty 0.8391170329349168 kg/m^3
-Air Pressure 70989.67440434001 Pascals 
-
-Altitude: 66 m
-Vertical velocity: 0.17601435449578856 m/s
-Buoyancy force: 1387.6897920320496 Newtons
-Airship Mass 183 KG
-Acceleration: -2.227112543687019 m/s^2
-Denisty 0.8327427664699408 kg/m^3
-Air Pressure 70450.4597506857 Pascals 
-
-Altitude: 66 m
-Vertical velocity: 0.13945678366710523 m/s
-Buoyancy force: 1377.1203850823842 Newtons
-Airship Mass 183 KG
-Acceleration: -2.284848176792707 m/s^2
-Denisty 0.8264001405936471 kg/m^3
-Air Pressure 69913.91214456187 Pascals 
-
-Altitude: 66 m
-Vertical velocity: 0.09963828549885556 m/s
-Buoyancy force: 1366.60952422015 Newtons
-Airship Mass 183 KG
-Acceleration: -2.342264598132333 m/s^2
-Denisty 0.8200926478076833 kg/m^3
-Air Pressure 69380.32757211305 Pascals 
-
-Altitude: 66 m
-Vertical velocity: 0.058849750681110036 m/s
-Buoyancy force: 1356.163383143407 Newtons
-Airship Mass 183 KG
-Acceleration: -2.3993255775144426 m/s^2
-Denisty 0.8138239929043105 kg/m^3
-Air Pressure 68850.01890207962 Pascals 
-
-Altitude: 66 m
-Vertical velocity: 0.017097769006689148 m/s
-Buoyancy force: 1345.7880822445375 Newtons
-Airship Mass 183 KG
-Acceleration: -2.455998922024758 m/s^2
-Denisty 0.8075978486874313 kg/m^3
-Air Pressure 68323.29684944014 Pascals 
-
-Altitude: 66 m
-Vertical velocity: -0.02561050552817469 m/s
-Buoyancy force: 1335.4896956663079 Newtons
-Airship Mass 183 KG
-Acceleration: -2.512251443227284 m/s^2
-Denisty 0.8014178602068835 kg/m^3
-Air Pressure 67800.46978698148 Pascals 
-
-Altitude: 66 m
-Vertical velocity: -0.06926759724851697 m/s
-Buoyancy force: 1325.2742479516096 Newtons
-Airship Mass 183 KG
-Acceleration: -2.5680642188436638 m/s^2
-Denisty 0.7952876427479729 kg/m^3
-Air Pressure 67281.84357472528 Pascals 
-
-Altitude: 66 m
-Vertical velocity: -0.11386540550754304 m/s
-Buoyancy force: 1315.1477110940136 Newtons
-Airship Mass 183 KG
-Acceleration: -2.623400485825063 m/s^2
-Denisty 0.7892107800615321 kg/m^3
-Air Pressure 66767.72140962863 Pascals 
-
-Altitude: 66 m
-Vertical velocity: -0.15939512117353768 m/s
-Buoyancy force: 1305.1160019484107 Newtons
-Airship Mass 183 KG
-Acceleration: -2.67821856858792 m/s^2
-Denisty 0.7831908228100645 kg/m^3
-Air Pressure 66258.40369361831 Pascals 
-
-Altitude: 66 m
-Vertical velocity: -0.20584739079106104 m/s
-Buoyancy force: 1295.1849799996016 Newtons
-Airship Mass 183 KG
-Acceleration: -2.7324864480896087 m/s^2
-Denisty 0.7772312872286901 kg/m^3
-Air Pressure 65754.18791979813 Pascals 
-
-Altitude: 65 m
-Vertical velocity: -0.2532123220812197 m/s
-Buoyancy force: 1285.3604455235866 Newtons
-Airship Mass 183 KG
-Acceleration: -2.7861724288328604 m/s^2
-Denisty 0.7713356540217498 kg/m^3
-Air Pressure 65255.368578539485 Pascals 
-
-Altitude: 65 m
-Vertical velocity: -0.3014794895756049 m/s
-Buoyancy force: 1275.6481381486772 Newtons
-Airship Mass 183 KG
-Acceleration: -2.8392451467285404 m/s^2
-Denisty 0.7655073674993382 kg/m^3
-Air Pressure 64762.23708385422 Pascals 
-
-Altitude: 65 m
-Vertical velocity: -0.3506379403461023 m/s
-Buoyancy force: 1266.053735823469 Newtons
-Airship Mass 183 KG
-Acceleration: -2.891673574735143 m/s^2
-Denisty 0.7597498349579914 kg/m^3
-Air Pressure 64275.081720408205 Pascals 
-
-Altitude: 64 m
-Vertical velocity: -0.397732772765954 m/s
-Buoyancy force: 1256.5828541979467 Newtons
-Airship Mass 183 KG
-Acceleration: -2.9434270262407285 m/s^2
-Denisty 0.754066426309292 kg/m^3
-Air Pressure 63794.18761149535 Pascals 
-
-Altitude: 64 m
-Vertical velocity: -0.44863889116892747 m/s
-Buoyancy force: 1247.2406077797564 Newtons
-Airship Mass 183 KG
-Acceleration: -2.994477553116086 m/s^2
-Denisty 0.748460210732873 kg/m^3
-Air Pressure 63319.81507163426 Pascals 
-
-Altitude: 63 m
-Vertical velocity: -0.5004004066762737 m/s
-Buoyancy force: 1238.032509538567 Newtons
-Airship Mass 183 KG
-Acceleration: -3.044795029843897 m/s^2
-Denisty 0.7429344965225908 kg/m^3
-Air Pressure 62852.243370537275 Pascals 
-
-Altitude: 63 m
-Vertical velocity: -0.553004352226445 m/s
-Buoyancy force: 1228.963997901098 Newtons
-Airship Mass 183 KG
-Acceleration: -3.0943497382453664 m/s^2
-Denisty 0.7374925472396084 kg/m^3
-Air Pressure 62391.74863499426 Pascals 
-
-Altitude: 62 m
-Vertical velocity: -0.6064372611996252 m/s
-Buoyancy force: 1220.0404504651783 Newtons
-Airship Mass 183 KG
-Acceleration: -3.1431122925400095 m/s^2
-Denisty 0.7321375899421046 kg/m^3
-Air Pressure 61938.60390251823 Pascals 
-
-Altitude: 62 m
-Vertical velocity: -0.660685172928749 m/s
-Buoyancy force: 1211.267185504138 Newtons
-Airship Mass 183 KG
-Acceleration: -3.1910536311249293 m/s^2
-Denisty 0.7268728160880489 kg/m^3
-Air Pressure 61493.07919705913 Pascals 
-
-Altitude: 61 m
-Vertical velocity: -0.715733638030104 m/s
-Buoyancy force: 1202.6494639089428 Newtons
-Airship Mass 183 KG
-Acceleration: -3.2381450059620613 m/s^2
-Denisty 0.7217013827006619 kg/m^3
-Air Pressure 61055.441626931686 Pascals 
-
-Altitude: 60 m
-Vertical velocity: -0.7682833655430579 m/s
-Buoyancy force: 1194.19249157059 Newtons
-Airship Mass 183 KG
-Acceleration: -3.2843579695596183 m/s^2
-Denisty 0.7166264137980751 kg/m^3
-Air Pressure 60625.95550508579 Pascals 
-
-Altitude: 59 m
-Vertical velocity: -0.8248877028831946 m/s
-Buoyancy force: 1185.90095686794 Newtons
-Airship Mass 183 KG
-Acceleration: -3.3296669023609837 m/s^2
-Denisty 0.7116507228430704 kg/m^3
-Air Pressure 60204.85953892348 Pascals 
-
-Altitude: 58 m
-Vertical velocity: -0.8788724034454983 m/s
-Buoyancy force: 1177.7799873186505 Newtons
-Airship Mass 183 KG
-Acceleration: -3.3740437851439875 m/s^2
-Denisty 0.7067773868224958 kg/m^3
-Air Pressure 59792.41337424773 Pascals 
-
-Altitude: 57 m
-Vertical velocity: -0.9369692829075819 m/s
-Buoyancy force: 1169.83417990816 Newtons
-Airship Mass 183 KG
-Acceleration: -3.417463497769618 m/s^2
-Denisty 0.7020091643545912 kg/m^3
-Air Pressure 59388.8510784905 Pascals 
-
-Altitude: 56 m
-Vertical velocity: -0.9957875564820899 m/s
-Buoyancy force: 1162.068584462648 Newtons
-Airship Mass 183 KG
-Acceleration: -3.4598984455593014 m/s^2
-Denisty 0.6973490858041015 kg/m^3
-Air Pressure 58994.42833378962 Pascals 
-
-Altitude: 55 m
-Vertical velocity: -1.0553100187790065 m/s
-Buoyancy force: 1154.4881999802517 Newtons
-Airship Mass 183 KG
-Acceleration: -3.5013213115833244 m/s^2
-Denisty 0.6928001510342255 kg/m^3
-Air Pressure 58609.39892452757 Pascals 
-
-Altitude: 54 m
-Vertical velocity: -1.1155190030128526 m/s
-Buoyancy force: 1147.0979932474213 Newtons
-Airship Mass 183 KG
-Acceleration: -3.5417049549321247 m/s^2
-Denisty 0.688365340578158 kg/m^3
-Air Pressure 58234.01499244055 Pascals 
-
-Altitude: 53 m
-Vertical velocity: -1.1728153611039256 m/s
-Buoyancy force: 1139.9029043333524 Newtons
-Airship Mass 183 KG
-Acceleration: -3.5810223806920645 m/s^2
-Denisty 0.684047618936259 kg/m^3
-Air Pressure 57868.52731482167 Pascals 
-
-Altitude: 52 m
-Vertical velocity: -1.2343426001498174 m/s
-Buoyancy force: 1132.9073679177518 Newtons
-Airship Mass 183 KG
-Acceleration: -3.619249355640701 m/s^2
-Denisty 0.6798496473282544 kg/m^3
-Air Pressure 57513.1617023758 Pascals 
-
-Altitude: 51 m
-Vertical velocity: -1.296500702371045 m/s
-Buoyancy force: 1126.1163113832545 Newtons
-Airship Mass 183 KG
-Acceleration: -3.6563589541898667 m/s^2
-Denisty 0.6757743826413896 kg/m^3
-Air Pressure 57168.16756296197 Pascals 
-
-Altitude: 49 m
-Vertical velocity: -1.3592702166702422 m/s
-Buoyancy force: 1119.5346401909967 Newtons
-Airship Mass 183 KG
-Acceleration: -3.6923243705410025 m/s^2
-Denisty 0.6718247686079748 kg/m^3
-Air Pressure 56833.793888854096 Pascals 
-
-Altitude: 48 m
-Vertical velocity: -1.4226312363118323 m/s
-Buoyancy force: 1113.1672591522954 Newtons
-Airship Mass 183 KG
-Acceleration: -3.7271188024464736 m/s^2
-Denisty 0.6680037485703683 kg/m^3
-Air Pressure 56510.289628244034 Pascals 
-
-Altitude: 46 m
-Vertical velocity: -1.4865633982570836 m/s
-Buoyancy force: 1107.0190802364114 Newtons
-Airship Mass 183 KG
-Acceleration: -3.7607154085442005 m/s^2
-Denisty 0.6643142701663597 kg/m^3
-Air Pressure 56197.90408082975 Pascals 
-
-Altitude: 45 m
-Vertical velocity: -1.55104588172918 m/s
-Buoyancy force: 1101.0950308591991 Newtons
-Airship Mass 183 KG
-Acceleration: -3.7930872630644856 m/s^2
-Denisty 0.6607592903031294 kg/m^3
-Air Pressure 55896.88731780174 Pascals 
-
-Altitude: 43 m
-Vertical velocity: -1.6160574059629647 m/s
-Buoyancy force: 1095.4000626598458 Newtons
-Airship Mass 183 KG
-Acceleration: -3.8242073078696954 m/s^2
-Denisty 0.6573417804241071 kg/m^3
-Air Pressure 55607.49062659155 Pascals 
-
-Altitude: 41 m
-Vertical velocity: -1.6815762270932484 m/s
-Buoyancy force: 1089.9391607740042 Newtons
-Airship Mass 183 KG
-Acceleration: -3.854048301781398 m/s^2
-Denisty 0.6540647320737135 kg/m^3
-Air Pressure 55329.96698080238 Pascals 
-
-Altitude: 40 m
-Vertical velocity: -1.7475801341346748 m/s
-Buoyancy force: 1084.71735361288 Newtons
-Airship Mass 183 KG
-Acceleration: -3.8825827671427326 m/s^2
-Denisty 0.6509311627657203 kg/m^3
-Air Pressure 55064.57153580486 Pascals 
-
-Altitude: 38 m
-Vertical velocity: -1.8140464440051336 m/s
-Buoyancy force: 1079.7397231591788 Newtons
-Airship Mass 183 KG
-Acceleration: -3.909782933556401 m/s^2
-Denisty 0.647944122161775 kg/m^3
-Air Pressure 54811.5621505496 Pascals 
-
-Altitude: 36 m
-Vertical velocity: -1.884887616222284 m/s
-Buoyancy force: 1075.0114157923028 Newtons
-Airship Mass 183 KG
-Acceleration: -3.9356206787305856 m/s^2
-Denisty 0.6451066985675243 kg/m^3
-Air Pressure 54571.19993622304 Pascals 
-
-Altitude: 34 m
-Vertical velocity: -1.9522087164135937 m/s
-Buoyancy force: 1070.5381567641377 Newtons
-Airship Mass 183 KG
-Acceleration: -3.96006471713586 m/s^2
-Denisty 0.6424223276658719 kg/m^3
-Air Pressure 54343.77464593717 Pascals 
-
-Altitude: 32 m
-Vertical velocity: -2.0199211808583764 m/s
-Buoyancy force: 1066.3252356826322 Newtons
-Airship Mass 183 KG
-Acceleration: -3.9830861438107537 m/s^2
-Denisty 0.6398941837128959 kg/m^3
-Air Pressure 54129.55535642372 Pascals 
-
-Altitude: 30 m
-Vertical velocity: -2.088000323059027 m/s
-Buoyancy force: 1062.378057487112 Newtons
-Airship Mass 183 KG
-Acceleration: -4.004655423567694 m/s^2
-Denisty 0.6375255101742127 kg/m^3
-Air Pressure 53928.81624745287 Pascals 
-
-Altitude: 28 m
-Vertical velocity: -2.1564209438266753 m/s
-Buoyancy force: 1058.7021411482604 Newtons
-Airship Mass 183 KG
-Acceleration: -4.024742398096938 m/s^2
-Denisty 0.6353196189448443 kg/m^3
-Air Pressure 53741.837266861374 Pascals 
-
-Altitude: 26 m
-Vertical velocity: -2.229200635622701 m/s
-Buoyancy force: 1055.3031334070706 Newtons
-Airship Mass 183 KG
-Acceleration: -4.043316210890325 m/s^2
-Denisty 0.6332798985938671 kg/m^3
-Air Pressure 53568.90482696015 Pascals 
-
-Altitude: 23 m
-Vertical velocity: -2.2982264573276967 m/s
-Buoyancy force: 1052.187331057989 Newtons
-Airship Mass 183 KG
-Acceleration: -4.060342453235033 m/s^2
-Denisty 0.6314101277828069 kg/m^3
-Air Pressure 53410.33758238052 Pascals 
-
-Altitude: 21 m
-Vertical velocity: -2.3675148658082907 m/s
-Buoyancy force: 1049.3606616500756 Newtons
-Airship Mass 183 KG
-Acceleration: -4.075788734152593 m/s^2
-Denisty 0.6297138635916616 kg/m^3
-Air Pressure 53266.43689003325 Pascals 
-
-Altitude: 18 m
-Vertical velocity: -2.4370384335813986 m/s
-Buoyancy force: 1046.8292410306626 Newtons
-Airship Mass 183 KG
-Acceleration: -4.089621633712227 m/s^2
-Denisty 0.6281947760968822 kg/m^3
-Air Pressure 53137.51290310036 Pascals 
-
-Altitude: 16 m
-Vertical velocity: -2.5067691473490923 m/s
-Buoyancy force: 1044.5993753242408 Newtons
-Airship Mass 183 KG
-Acceleration: -4.101806692217264 m/s^2
-Denisty 0.6268566495588876 kg/m^3
-Air Pressure 53023.885407680835 Pascals 
-
-Altitude: 13 m
-Vertical velocity: -2.576678388718024 m/s
-Buoyancy force: 1042.6775782050331 Newtons
-Airship Mass 183 KG
-Acceleration: -4.112308315819492 m/s^2
-Denisty 0.6257033927872142 kg/m^3
-Air Pressure 52925.88469832207 Pascals 
-
-Altitude: 11 m
-Vertical velocity: -2.6467369132394793 m/s
-Buoyancy force: 1041.0705889749177 Newtons
-Airship Mass 183 KG
-Acceleration: -4.121089677732691 m/s^2
-Denisty 0.624739049988948 kg/m^3
-Air Pressure 52843.85249436903 Pascals 
-
-Altitude: 8 m
-Vertical velocity: -2.7169148276913986 m/s
-Buoyancy force: 1039.7853914881623 Newtons
-Airship Mass 183 KG
-Acceleration: -4.128112614818786 m/s^2
-Denisty 0.6239678121253232 kg/m^3
-Air Pressure 52778.1428992302 Pascals 
-
-Altitude: 5 m
-Vertical velocity: -2.7871815655195133 m/s
-Buoyancy force: 1038.8292339679404 Newtons
-Airship Mass 183 KG
-Acceleration: -4.133337519300873 m/s^2
-Denisty 0.6233940288034723 kg/m^3
-Air Pressure 52729.12340483804 Pascals 
-
-Altitude: 2 m
-Vertical velocity: -2.8575058603502455 m/s
-Buoyancy force: 1038.2096497632936 Newtons
-Airship Mass 183 KG
-Acceleration: -4.136723225337194 m/s^2
-Denisty 0.6230222207325322 kg/m^3
-Air Pressure 52697.17594376789 Pascals 
-
-Altitude: 0 m
-Vertical velocity: -2.927855717483112 m/s
-Buoyancy force: 1037.9344790991408 Newtons
-Airship Mass 183 KG
-Acceleration: -4.13822689016863 m/s^2
-Denisty 0.6228570927756691 kg/m^3
-Air Pressure 52682.69799167918 Pascals 
-
-Altitude: 0 m
-Vertical velocity: -2.998198383265119 m/s
-Buoyancy force: 1038.0118918760422 Newtons
-Airship Mass 183 KG
-Acceleration: -4.137803869529824 m/s^2
-Denisty 0.622903547632055 kg/m^3
-Air Pressure 52686.103722951266 Pascals 
-
-Altitude: 0 m
-Vertical velocity: -3.0685003122439487 m/s
-Buoyancy force: 1038.4504115808325 Newtons
-Airship Mass 183 KG
-Acceleration: -4.135407586989987 m/s^2
-Denisty 0.6231667001854683 kg/m^3
-Air Pressure 52707.82522260862 Pascals 
-
-Altitude: 0 m
-Vertical velocity: -3.138727131990644 m/s
-Buoyancy force: 1039.2589403738095 Newtons
-Airship Mass 183 KG
-Acceleration: -4.130989396864429 m/s^2
-Denisty 0.6236518925589369 kg/m^3
-Air Pressure 52748.3137578627 Pascals 
-
-Altitude: 0 m
-Vertical velocity: -3.2088436054759333 m/s
-Buoyancy force: 1040.4467854230638 Newtons
-Airship Mass 183 KG
-Acceleration: -4.124498440311127 m/s^2
-Denisty 0.6243647099177828 kg/m^3
-Air Pressure 52808.04111284561 Pascals 
-
-Altitude: 0 m
-Vertical velocity: -3.278813590877311 m/s
-Buoyancy force: 1042.0236865616407 Newtons
-Airship Mass 183 KG
-Acceleration: -4.115881494198685 m/s^2
-Denisty 0.6253109970664871 kg/m^3
-Air Pressure 52887.500990369364 Pascals 
-
-Altitude: 0 m
-Vertical velocity: -3.348599998686453 m/s
-Buoyancy force: 1043.9998453486485 Newtons
-Airship Mass 183 KG
-Acceleration: -4.105082812302467 m/s^2
-Denisty 0.626496875888055 kg/m^3
-Air Pressure 52987.21048481973 Pascals 
-
-Altitude: 0 m
-Vertical velocity: -3.4181647459784803 m/s
-Buoyancy force: 1046.38595562112 Newtons
-Airship Mass 183 KG
-Acceleration: -4.092043958354536 m/s^2
-Denisty 0.6279287636779699 kg/m^3
-Air Pressure 53107.71163058166 Pascals 
-
-Altitude: 0 m
-Vertical velocity: -3.4833920040655246 m/s
-Buoyancy force: 1049.1932356294324 Newtons
-Airship Mass 183 KG
-Acceleration: -4.076703630440261 m/s^2
-Denisty 0.6296133924284304 kg/m^3
-Air Pressure 53249.573030697946 Pascals 
-
-Altitude: 0 m
-Vertical velocity: -3.5523950086908953 m/s
-Buoyancy force: 1052.432950209244 Newtons
-Airship Mass 183 KG
-Acceleration: -4.059000272080635 m/s^2
-Denisty 0.6315575220871309 kg/m^3
-Air Pressure 53413.36634265609 Pascals 
-
-Altitude: 0 m
-Vertical velocity: -3.621055734685138 m/s
-Buoyancy force: 1056.1174790031514 Newtons
-Airship Mass 183 KG
-Acceleration: -4.038866234955457 m/s^2
-Denisty 0.6337685815894737 kg/m^3
-Air Pressure 53599.71827933848 Pascals 
-
-Altitude: 0 m
-Vertical velocity: -4.014646324361284 m/s
-Buoyancy force: 1060.2598172374005 Newtons
-Airship Mass 183 KG
-Acceleration: -4.0162305068994515 m/s^2
-Denisty 0.6362543692782278 kg/m^3
-Air Pressure 53809.287476505626 Pascals 
+Vertical velocity: 1.5183157519411863 m/s
+Buoyancy force: 1980.316993884117 Newtons
+Airship Mass 183 KG
+Acceleration: 1.0113223095704384 m/s^2
+Denisty 1.1883741319157943 kg/m^3
+Air Pressure 100536.69254543091 Pascals 
+
+Altitude: 68 m
+Vertical velocity: 1.5344479424699216 m/s
+Buoyancy force: 1979.7571123299285 Newtons
+Airship Mass 183 KG
+Acceleration: 1.0082619080459505 m/s^2
+Denisty 1.1880381509804243 kg/m^3
+Air Pressure 100508.7862902779 Pascals 
+
+Altitude: 69 m
+Vertical velocity: 1.5515351894701988 m/s
+Buoyancy force: 1979.184532776527 Newtons
+Airship Mass 183 KG
+Acceleration: 1.0051321764868977 m/s^2
+Denisty 1.1876945500661125 kg/m^3
+Air Pressure 100480.24058391218 Pascals 
+
+Altitude: 71 m
+Vertical velocity: 1.5675661055109722 m/s
+Buoyancy force: 1978.5991175682418 Newtons
+Airship Mass 183 KG
+Acceleration: 1.001932252548345 m/s^2
+Denisty 1.1873432465666702 kg/m^3
+Air Pressure 100451.04874839944 Pascals 
+
+Altitude: 72 m
+Vertical velocity: 1.583544691396731 m/s
+Buoyancy force: 1978.000751729422 Newtons
+Airship Mass 183 KG
+Acceleration: 0.998661617859927 m/s^2
+Denisty 1.1869841714860283 kg/m^3
+Air Pressure 100421.20457114768 Pascals 
+
+Altitude: 74 m
+Vertical velocity: 1.6004651238653964 m/s
+Buoyancy force: 1977.389314374313 Newtons
+Airship Mass 183 KG
+Acceleration: 0.9953195569803217 m/s^2
+Denisty 1.1866172522815057 kg/m^3
+Air Pressure 100390.70188159638 Pascals 
+
+Altitude: 76 m
+Vertical velocity: 1.6173275135927936 m/s
+Buoyancy force: 1976.7646705402778 Newtons
+Airship Mass 183 KG
+Acceleration: 0.9919052780821804 m/s^2
+Denisty 1.1862424079629845 kg/m^3
+Air Pressure 100359.5341327195 Pascals 
+
+Altitude: 77 m
+Vertical velocity: 1.6331422038318513 m/s
+Buoyancy force: 1976.1266928843584 Newtons
+Airship Mass 183 KG
+Acceleration: 0.9884181399411052 m/s^2
+Denisty 1.1858595621128625 kg/m^3
+Air Pressure 100327.69482318836 Pascals 
+
+Altitude: 79 m
+Vertical velocity: 1.6498847828087522 m/s
+Buoyancy force: 1975.4752698204413 Newtons
+Airship Mass 183 KG
+Acceleration: 0.9848575868765188 m/s^2
+Denisty 1.1854686477691068 kg/m^3
+Air Pressure 100295.17791452468 Pascals 
+
+Altitude: 81 m
+Vertical velocity: 1.6665655702235411 m/s
+Buoyancy force: 1974.8102692540854 Newtons
+Airship Mass 183 KG
+Acceleration: 0.9812227891052299 m/s^2
+Denisty 1.1850695856627838 kg/m^3
+Air Pressure 100261.97699921725 Pascals 
+
+Altitude: 82 m
+Vertical velocity: 1.6822057801501151 m/s
+Buoyancy force: 1974.131566690892 Newtons
+Airship Mass 183 KG
+Acceleration: 0.9775131204108725 m/s^2
+Denisty 1.184662301085691 kg/m^3
+Air Pressure 100228.08571825185 Pascals 
+
+Altitude: 84 m
+Vertical velocity: 1.698759156820204 m/s
+Buoyancy force: 1973.439053271113 Newtons
+Airship Mass 183 KG
+Acceleration: 0.9737280394170025 m/s^2
+Denisty 1.184246728711868 kg/m^3
+Air Pressure 100193.4981733155 Pascals 
+
+Altitude: 86 m
+Vertical velocity: 1.7152468913006416 m/s
+Buoyancy force: 1972.732599939807 Newtons
+Airship Mass 183 KG
+Acceleration: 0.9698667341433804 m/s^2
+Denisty 1.183822791096364 kg/m^3
+Air Pressure 100158.20810483451 Pascals 
+
+Altitude: 87 m
+Vertical velocity: 1.7316676774030662 m/s
+Buoyancy force: 1972.0120852185435 Newtons
+Airship Mass 183 KG
+Acceleration: 0.9659285942602747 m/s^2
+Denisty 1.1833904153408366 kg/m^3
+Air Pressure 100122.20930457469 Pascals 
+
+Altitude: 89 m
+Vertical velocity: 1.7480201977525953 m/s
+Buoyancy force: 1971.2773886746477 Newtons
+Airship Mass 183 KG
+Acceleration: 0.9619129617370135 m/s^2
+Denisty 1.1829495291744956 kg/m^3
+Air Pressure 100085.49561660303 Pascals 
+
+Altitude: 91 m
+Vertical velocity: 1.764303123886755 m/s
+Buoyancy force: 1970.528390940286 Newtons
+Airship Mass 183 KG
+Acceleration: 0.9578191843623411 m/s^2
+Denisty 1.1825000609655534 kg/m^3
+Air Pressure 100048.0609382536 Pascals 
+
+Altitude: 93 m
+Vertical velocity: 1.7805151163561899 m/s
+Buoyancy force: 1969.7649737316262 Newtons
+Airship Mass 183 KG
+Acceleration: 0.9536466158491113 m/s^2
+Denisty 1.1820419397327242 kg/m^3
+Air Pressure 100009.8992210972 Pascals 
+
+Altitude: 95 m
+Vertical velocity: 1.7966548248271583 m/s
+Buoyancy force: 1968.9870198680592 Newtons
+Airship Mass 183 KG
+Acceleration: 0.949394615939319 m/s^2
+Denisty 1.1815750951567587 kg/m^3
+Air Pressure 99971.00447191454 Pascals 
+
+Altitude: 96 m
+Vertical velocity: 1.8117758256353103 m/s
+Buoyancy force: 1968.1944132914855 Newtons
+Airship Mass 183 KG
+Acceleration: 0.9450625505094923 m/s^2
+Denisty 1.1810994575920175 kg/m^3
+Air Pressure 99931.3707536728 Pascals 
+
+Altitude: 98 m
+Vertical velocity: 1.8268262243627644 m/s
+Buoyancy force: 1967.387053203514 Newtons
+Airship Mass 183 KG
+Acceleration: 0.9406499204658889 m/s^2
+Denisty 1.1806149665501036 kg/m^3
+Air Pressure 99890.99258303088 Pascals 
+
+Altitude: 100 m
+Vertical velocity: 1.8418047218762545 m/s
+Buoyancy force: 1966.5648335727876 Newtons
+Airship Mass 183 KG
+Acceleration: 0.9361560945931355 m/s^2
+Denisty 1.1801215584023546 kg/m^3
+Air Pressure 99849.86453233955 Pascals 
+
+Altitude: 102 m
+Vertical velocity: 1.857641590371689 m/s
+Buoyancy force: 1965.7276494980706 Newtons
+Airship Mass 183 KG
+Acceleration: 0.9315804997314299 m/s^2
+Denisty 1.1796191701982852 kg/m^3
+Air Pressure 99807.98123056597 Pascals 
+
+Altitude: 104 m
+Vertical velocity: 1.8733992718880201 m/s
+Buoyancy force: 1964.8753833269973 Newtons
+Airship Mass 183 KG
+Acceleration: 0.9269224421371227 m/s^2
+Denisty 1.1791077313355485 kg/m^3
+Air Pressure 99765.33697379491 Pascals 
+
+Altitude: 106 m
+Vertical velocity: 1.8881541738230345 m/s
+Buoyancy force: 1964.007924874445 Newtons
+Airship Mass 183 KG
+Acceleration: 0.9221813709383948 m/s^2
+Denisty 1.1785871756928363 kg/m^3
+Air Pressure 99721.92611916427 Pascals 
+
+Altitude: 108 m
+Vertical velocity: 1.902831882885257 m/s
+Buoyancy force: 1963.1251789409098 Newtons
+Airship Mass 183 KG
+Acceleration: 0.9173568163889154 m/s^2
+Denisty 1.1780574461416045 kg/m^3
+Air Pressure 99677.7434720332 Pascals 
+
+Altitude: 109 m
+Vertical velocity: 1.9174310537731551 m/s
+Buoyancy force: 1962.2270453491622 Newtons
+Airship Mass 183 KG
+Acceleration: 0.9124481804936249 m/s^2
+Denisty 1.1775184825662104 kg/m^3
+Air Pressure 99632.78389812623 Pascals 
+
+Altitude: 111 m
+Vertical velocity: 1.9328577874571717 m/s
+Buoyancy force: 1961.313425144364 Newtons
+Airship Mass 183 KG
+Acceleration: 0.9074549225892135 m/s^2
+Denisty 1.17697022558456 kg/m^3
+Air Pressure 99587.04232446443 Pascals 
+
+Altitude: 113 m
+Vertical velocity: 1.9481981860086346 m/s
+Buoyancy force: 1960.3842071024455 Newtons
+Airship Mass 183 KG
+Acceleration: 0.902376385380169 m/s^2
+Denisty 1.176412608451881 kg/m^3
+Air Pressure 99540.5133607601 Pascals 
+
+Altitude: 115 m
+Vertical velocity: 1.962553578831342 m/s
+Buoyancy force: 1959.4392873915767 Newtons
+Airship Mass 183 KG
+Acceleration: 0.897212051419217 m/s^2
+Denisty 1.175845568859431 kg/m^3
+Air Pressure 99493.1916826816 Pascals 
+
+Altitude: 117 m
+Vertical velocity: 1.9777169240362968 m/s
+Buoyancy force: 1958.478576859715 Newtons
+Airship Mass 183 KG
+Acceleration: 0.8919614826444082 m/s^2
+Denisty 1.175269053307704 kg/m^3
+Air Pressure 99445.07240777153 Pascals 
+
+Altitude: 119 m
+Vertical velocity: 1.9919029079678465 m/s
+Buoyancy force: 1957.5019683863395 Newtons
+Airship Mass 183 KG
+Acceleration: 0.8866239957218536 m/s^2
+Denisty 1.1746829975144377 kg/m^3
+Air Pressure 99396.15034606798 Pascals 
+
+Altitude: 121 m
+Vertical velocity: 2.0060020954071756 m/s
+Buoyancy force: 1956.5093753664057 Newtons
+Airship Mass 183 KG
+Acceleration: 0.8811992149580661 m/s^2
+Denisty 1.1740873495085618 kg/m^3
+Air Pressure 99346.42074669107 Pascals 
+
+Altitude: 123 m
+Vertical velocity: 2.020888767493668 m/s
+Buoyancy force: 1955.5007065990794 Newtons
+Airship Mass 183 KG
+Acceleration: 0.8756865933230884 m/s^2
+Denisty 1.1734820545611044 kg/m^3
+Air Pressure 99295.87892570069 Pascals 
+
+Altitude: 125 m
+Vertical velocity: 2.0356802213511584 m/s
+Buoyancy force: 1954.4758592359526 Newtons
+Airship Mass 183 KG
+Acceleration: 0.8700855210288392 m/s^2
+Denisty 1.1728670509534682 kg/m^3
+Air Pressure 99244.51990176918 Pascals 
+
+Altitude: 127 m
+Vertical velocity: 2.0503749452607885 m/s
+Buoyancy force: 1953.434737711758 Newtons
+Airship Mass 183 KG
+Acceleration: 0.8643955240958725 m/s^2
+Denisty 1.1722422813376165 kg/m^3
+Air Pressure 99192.33876542104 Pascals 
+
+Altitude: 129 m
+Vertical velocity: 2.0641128026738986 m/s
+Buoyancy force: 1952.3772479118984 Newtons
+Airship Mass 183 KG
+Acceleration: 0.8586160883193745 m/s^2
+Denisty 1.1716076892360494 kg/m^3
+Air Pressure 99139.330680021 Pascals 
+
+Altitude: 131 m
+Vertical velocity: 2.077756751857719 m/s
+Buoyancy force: 1951.3033099179756 Newtons
+Airship Mass 183 KG
+Acceleration: 0.8527468239887916 m/s^2
+Denisty 1.170963226690305 kg/m^3
+Air Pressure 99085.49124037186 Pascals 
+
+Altitude: 134 m
+Vertical velocity: 2.0913053474370384 m/s
+Buoyancy force: 1950.2128395059851 Newtons
+Airship Mass 183 KG
+Acceleration: 0.8467872237074676 m/s^2
+Denisty 1.1703088431581576 kg/m^3
+Air Pressure 99030.81611290366 Pascals 
+
+Altitude: 136 m
+Vertical velocity: 2.1055978736354994 m/s
+Buoyancy force: 1949.105753895732 Newtons
+Airship Mass 183 KG
+Acceleration: 0.8407368352035931 m/s^2
+Denisty 1.169644488963802 kg/m^3
+Air Pressure 98975.30103659429 Pascals 
+
+Altitude: 138 m
+Vertical velocity: 2.119785990340086 m/s
+Buoyancy force: 1947.9819593281093 Newtons
+Airship Mass 183 KG
+Acceleration: 0.834595100269798 m/s^2
+Denisty 1.1689701078430648 kg/m^3
+Air Pressure 98918.94147426271 Pascals 
+
+Altitude: 140 m
+Vertical velocity: 2.1338681374040394 m/s
+Buoyancy force: 1946.8413691953992 Newtons
+Airship Mass 183 KG
+Acceleration: 0.8283615919972451 m/s^2
+Denisty 1.1682856478232715 kg/m^3
+Air Pressure 98861.73296642129 Pascals 
+
+Altitude: 142 m
+Vertical velocity: 2.1478427467819206 m/s
+Buoyancy force: 1945.683898455037 Newtons
+Airship Mass 183 KG
+Acceleration: 0.8220358457577195 m/s^2
+Denisty 1.167591057870984 kg/m^3
+Air Pressure 98803.67113224848 Pascals 
+
+Altitude: 144 m
+Vertical velocity: 2.1608926252712033 m/s
+Buoyancy force: 1944.5094636486413 Newtons
+Airship Mass 183 KG
+Acceleration: 0.8156174055801824 m/s^2
+Denisty 1.166886287903422 kg/m^3
+Air Pressure 98744.75167055799 Pascals 
+
+Altitude: 146 m
+Vertical velocity: 2.1746474261597912 m/s
+Buoyancy force: 1943.3179949622292 Newtons
+Airship Mass 183 KG
+Acceleration: 0.8091059346228224 m/s^2
+Denisty 1.1661712960257113 kg/m^3
+Air Pressure 98684.97069920477 Pascals 
+
+Altitude: 149 m
+Vertical velocity: 2.188289941050404 m/s
+Buoyancy force: 1942.10940676733 Newtons
+Airship Mass 183 KG
+Acceleration: 0.8025008759184065 m/s^2
+Denisty 1.1654460308528158 kg/m^3
+Air Pressure 98624.32407857332 Pascals 
+
+Altitude: 151 m
+Vertical velocity: 2.2018185724084134 m/s
+Buoyancy force: 1940.8836204591605 Newtons
+Airship Mass 183 KG
+Acceleration: 0.795801844588798 m/s^2
+Denisty 1.1647104452145651 kg/m^3
+Air Pressure 98562.807751549 Pascals 
+
+Altitude: 153 m
+Vertical velocity: 2.2152317155527146 m/s
+Buoyancy force: 1939.6405590920235 Newtons
+Airship Mass 183 KG
+Acceleration: 0.7890084202530012 m/s^2
+Denisty 1.1639644929363937 kg/m^3
+Air Pressure 98500.41774446993 Pascals 
+
+Altitude: 155 m
+Vertical velocity: 2.228527758811579 m/s
+Buoyancy force: 1938.3801473978756 Newtons
+Airship Mass 183 KG
+Acceleration: 0.7821201916979224 m/s^2
+Denisty 1.1632081288504845 kg/m^3
+Air Pressure 98437.15016807402 Pascals 
+
+Altitude: 158 m
+Vertical velocity: 2.241705083680226 m/s
+Buoyancy force: 1937.1023118047851 Newtons
+Airship Mass 183 KG
+Acceleration: 0.7751367569792187 m/s^2
+Denisty 1.162441308806845 kg/m^3
+Air Pressure 98373.00121844048 Pascals 
+
+Altitude: 160 m
+Vertical velocity: 2.2547620649800915 m/s
+Buoyancy force: 1935.8069804552715 Newtons
+Airship Mass 183 KG
+Acceleration: 0.7680577235215011 m/s^2
+Denisty 1.161663989684313 kg/m^3
+Air Pressure 98307.96717792586 Pascals 
+
+Altitude: 162 m
+Vertical velocity: 2.2669361883115777 m/s
+Buoyancy force: 1934.494083224526 Newtons
+Airship Mass 183 KG
+Acceleration: 0.7608827082179026 m/s^2
+Denisty 1.1608761294014893 kg/m^3
+Air Pressure 98242.044416094 Pascals 
+
+Altitude: 164 m
+Vertical velocity: 2.2789939713544842 m/s
+Buoyancy force: 1933.1635629151249 Newtons
+Airship Mass 183 KG
+Acceleration: 0.7536114401816487 m/s^2
+Denisty 1.1600776936346076 kg/m^3
+Air Pressure 98175.22970486066 Pascals 
+
+Altitude: 167 m
+Vertical velocity: 2.291680111647417 m/s
+Buoyancy force: 1931.815358975401 Newtons
+Airship Mass 183 KG
+Acceleration: 0.7462435466431021 m/s^2
+Denisty 1.1592686460470432 kg/m^3
+Air Pressure 98107.51990136872 Pascals 
+
+Altitude: 169 m
+Vertical velocity: 2.3042393479417047 m/s
+Buoyancy force: 1930.449401616095 Newtons
+Airship Mass 183 KG
+Acceleration: 0.7387786055463295 m/s^2
+Denisty 1.1584489447587583 kg/m^3
+Air Pressure 98038.91164106045 Pascals 
+
+Altitude: 171 m
+Vertical velocity: 2.3166700252742256 m/s
+Buoyancy force: 1929.0656277965004 Newtons
+Airship Mass 183 KG
+Acceleration: 0.7312163136777095 m/s^2
+Denisty 1.1576185519394737 kg/m^3
+Air Pressure 97969.40165020325 Pascals 
+
+Altitude: 174 m
+Vertical velocity: 2.3282469266597223 m/s
+Buoyancy force: 1927.6639762968732 Newtons
+Airship Mass 183 KG
+Acceleration: 0.7235563365935551 m/s^2
+Denisty 1.156777430851657 kg/m^3
+Air Pressure 97898.98674678418 Pascals 
+
+Altitude: 176 m
+Vertical velocity: 2.3404155002640277 m/s
+Buoyancy force: 1926.244398327377 Newtons
+Airship Mass 183 KG
+Acceleration: 0.7157984473120784 m/s^2
+Denisty 1.1559255522168743 kg/m^3
+Air Pressure 97827.66413922109 Pascals 
+
+Altitude: 178 m
+Vertical velocity: 2.3524505181154987 m/s
+Buoyancy force: 1924.806831614955 Newtons
+Airship Mass 183 KG
+Acceleration: 0.7079422265571154 m/s^2
+Denisty 1.1550628786655077 kg/m^3
+Air Pressure 97755.43083096227 Pascals 
+
+Altitude: 181 m
+Vertical velocity: 2.3636503166718152 m/s
+Buoyancy force: 1923.3512204930546 Newtons
+Airship Mass 183 KG
+Acceleration: 0.6999874097698005 m/s^2
+Denisty 1.1541893767924551 kg/m^3
+Air Pressure 97682.28391979323 Pascals 
+
+Altitude: 183 m
+Vertical velocity: 2.3747212574285377 m/s
+Buoyancy force: 1921.8775214081788 Newtons
+Airship Mass 183 KG
+Acceleration: 0.6919337972951478 m/s^2
+Denisty 1.1533050204615733 kg/m^3
+Air Pressure 97608.22088621897 Pascals 
+
+Altitude: 185 m
+Vertical velocity: 2.3863455360813344 m/s
+Buoyancy force: 1920.3856880044439 Newtons
+Airship Mass 183 KG
+Acceleration: 0.6837810972233296 m/s^2
+Denisty 1.1524097818550263 kg/m^3
+Air Pressure 97533.23930264894 Pascals 
+
+Altitude: 188 m
+Vertical velocity: 2.39782952864812 m/s
+Buoyancy force: 1918.8756657919384 Newtons
+Airship Mass 183 KG
+Acceleration: 0.6755289745168174 m/s^2
+Denisty 1.1515036282738058 kg/m^3
+Air Pressure 97457.33655372239 Pascals 
+
+Altitude: 190 m
+Vertical velocity: 2.4085043639212906 m/s
+Buoyancy force: 1917.3474067321738 Newtons
+Airship Mass 183 KG
+Acceleration: 0.6671772045731537 m/s^2
+Denisty 1.1505865308903571 kg/m^3
+Air Pressure 97380.51012176735 Pascals 
+
+Altitude: 193 m
+Vertical velocity: 2.4190439739244933 m/s
+Buoyancy force: 1915.8008744552717 Newtons
+Airship Mass 183 KG
+Acceleration: 0.6587256252001765 m/s^2
+Denisty 1.1496584678793749 kg/m^3
+Air Pressure 97302.75786086702 Pascals 
+
+Altitude: 195 m
+Vertical velocity: 2.4300969317048233 m/s
+Buoyancy force: 1914.2360300750552 Newtons
+Airship Mass 183 KG
+Acceleration: 0.6501739870782295 m/s^2
+Denisty 1.1487194159055414 kg/m^3
+Air Pressure 97224.07772012564 Pascals 
+
+Altitude: 197 m
+Vertical velocity: 2.4403612837207223 m/s
+Buoyancy force: 1912.6528271511631 Newtons
+Airship Mass 183 KG
+Acceleration: 0.6415220009936942 m/s^2
+Denisty 1.147769347100326 kg/m^3
+Air Pressure 97144.4674785374 Pascals 
+
+Altitude: 200 m
+Vertical velocity: 2.4511183664035503 m/s
+Buoyancy force: 1911.0512348456355 Newtons
+Airship Mass 183 KG
+Acceleration: 0.6327695695781319 m/s^2
+Denisty 1.146808242958089 kg/m^3
+Air Pressure 97063.92527810803 Pascals 
+
+Altitude: 202 m
+Vertical velocity: 2.461724945059999 m/s
+Buoyancy force: 1909.4312108383742 Newtons
+Airship Mass 183 KG
+Acceleration: 0.6239163915557917 m/s^2
+Denisty 1.1458360780828407 kg/m^3
+Air Pressure 96982.44909972817 Pascals 
+
+Altitude: 205 m
+Vertical velocity: 2.4715643419346733 m/s
+Buoyancy force: 1907.792719003537 Newtons
+Airship Mass 183 KG
+Acceleration: 0.614962304667138 m/s^2
+Denisty 1.1448528307957198 kg/m^3
+Air Pressure 96900.03702669003 Pascals 
+
+Altitude: 207 m
+Vertical velocity: 2.481864764420762 m/s
+Buoyancy force: 1906.135734170141 Newtons
+Airship Mass 183 KG
+Acceleration: 0.605907205064053 m/s^2
+Denisty 1.143858485991799 kg/m^3
+Air Pressure 96816.68749612341 Pascals 
+
+Altitude: 210 m
+Vertical velocity: 2.491412777681677 m/s
+Buoyancy force: 1904.460220319357 Newtons
+Airship Mass 183 KG
+Acceleration: 0.5967508288071723 m/s^2
+Denisty 1.1428530220564352 kg/m^3
+Air Pressure 96732.39879774033 Pascals 
+
+Altitude: 212 m
+Vertical velocity: 2.501400160817487 m/s
+Buoyancy force: 1902.7661561191476 Newtons
+Airship Mass 183 KG
+Acceleration: 0.5874931256359055 m/s^2
+Denisty 1.1418364261884248 kg/m^3
+Air Pressure 96647.16956871934 Pascals 
+
+Altitude: 215 m
+Vertical velocity: 2.5106503025284517 m/s
+Buoyancy force: 1901.0535098207656 Newtons
+Airship Mass 183 KG
+Acceleration: 0.5781338569352847 m/s^2
+Denisty 1.1408086793355705 kg/m^3
+Air Pressure 96560.99830807431 Pascals 
+
+Altitude: 217 m
+Vertical velocity: 2.5203177433870363 m/s
+Buoyancy force: 1899.3222639807313 Newtons
+Airship Mass 183 KG
+Acceleration: 0.5686729916814546 m/s^2
+Denisty 1.1397697710301642 kg/m^3
+Air Pressure 96473.88385571277 Pascals 
+
+Altitude: 220 m
+Vertical velocity: 2.529822618774934 m/s
+Buoyancy force: 1897.5723911765715 Newtons
+Airship Mass 183 KG
+Acceleration: 0.5591103169351772 m/s^2
+Denisty 1.138719684816175 kg/m^3
+Air Pressure 96385.8249227279 Pascals 
+
+Altitude: 222 m
+Vertical velocity: 2.5386137507194677 m/s
+Buoyancy force: 1895.803869841788 Newtons
+Airship Mass 183 KG
+Acceleration: 0.5494457465333333 m/s^2
+Denisty 1.1376584077517005 kg/m^3
+Air Pressure 96296.8203275627 Pascals 
+
+Altitude: 225 m
+Vertical velocity: 2.547788297929786 m/s
+Buoyancy force: 1894.0166884603452 Newtons
+Airship Mass 183 KG
+Acceleration: 0.5396792476657808 m/s^2
+Denisty 1.1365859329260501 kg/m^3
+Air Pressure 96206.86921932056 Pascals 
+
+Altitude: 228 m
+Vertical velocity: 2.5567950789215432 m/s
+Buoyancy force: 1892.2108262060137 Newtons
+Airship Mass 183 KG
+Acceleration: 0.5298106465739583 m/s^2
+Denisty 1.135502247841552 kg/m^3
+Air Pressure 96115.97063249713 Pascals 
+
+Altitude: 230 m
+Vertical velocity: 2.5656323570636093 m/s
+Buoyancy force: 1890.386267950676 Newtons
+Airship Mass 183 KG
+Acceleration: 0.519839890709763 m/s^2
+Denisty 1.13440734341993 kg/m^3
+Air Pressure 96024.1237108542 Pascals 
+
+Altitude: 233 m
+Vertical velocity: 2.5737886276137045 m/s
+Buoyancy force: 1888.5430007402845 Newtons
+Airship Mass 183 KG
+Acceleration: 0.5097669093809483 m/s^2
+Denisty 1.1333012118875527 kg/m^3
+Air Pressure 95931.32770803283 Pascals 
+
+Altitude: 235 m
+Vertical velocity: 2.5817820950002486 m/s
+Buoyancy force: 1886.6810211198715 Newtons
+Airship Mass 183 KG
+Acceleration: 0.4995917116589901 m/s^2
+Denisty 1.1321838511711184 kg/m^3
+Air Pressure 95837.58219397819 Pascals 
+
+Altitude: 238 m
+Vertical velocity: 2.59010043714134 m/s
+Buoyancy force: 1884.8003243985813 Newtons
+Airship Mass 183 KG
+Acceleration: 0.4893142435936131 m/s^2
+Denisty 1.1310552584556783 kg/m^3
+Air Pressure 95742.88684481102 Pascals 
+
+Altitude: 240 m
+Vertical velocity: 2.5977633879596826 m/s
+Buoyancy force: 1882.9009009891643 Newtons
+Airship Mass 183 KG
+Acceleration: 0.4789344261464077 m/s^2
+Denisty 1.1299154279879917 kg/m^3
+Air Pressure 95647.24124615168 Pascals 
+
+Altitude: 243 m
+Vertical velocity: 2.605727077527768 m/s
+Buoyancy force: 1880.982753572682 Newtons
+Airship Mass 183 KG
+Acceleration: 0.4684523275344379 m/s^2
+Denisty 1.128764361376945 kg/m^3
+Air Pressure 95550.64528860175 Pascals 
+
+Altitude: 246 m
+Vertical velocity: 2.613510831285612 m/s
+Buoyancy force: 1879.045877134625 Newtons
+Airship Mass 183 KG
+Acceleration: 0.4578678681084689 m/s^2
+Denisty 1.1276020556133663 kg/m^3
+Air Pressure 95453.09878204316 Pascals 
+
+Altitude: 248 m
+Vertical velocity: 2.620665728496625 m/s
+Buoyancy force: 1877.0902719592734 Newtons
+Airship Mass 183 KG
+Acceleration: 0.44718107568830767 m/s^2
+Denisty 1.1264285108678505 kg/m^3
+Air Pressure 95354.60164954307 Pascals 
+
+Altitude: 251 m
+Vertical velocity: 2.628084392895903 m/s
+Buoyancy force: 1875.1159469553904 Newtons
+Airship Mass 183 KG
+Acceleration: 0.4363920234869152 m/s^2
+Denisty 1.1252437324864826 kg/m^3
+Air Pressure 95255.15410737417 Pascals 
+
+Altitude: 254 m
+Vertical velocity: 2.634892403668051 m/s
+Buoyancy force: 1873.1229040503752 Newtons
+Airship Mass 183 KG
+Acceleration: 0.4255006732592683 m/s^2
+Denisty 1.1240477216258815 kg/m^3
+Air Pressure 95154.75630590464 Pascals 
+
+Altitude: 256 m
+Vertical velocity: 2.641939025122136 m/s
+Buoyancy force: 1871.1111563415404 Newtons
+Airship Mass 183 KG
+Acceleration: 0.4145071443579429 m/s^2
+Denisty 1.1228404861456511 kg/m^3
+Air Pressure 95053.4086805958 Pascals 
+
+Altitude: 259 m
+Vertical velocity: 2.6487970193715387 m/s
+Buoyancy force: 1869.080710427936 Newtons
+Airship Mass 183 KG
+Acceleration: 0.4034114264354365 m/s^2
+Denisty 1.1216220300058344 kg/m^3
+Air Pressure 94951.11161096375 Pascals 
+
+Altitude: 261 m
+Vertical velocity: 2.6554646506760773 m/s
+Buoyancy force: 1867.0315778955228 Newtons
+Airship Mass 183 KG
+Acceleration: 0.39221360614933864 m/s^2
+Denisty 1.1203923601590837 kg/m^3
+Air Pressure 94847.865592003 Pascals 
+
+Altitude: 264 m
+Vertical velocity: 2.661940184586124 m/s
+Buoyancy force: 1864.9637726193635 Newtons
+Airship Mass 183 KG
+Acceleration: 0.38091375941451666 m/s^2
+Denisty 1.119151484931726 kg/m^3
+Air Pressure 94743.67123459499 Pascals 
+
+Altitude: 267 m
+Vertical velocity: 2.6682218881559367 m/s
+Buoyancy force: 1862.8773107710042 Newtons
+Airship Mass 183 KG
+Acceleration: 0.36951197469485386 m/s^2
+Denisty 1.1178994140281904 kg/m^3
+Air Pressure 94638.52926589796 Pascals 
+
+Altitude: 269 m
+Vertical velocity: 2.6743080301576425 m/s
+Buoyancy force: 1860.772210825477 Newtons
+Airship Mass 183 KG
+Acceleration: 0.35800835304150347 m/s^2
+Denisty 1.1166361585352123 kg/m^3
+Air Pressure 94532.44052971783 Pascals 
+
+Altitude: 272 m
+Vertical velocity: 2.6801968812958363 m/s
+Buoyancy force: 1858.648493567918 Newtons
+Airship Mass 183 KG
+Acceleration: 0.3464030081290499 m/s^2
+Denisty 1.115361730925804 kg/m^3
+Air Pressure 94425.40598686 Pascals 
+
+Altitude: 275 m
+Vertical velocity: 2.685886714422759 m/s
+Buoyancy force: 1856.5061820998076 Newtons
+Airship Mass 183 KG
+Acceleration: 0.33469606628958637 m/s^2
+Denisty 1.1140761450629995 kg/m^3
+Air Pressure 94317.42671546171 Pascals 
+
+Altitude: 278 m
+Vertical velocity: 2.6913758047540184 m/s
+Buoyancy force: 1854.345301844816 Newtons
+Airship Mass 183 KG
+Acceleration: 0.32288766654465384 m/s^2
+Denisty 1.1127794162033622 kg/m^3
+Air Pressure 94208.50391130491 Pascals 
+
+Altitude: 280 m
+Vertical velocity: 2.696662430084814 m/s
+Buoyancy force: 1852.165880554257 Newtons
+Airship Mass 183 KG
+Acceleration: 0.31097796063502336 m/s^2
+Denisty 1.1114715610002581 kg/m^3
+Air Pressure 94098.63888810924 Pascals 
+
+Altitude: 283 m
+Vertical velocity: 2.701445903893587 m/s
+Buoyancy force: 1849.967948312147 Newtons
+Airship Mass 183 KG
+Acceleration: 0.298967113048338 m/s^2
+Denisty 1.1101525975068913 kg/m^3
+Air Pressure 93987.83307780506 Pascals 
+
+Altitude: 286 m
+Vertical velocity: 2.7063224446795133 m/s
+Buoyancy force: 1847.7515417428335 Newtons
+Airship Mass 183 KG
+Acceleration: 0.2868553403486036 m/s^2
+Denisty 1.1088225477012719 kg/m^3
+Air Pressure 93876.08814916067 Pascals 
+
+Altitude: 288 m
+Vertical velocity: 2.710716729313312 m/s
+Buoyancy force: 1845.516693723518 Newtons
+Airship Mass 183 KG
+Acceleration: 0.27464278961241106 m/s^2
+Denisty 1.1074814313127745 kg/m^3
+Air Pressure 93763.40577085341 Pascals 
+
+Altitude: 291 m
+Vertical velocity: 2.7149140047702573 m/s
+Buoyancy force: 1843.2634452061054 Newtons
+Airship Mass 183 KG
+Acceleration: 0.2623297160590834 m/s^2
+Denisty 1.1061292729163459 kg/m^3
+Air Pressure 93649.78783895512 Pascals 
+
+Altitude: 294 m
+Vertical velocity: 2.7189126660551297 m/s
+Buoyancy force: 1840.9918375857778 Newtons
+Airship Mass 183 KG
+Acceleration: 0.24991633030453642 m/s^2
+Denisty 1.10476609735294 kg/m^3
+Air Pressure 93535.23636325882 Pascals 
+
+Altitude: 297 m
+Vertical velocity: 2.7229485148605743 m/s
+Buoyancy force: 1838.701914502917 Newtons
+Airship Mass 183 KG
+Acceleration: 0.23740287090850387 m/s^2
+Denisty 1.1033919308108393 kg/m^3
+Air Pressure 93419.75346742682 Pascals 
+
+Altitude: 299 m
+Vertical velocity: 2.726769937339951 m/s
+Buoyancy force: 1836.3937185278487 Newtons
+Airship Mass 183 KG
+Acceleration: 0.22478955761038222 m/s^2
+Denisty 1.1020067988361937 kg/m^3
+Air Pressure 93303.34129566573 Pascals 
+
+Altitude: 302 m
+Vertical velocity: 2.730375240529252 m/s
+Buoyancy force: 1834.0672961489095 Newtons
+Airship Mass 183 KG
+Acceleration: 0.21207665819418509 m/s^2
+Denisty 1.1006107293263225 kg/m^3
+Air Pressure 93186.00211169997 Pascals 
+
+Altitude: 305 m
+Vertical velocity: 2.733563471563997 m/s
+Buoyancy force: 1831.7226962122984 Newtons
+Airship Mass 183 KG
+Acceleration: 0.1992644396715466 m/s^2
+Denisty 1.0992037515934823 kg/m^3
+Air Pressure 93067.73829887775 Pascals 
+
+Altitude: 307 m
+Vertical velocity: 2.7367314760998824 m/s
+Buoyancy force: 1829.3599726974812 Newtons
+Airship Mass 183 KG
+Acceleration: 0.18635320799325328 m/s^2
+Denisty 1.0977858980303663 kg/m^3
+Air Pressure 92948.55243841118 Pascals 
+
+Altitude: 310 m
+Vertical velocity: 2.7396783109653104 m/s
+Buoyancy force: 1826.9791779249563 Newtons
+Airship Mass 183 KG
+Acceleration: 0.17334322737811547 m/s^2
+Denisty 1.0963572000341328 kg/m^3
+Air Pressure 92828.44715283322 Pascals 
+
+Altitude: 313 m
+Vertical velocity: 2.742402302809776 m/s
+Buoyancy force: 1824.5803678147133 Newtons
+Airship Mass 183 KG
+Acceleration: 0.16023481438034715 m/s^2
+Denisty 1.0949176911619702 kg/m^3
+Air Pressure 92707.42518448312 Pascals 
+
+Altitude: 316 m
+Vertical velocity: 2.7447547554107943 m/s
+Buoyancy force: 1822.1636006471708 Newtons
+Airship Mass 183 KG
+Acceleration: 0.14702828756362152 m/s^2
+Denisty 1.0934674063875423 kg/m^3
+Air Pressure 92585.48939552488 Pascals 
+
+Altitude: 318 m
+Vertical velocity: 2.7470280633691346 m/s
+Buoyancy force: 1819.7289390991011 Newtons
+Airship Mass 183 KG
+Acceleration: 0.13372399754943665 m/s^2
+Denisty 1.0920063833227343 kg/m^3
+Air Pressure 92462.64282532404 Pascals 
+
+Altitude: 321 m
+Vertical velocity: 2.748953219651144 m/s
+Buoyancy force: 1817.2764452561191 Newtons
+Airship Mass 183 KG
+Acceleration: 0.12032226762560327 m/s^2
+Denisty 1.0905346592246816 kg/m^3
+Air Pressure 92338.8885754377 Pascals 
+
+Altitude: 324 m
+Vertical velocity: 2.750769218788939 m/s
+Buoyancy force: 1814.806186133164 Newtons
+Airship Mass 183 KG
+Acceleration: 0.10682347869381026 m/s^2
+Denisty 1.0890522743085722 kg/m^3
+Air Pressure 92214.22991400397 Pascals 
+
+Altitude: 327 m
+Vertical velocity: 2.7522608665267265 m/s
+Buoyancy force: 1812.3182286931308 Newtons
+Airship Mass 183 KG
+Acceleration: 0.09322798361171003 m/s^2
+Denisty 1.0875592687583628 kg/m^3
+Air Pressure 92088.67018181091 Pascals 
+
+Altitude: 329 m
+Vertical velocity: 2.7535334454706084 m/s
+Buoyancy force: 1809.812644279314 Newtons
+Airship Mass 183 KG
+Acceleration: 0.07953618399261586 m/s^2
+Denisty 1.0860556853866568 kg/m^3
+Air Pressure 91962.21287541925 Pascals 
+
+Altitude: 332 m
+Vertical velocity: 2.7545854210321448 m/s
+Buoyancy force: 1807.2895058195259 Newtons
+Airship Mass 183 KG
+Acceleration: 0.06574847259601668 m/s^2
+Denisty 1.0845415679569146 kg/m^3
+Air Pressure 91834.86160534798 Pascals 
+
+Altitude: 335 m
+Vertical velocity: 2.7554152651962407 m/s
+Buoyancy force: 1804.748888481057 Newtons
+Airship Mass 183 KG
+Acceleration: 0.05186526025599214 m/s^2
+Denisty 1.083016961576493 kg/m^3
+Air Pressure 91706.62009593092 Pascals 
+
+Altitude: 338 m
+Vertical velocity: 2.756059343686653 m/s
+Buoyancy force: 1802.1908696670885 Newtons
+Airship Mass 183 KG
+Acceleration: 0.03788697002424257 m/s^2
+Denisty 1.0814819126944897 kg/m^3
+Air Pressure 91577.49218515164 Pascals 
+
+Altitude: 340 m
+Vertical velocity: 2.7564641822347564 m/s
+Buoyancy force: 1799.615528493611 Newtons
+Airship Mass 183 KG
+Acceleration: 0.023814032241388006 m/s^2
+Denisty 1.0799364687878474 kg/m^3
+Air Pressure 91447.48180982594 Pascals 
+
+Altitude: 343 m
+Vertical velocity: 2.7566281794779504 m/s
+Buoyancy force: 1797.0229467303218 Newtons
+Airship Mass 183 KG
+Acceleration: 0.00964689665846663 m/s^2
+Denisty 1.0783806789259796 kg/m^3
+Air Pressure 91316.59302553281 Pascals 
+
+Altitude: 346 m
+Vertical velocity: 2.756549741867758 m/s
+Buoyancy force: 1794.4132084779587 Newtons
+Airship Mass 183 KG
+Acceleration: -0.004613977070142994 m/s^2
+Denisty 1.0768145935771403 kg/m^3
+Air Pressure 91184.83000638439 Pascals 
+
+Altitude: 349 m
+Vertical velocity: 2.75624625200245 m/s
+Buoyancy force: 1791.7864001629578 Newtons
+Airship Mass 183 KG
+Acceleration: -0.018968116581753236 m/s^2
+Denisty 1.0752382646052185 kg/m^3
+Air Pressure 91052.19704477311 Pascals 
+
+Altitude: 351 m
+Vertical velocity: 2.755678196334596 m/s
+Buoyancy force: 1789.1426102732682 Newtons
+Airship Mass 183 KG
+Acceleration: -0.03341503928552925 m/s^2
+Denisty 1.0736517451112029 kg/m^3
+Air Pressure 90918.69854381142 Pascals 
+
+Altitude: 354 m
+Vertical velocity: 2.7549109284179116 m/s
+Buoyancy force: 1786.4819299848825 Newtons
+Airship Mass 183 KG
+Acceleration: -0.0479542447927912 m/s^2
+Denisty 1.0720550898091574 kg/m^3
+Air Pressure 90784.3390316331 Pascals 
+
+Altitude: 357 m
+Vertical velocity: 2.753909564737453 m/s
+Buoyancy force: 1783.8044520140406 Newtons
+Airship Mass 183 KG
+Acceleration: -0.06258523002865424 m/s^2
+Denisty 1.070448354337438 kg/m^3
+Air Pressure 90649.12313539251 Pascals 
+
+Altitude: 360 m
+Vertical velocity: 2.7526726451637797 m/s
+Buoyancy force: 1781.1102714717622 Newtons
+Airship Mass 183 KG
+Acceleration: -0.07730747335456378 m/s^2
+Denisty 1.0688315957714898 kg/m^3
+Air Pressure 90513.05559379549 Pascals 
+
+Altitude: 362 m
+Vertical velocity: 2.751106597632408 m/s
+Buoyancy force: 1778.3994856534518 Newtons
+Airship Mass 183 KG
+Acceleration: -0.09212044302185696 m/s^2
+Denisty 1.067204872497593 kg/m^3
+Air Pressure 90376.14125673955 Pascals 
+
+Altitude: 365 m
+Vertical velocity: 2.7492871967120887 m/s
+Buoyancy force: 1775.6721952766557 Newtons
+Airship Mass 183 KG
+Acceleration: -0.10702358354820163 m/s^2
+Denisty 1.0655682449556305 kg/m^3
+Air Pressure 90238.38512005552 Pascals 
+
+Altitude: 368 m
+Vertical velocity: 2.7473349352909042 m/s
+Buoyancy force: 1772.928502867171 Newtons
+Airship Mass 183 KG
+Acceleration: -0.12201633882402341 m/s^2
+Denisty 1.063921774670603 kg/m^3
+Air Pressure 90099.79229544562 Pascals 
+
+Altitude: 371 m
+Vertical velocity: 2.7451413648623455 m/s
+Buoyancy force: 1770.1685115727123 Newtons
+Airship Mass 183 KG
+Acceleration: -0.13709815178492235 m/s^2
+Denisty 1.06226552354072 kg/m^3
+Air Pressure 89960.3679636627 Pascals 
+
+Altitude: 373 m
+Vertical velocity: 2.742705069861064 m/s
+Buoyancy force: 1767.3923273364894 Newtons
+Airship Mass 183 KG
+Acceleration: -0.1522684375801049 m/s^2
+Denisty 1.0605995551417469 kg/m^3
+Air Pressure 89820.1174149913 Pascals 
+
+Altitude: 376 m
+Vertical velocity: 2.740024644172914 m/s
+Buoyancy force: 1764.6000582424856 Newtons
+Airship Mass 183 KG
+Acceleration: -0.1675266055093605 m/s^2
+Denisty 1.0589239343341137 kg/m^3
+Air Pressure 89679.04604877981 Pascals 
+
+Altitude: 379 m
+Vertical velocity: 2.736915819268017 m/s
+Buoyancy force: 1761.7918145054944 Newtons
+Airship Mass 183 KG
+Acceleration: -0.18287205322921984 m/s^2
+Denisty 1.0572387272569328 kg/m^3
+Air Pressure 89537.15937295149 Pascals 
+
+Altitude: 382 m
+Vertical velocity: 2.733544648829717 m/s
+Buoyancy force: 1758.9677109106078 Newtons
+Airship Mass 183 KG
+Acceleration: -0.19830414342942504 m/s^2
+Denisty 1.0555440027919214 kg/m^3
+Air Pressure 89394.46307259172 Pascals 
+
+Altitude: 384 m
+Vertical velocity: 2.729909670557266 m/s
+Buoyancy force: 1756.1278634548087 Newtons
+Airship Mass 183 KG
+Acceleration: -0.21382225132065358 m/s^2
+Denisty 1.0538398305480425 kg/m^3
+Air Pressure 89250.9629457094 Pascals 
+
+Altitude: 387 m
+Vertical velocity: 2.726238858862598 m/s
+Buoyancy force: 1753.2723903389424 Newtons
+Airship Mass 183 KG
+Acceleration: -0.22942573091673957 m/s^2
+Denisty 1.0521262814567829 kg/m^3
+Air Pressure 89106.66490266434 Pascals 
+
+Altitude: 390 m
+Vertical velocity: 2.7223170356064847 m/s
+Buoyancy force: 1750.4014088967956 Newtons
+Airship Mass 183 KG
+Acceleration: -0.245113953507067 m/s^2
+Denisty 1.050403425929312 kg/m^3
+Air Pressure 88961.57487928851 Pascals 
+
+Altitude: 393 m
+Vertical velocity: 2.717881969392814 m/s
+Buoyancy force: 1747.5150398114297 Newtons
+Airship Mass 183 KG
+Acceleration: -0.2608862478629863 m/s^2
+Denisty 1.0486713363866764 kg/m^3
+Air Pressure 88815.6989172125 Pascals 
+
+Altitude: 395 m
+Vertical velocity: 2.7131773569232998 m/s
+Buoyancy force: 1744.613409294925 Newtons
+Airship Mass 183 KG
+Acceleration: -0.276741909971415 m/s^2
+Denisty 1.046930088567847 kg/m^3
+Air Pressure 88669.04326105489 Pascals 
+
+Altitude: 398 m
+Vertical velocity: 2.7082017925090924 m/s
+Buoyancy force: 1741.696644255926 Newtons
+Airship Mass 183 KG
+Acceleration: -0.29268025965925304 m/s^2
+Denisty 1.0451797586297977 kg/m^3
+Air Pressure 88521.61426528258 Pascals 
+
+Altitude: 401 m
+Vertical velocity: 2.7032625830423846 m/s
+Buoyancy force: 1738.764873742455 Newtons
+Airship Mass 183 KG
+Acceleration: -0.30870059166923625 m/s^2
+Denisty 1.0434204240133287 kg/m^3
+Air Pressure 88373.41839352765 Pascals 
+
+Altitude: 403 m
+Vertical velocity: 2.697740945161159 m/s
+Buoyancy force: 1735.8182248455803 Newtons
+Airship Mass 183 KG
+Acceleration: -0.32480222830737837 m/s^2
+Denisty 1.041652160984885 kg/m^3
+Air Pressure 88224.4621027116 Pascals 
+
+Altitude: 406 m
+Vertical velocity: 2.6919442104051203 m/s
+Buoyancy force: 1732.8568326826808 Newtons
+Airship Mass 183 KG
+Acceleration: -0.34098439741404896 m/s^2
+Denisty 1.039875050627444 kg/m^3
+Air Pressure 88074.75207323354 Pascals 
+
+Altitude: 409 m
+Vertical velocity: 2.6858710220140765 m/s
+Buoyancy force: 1729.880832644397 Newtons
+Airship Mass 183 KG
+Acceleration: -0.3572463759437543 m/s^2
+Denisty 1.0380891741879654 kg/m^3
+Air Pressure 87924.29509248494 Pascals 
+
+Altitude: 411 m
+Vertical velocity: 2.6798936234122177 m/s
+Buoyancy force: 1726.890362201461 Newtons
+Airship Mass 183 KG
+Acceleration: -0.3735874126161711 m/s^2
+Denisty 1.0362946141616567 kg/m^3
+Air Pressure 87773.09805408059 Pascals 
+
+Altitude: 414 m
+Vertical velocity: 2.673653514738627 m/s
+Buoyancy force: 1723.8855559820433 Newtons
+Airship Mass 183 KG
+Acceleration: -0.39000679209940436 m/s^2
+Denisty 1.0344914513379253 kg/m^3
+Air Pressure 87621.16781860932 Pascals 
+
+Altitude: 417 m
+Vertical velocity: 2.667149454946242 m/s
+Buoyancy force: 1720.8665526597408 Newtons
+Airship Mass 183 KG
+Acceleration: -0.4065037370240798 m/s^2
+Denisty 1.032679768933809 kg/m^3
+Air Pressure 87468.51134614773 Pascals 
+
+Altitude: 419 m
+Vertical velocity: 2.6603802152824088 m/s
+Buoyancy force: 1717.8334928394609 Newtons
+Airship Mass 183 KG
+Acceleration: -0.42307747898955483 m/s^2
+Denisty 1.0308596513253123 kg/m^3
+Air Pressure 87315.13569546373 Pascals 
+
+Altitude: 422 m
+Vertical velocity: 2.6529048522171705 m/s
+Buoyancy force: 1714.786519041061 Newtons
+Airship Mass 183 KG
+Acceleration: -0.43972723913164913 m/s^2
+Denisty 1.029031184037587 kg/m^3
+Air Pressure 87161.04802320093 Pascals 
+
+Altitude: 425 m
+Vertical velocity: 2.645145165278815 m/s
+Buoyancy force: 1711.7257814179877 Newtons
+Airship Mass 183 KG
+Acceleration: -0.4564521728444504 m/s^2
+Denisty 1.0271944571766476 kg/m^3
+Air Pressure 87006.25574491068 Pascals 
+
+Altitude: 427 m
+Vertical velocity: 2.6370998900281375 m/s
+Buoyancy force: 1708.6514296355372 Newtons
+Airship Mass 183 KG
+Acceleration: -0.4732514853339662 m/s^2
+Denisty 1.025349560555573 kg/m^3
+Air Pressure 86850.76637734906 Pascals 
+
+Altitude: 430 m
+Vertical velocity: 2.6287677761126163 m/s
+Buoyancy force: 1705.5636153200544 Newtons
+Airship Mass 183 KG
+Acceleration: -0.490124347971836 m/s^2
+Denisty 1.0234965851642535 kg/m^3
+Air Pressure 86694.58753756488 Pascals 
+
+Altitude: 433 m
+Vertical velocity: 2.6206546573683553 m/s
+Buoyancy force: 1702.4624920402753 Newtons
+Airship Mass 183 KG
+Acceleration: -0.507069921516317 m/s^2
+Denisty 1.0216356231581945 kg/m^3
+Air Pressure 86537.72694196805 Pascals 
+
+Altitude: 435 m
+Vertical velocity: 2.6117451712316138 m/s
+Buoyancy force: 1699.3482087216516 Newtons
+Airship Mass 183 KG
+Acceleration: -0.5240874198083176 m/s^2
+Denisty 1.0197667639064993 kg/m^3
+Air Pressure 86380.19222002254 Pascals 
+
+Altitude: 438 m
+Vertical velocity: 2.6025451807420334 m/s
+Buoyancy force: 1696.220925710937 Newtons
+Airship Mass 183 KG
+Acceleration: -0.5411759111517771 m/s^2
+Denisty 1.0178901036321137 kg/m^3
+Air Pressure 86221.9912849864 Pascals 
+
+Altitude: 440 m
+Vertical velocity: 2.5930534933461957 m/s
+Buoyancy force: 1693.080802308379 Newtons
+Airship Mass 183 KG
+Acceleration: -0.5583345526963317 m/s^2
+Denisty 1.0160057379299823 kg/m^3
+Air Pressure 86063.13214657878 Pascals 
+
+Altitude: 443 m
+Vertical velocity: 2.5832689314633566 m/s
+Buoyancy force: 1689.9279996784896 Newtons
+Airship Mass 183 KG
+Acceleration: -0.5755624636964143 m/s^2
+Denisty 1.0141137635137814 kg/m^3
+Air Pressure 85903.62290997281 Pascals 
+
+Altitude: 446 m
+Vertical velocity: 2.5737831914100457 m/s
+Buoyancy force: 1686.7626808295709 Newtons
+Airship Mass 183 KG
+Acceleration: -0.5928587533319334 m/s^2
+Denisty 1.012214278203633 kg/m^3
+Air Pressure 85743.4717747705 Pascals 
+
+Altitude: 448 m
+Vertical velocity: 2.5634094072986215 m/s
+Buoyancy force: 1683.5850029854084 Newtons
+Airship Mass 183 KG
+Acceleration: -0.6102225947896489 m/s^2
+Denisty 1.0103073763484112 kg/m^3
+Air Pressure 85582.68681918256 Pascals 
+
+Altitude: 451 m
+Vertical velocity: 2.552739306401163 m/s
+Buoyancy force: 1680.395136197899 Newtons
+Airship Mass 183 KG
+Acceleration: -0.6276529939681641 m/s^2
+Denisty 1.0083931599950493 kg/m^3
+Air Pressure 85421.27642971318 Pascals 
+
+Altitude: 453 m
+Vertical velocity: 2.542416921396677 m/s
+Buoyancy force: 1677.1932489042538 Newtons
+Airship Mass 183 KG
+Acceleration: -0.6451490627803853 m/s^2
+Denisty 1.0064717302215185 kg/m^3
+Air Pressure 85259.24908412388 Pascals 
+
+Altitude: 456 m
+Vertical velocity: 2.531150852223381 m/s
+Buoyancy force: 1673.9795030684375 Newtons
+Airship Mass 183 KG
+Acceleration: -0.6627099513703634 m/s^2
+Denisty 1.0045431842212413 kg/m^3
+Air Pressure 85096.61311790592 Pascals 
+
+Altitude: 458 m
+Vertical velocity: 2.5202654981524804 m/s
+Buoyancy force: 1670.754074322597 Newtons
+Airship Mass 183 KG
+Acceleration: -0.680334629431286 m/s^2
+Denisty 1.0026076273898188 kg/m^3
+Air Pressure 84933.37718934624 Pascals 
+
+Altitude: 461 m
+Vertical velocity: 2.5083991196039688 m/s
+Buoyancy force: 1667.517127691592 Newtons
+Airship Mass 183 KG
+Acceleration: -0.6980222675595069 m/s^2
+Denisty 1.0006651587574946 kg/m^3
+Air Pressure 84769.54980047085 Pascals 
+
+Altitude: 463 m
+Vertical velocity: 2.4969467706147035 m/s
+Buoyancy force: 1664.268842426476 Newtons
+Airship Mass 183 KG
+Acceleration: -0.7157718118290699 m/s^2
+Denisty 0.9987158858915502 kg/m^3
+Air Pressure 84605.13978568454 Pascals 
+
+Altitude: 466 m
+Vertical velocity: 2.484475869466969 m/s
+Buoyancy force: 1661.0093865244462 Newtons
+Airship Mass 183 KG
+Acceleration: -0.7335824204549724 m/s^2
+Denisty 0.9967599096059075 kg/m^3
+Air Pressure 84440.15580908908 Pascals 
+
+Altitude: 468 m
+Vertical velocity: 2.4724526212052265 m/s
+Buoyancy force: 1657.7389427650155 Newtons
+Airship Mass 183 KG
+Acceleration: -0.7514530163589033 m/s^2
+Denisty 0.9947973395852513 kg/m^3
+Air Pressure 84274.6068766751 Pascals 
+
+Altitude: 471 m
+Vertical velocity: 2.4593731145249684 m/s
+Buoyancy force: 1654.4576820269656 Newtons
+Airship Mass 183 KG
+Acceleration: -0.7693827458975235 m/s^2
+Denisty 0.9928282783727223 kg/m^3
+Air Pressure 84108.50181004399 Pascals 
+
+Altitude: 473 m
+Vertical velocity: 2.4467751863758362 m/s
+Buoyancy force: 1651.1657905254467 Newtons
+Airship Mass 183 KG
+Acceleration: -0.7873705093207573 m/s^2
+Denisty 0.9908528377147064 kg/m^3
+Air Pressure 83941.84978212118 Pascals 
+
+Altitude: 476 m
+Vertical velocity: 2.433888539309269 m/s
+Buoyancy force: 1647.8634419279986 Newtons
+Airship Mass 183 KG
+Acceleration: -0.8054154416604664 m/s^2
+Denisty 0.9888711218278581 kg/m^3
+Air Pressure 83774.65976731999 Pascals 
+
+Altitude: 478 m
+Vertical velocity: 2.4207122749863195 m/s
+Buoyancy force: 1644.5508156916592 Newtons
+Airship Mass 183 KG
+Acceleration: -0.823516520184338 m/s^2
+Denisty 0.9868832384030687 kg/m^3
+Air Pressure 83606.94081550068 Pascals 
+
+Altitude: 480 m
+Vertical velocity: 2.4064038381290143 m/s
+Buoyancy force: 1641.228092717642 Newtons
+Airship Mass 183 KG
+Acceleration: -0.8416727563120645 m/s^2
+Denisty 0.9848892959978682 kg/m^3
+Air Pressure 83438.70205078683 Pascals 
+
+Altitude: 483 m
+Vertical velocity: 2.392645709324672 m/s
+Buoyancy force: 1637.8954658387156 Newtons
+Airship Mass 183 KG
+Acceleration: -0.8598830502713977 m/s^2
+Denisty 0.982889410329829 kg/m^3
+Air Pressure 83269.95296727585 Pascals 
+
+Altitude: 485 m
+Vertical velocity: 2.377717218554395 m/s
+Buoyancy force: 1634.5531140476446 Newtons
+Airship Mass 183 KG
+Acceleration: -0.8781465158986261 m/s^2
+Denisty 0.9808836888112349 kg/m^3
+Air Pressure 83100.7028322392 Pascals 
+
+Altitude: 488 m
+Vertical velocity: 2.3624773647540804 m/s
+Buoyancy force: 1631.20123332174 Newtons
+Airship Mass 183 KG
+Acceleration: -0.8964619882538027 m/s^2
+Denisty 0.9788722490466748 kg/m^3
+Air Pressure 82930.96129212205 Pascals 
+
+Altitude: 490 m
+Vertical velocity: 2.3478401093667127 m/s
+Buoyancy force: 1627.8400162806308 Newtons
+Airship Mass 183 KG
+Acceleration: -0.9148284617104743 m/s^2
+Denisty 0.9768552066258177 kg/m^3
+Air Pressure 82760.73806670608 Pascals 
+
+Altitude: 492 m
+Vertical velocity: 2.331974944571911 m/s
+Buoyancy force: 1624.469645609994 Newtons
+Airship Mass 183 KG
+Acceleration: -0.9332449879295073 m/s^2
+Denisty 0.9748326711770374 kg/m^3
+Air Pressure 82590.04262765717 Pascals 
+
+Altitude: 495 m
+Vertical velocity: 2.3157958682591917 m/s
+Buoyancy force: 1621.0903217948776 Newtons
+Airship Mass 183 KG
+Acceleration: -0.9517103713364392 m/s^2
+Denisty 0.9728047630099846 kg/m^3
+Air Pressure 82418.88483945612 Pascals 
+
+Altitude: 497 m
+Vertical velocity: 2.2993020672869258 m/s
+Buoyancy force: 1617.7022416101734 Newtons
+Airship Mass 183 KG
+Acceleration: -0.9702235866038755 m/s^2
+Denisty 0.9707716002078709 kg/m^3
+Air Pressure 82247.27463597886 Pascals 
+
+Altitude: 499 m
+Vertical velocity: 2.2834815304676606 m/s
+Buoyancy force: 1614.305603150327 Newtons
+Airship Mass 183 KG
+Acceleration: -0.9887835512040759 m/s^2
+Denisty 0.9687333016457629 kg/m^3
+Air Pressure 82075.22201915791 Pascals 
+
+Altitude: 501 m
+Vertical velocity: 2.267363301732367 m/s
+Buoyancy force: 1610.9005936553863 Newtons
+Airship Mass 183 KG
+Acceleration: -1.0073892959558375 m/s^2
+Denisty 0.9666899796850809 kg/m^3
+Air Pressure 81902.73671441717 Pascals 
+
+Altitude: 504 m
+Vertical velocity: 2.2509466663887707 m/s
+Buoyancy force: 1607.487406890636 Newtons
+Airship Mass 183 KG
+Acceleration: -1.0260397089747624 m/s^2
+Denisty 0.964641750602993 kg/m^3
+Air Pressure 81729.82850893373 Pascals 
+
+Altitude: 506 m
+Vertical velocity: 2.2331861930637955 m/s
+Buoyancy force: 1604.066237791933 Newtons
+Airship Mass 183 KG
+Acceleration: -1.0447337249985296 m/s^2
+Denisty 0.9625887313791189 kg/m^3
+Air Pressure 81556.50725034262 Pascals 
+
+Altitude: 508 m
+Vertical velocity: 2.2161706707321467 m/s
+Buoyancy force: 1600.6372951936949 Newtons
+Airship Mass 183 KG
+Acceleration: -1.0634701457280649 m/s^2
+Denisty 0.9605310473335066 kg/m^3
+Air Pressure 81382.78320582383 Pascals 
+
+Altitude: 510 m
+Vertical velocity: 2.1988547021073357 m/s
+Buoyancy force: 1597.2007705604333 Newtons
+Airship Mass 183 KG
+Acceleration: -1.0822480390506772 m/s^2
+Denisty 0.9584688133626464 kg/m^3
+Air Pressure 81208.66633773342 Pascals 
+
+Altitude: 513 m
+Vertical velocity: 2.1801365756104354 m/s
+Buoyancy force: 1593.75686213921 Newtons
+Airship Mass 183 KG
+Acceleration: -1.101066264523558 m/s^2
+Denisty 0.956402148433189 kg/m^3
+Air Pressure 81034.16666494303 Pascals 
+
+Altitude: 515 m
+Vertical velocity: 2.16109787441354 m/s
+Buoyancy force: 1590.3057825991755 Newtons
+Airship Mass 183 KG
+Acceleration: -1.1199235998173815 m/s^2
+Denisty 0.9543311801663779 kg/m^3
+Air Pressure 80859.29463895087 Pascals 
+
+Altitude: 517 m
+Vertical velocity: 2.141737951958315 m/s
+Buoyancy force: 1586.8477398430864 Newtons
+Airship Mass 183 KG
+Acceleration: -1.138818967954414 m/s^2
+Denisty 0.9522560333231773 kg/m^3
+Air Pressure 80684.06076834956 Pascals 
+
+Altitude: 519 m
+Vertical velocity: 2.123213932327188 m/s
+Buoyancy force: 1583.3829428485096 Newtons
+Airship Mass 183 KG
+Acceleration: -1.1577512269454093 m/s^2
+Denisty 0.9501768333095378 kg/m^3
+Air Pressure 80508.47561741597 Pascals 
+
+Altitude: 521 m
+Vertical velocity: 2.1043864224297555 m/s
+Buoyancy force: 1579.911587687439 Newtons
+Airship Mass 183 KG
+Acceleration: -1.1767193685895325 m/s^2
+Denisty 0.9480936977868669 kg/m^3
+Air Pressure 80332.54941035871 Pascals 
+
+Altitude: 523 m
+Vertical velocity: 2.084059144682655 m/s
+Buoyancy force: 1576.4338775277927 Newtons
+Airship Mass 183 KG
+Acceleration: -1.1957222204176592 m/s^2
+Denisty 0.9460067486747864 kg/m^3
+Air Pressure 80156.29242119404 Pascals 
+
+Altitude: 525 m
+Vertical velocity: 2.0634082497856796 m/s
+Buoyancy force: 1572.9500308181207 Newtons
+Airship Mass 183 KG
+Acceleration: -1.2147585233515095 m/s^2
+Denisty 0.9439161170627162 kg/m^3
+Air Pressure 79979.71537791606 Pascals 
+
+Altitude: 527 m
+Vertical velocity: 2.043667014950706 m/s
+Buoyancy force: 1569.4602606574872 Newtons
+Airship Mass 183 KG
+Acceleration: -1.2338271771858516 m/s^2
+Denisty 0.9418219308298875 kg/m^3
+Air Pressure 79802.82905853422 Pascals 
+
+Altitude: 529 m
+Vertical velocity: 2.0223672532260695 m/s
+Buoyancy force: 1565.964766340236 Newtons
+Airship Mass 183 KG
+Acceleration: -1.2529271602727512 m/s^2
+Denisty 0.9397243095714181 kg/m^3
+Air Pressure 79625.6438730119 Pascals 
+
+Altitude: 531 m
+Vertical velocity: 2.000742282067443 m/s
+Buoyancy force: 1562.4637694355513 Newtons
+Airship Mass 183 KG
+Acceleration: -1.272057126978039 m/s^2
+Denisty 0.9376233862493975 kg/m^3
+Air Pressure 79448.17069783511 Pascals 
+
+Altitude: 533 m
+Vertical velocity: 1.9787916106613206 m/s
+Buoyancy force: 1558.9574858157391 Newtons
+Airship Mass 183 KG
+Acceleration: -1.291215965066021 m/s^2
+Denisty 0.9355192904072606 kg/m^3
+Air Pressure 79270.42045520662 Pascals 
+
+Altitude: 535 m
+Vertical velocity: 1.9565147683272948 m/s
+Buoyancy force: 1555.4461322027705 Newtons
+Airship Mass 183 KG
+Acceleration: -1.310402490236811 m/s^2
+Denisty 0.9334121520983192 kg/m^3
+Air Pressure 79092.40411160441 Pascals 
+
+Altitude: 537 m
+Vertical velocity: 1.9339113045943255 m/s
+Buoyancy force: 1551.929926139837 Newtons
+Airship Mass 183 KG
+Acceleration: -1.3296155137040788 m/s^2
+Denisty 0.931302101868694 kg/m^3
+Air Pressure 78914.13267633847 Pascals 
+
+Altitude: 539 m
+Vertical velocity: 1.9123296431167165 m/s
+Buoyancy force: 1548.4090859628939 Newtons
+Airship Mass 183 KG
+Acceleration: -1.3488538423505592 m/s^2
+Denisty 0.9291892707402378 kg/m^3
+Air Pressure 78735.61720010659 Pascals 
+
+Altitude: 541 m
+Vertical velocity: 1.8890716636457474 m/s
+Buoyancy force: 1544.8838148736472 Newtons
+Airship Mass 183 KG
+Acceleration: -1.368116439468766 m/s^2
+Denisty 0.9270737806528481 kg/m^3
+Air Pressure 78556.86832407516 Pascals 
+
+Altitude: 543 m
+Vertical velocity: 1.8654858310524798 m/s
+Buoyancy force: 1541.3543398596976 Newtons
+Airship Mass 183 KG
+Acceleration: -1.387401917251033 m/s^2
+Denisty 0.9249557678201681 kg/m^3
+Air Pressure 78377.89718041754 Pascals 
+
+Altitude: 545 m
+Vertical velocity: 1.8415717756061827 m/s
+Buoyancy force: 1537.820881524643 Newtons
+Airship Mass 183 KG
+Acceleration: -1.406709143899823 m/s^2
+Denisty 0.9228353646248467 kg/m^3
+Air Pressure 78198.71493836903 Pascals 
+
+Altitude: 546 m
+Vertical velocity: 1.8173291481327896 m/s
+Buoyancy force: 1534.283661151231 Newtons
+Airship Mass 183 KG
+Acceleration: -1.426036910199592 m/s^2
+Denisty 0.9207127038570855 kg/m^3
+Air Pressure 78019.3328027826 Pascals 
+
+Altitude: 548 m
+Vertical velocity: 1.7927576200753317 m/s
+Buoyancy force: 1530.7429006729653 Newtons
+Airship Mass 183 KG
+Acceleration: -1.4453840033798695 m/s^2
+Denisty 0.9185879186976008 kg/m^3
+Air Pressure 77839.76201268603 Pascals 
+
+Altitude: 550 m
+Vertical velocity: 1.7678568835517392 m/s
+Buoyancy force: 1527.1988226457645 Newtons
+Airship Mass 183 KG
+Acceleration: -1.4647492072701436 m/s^2
+Denisty 0.9164611427006145 kg/m^3
+Air Pressure 77660.01383984066 Pascals 
+
+Altitude: 552 m
+Vertical velocity: 1.7441107827124671 m/s
+Buoyancy force: 1523.6516502196603 Newtons
+Airship Mass 183 KG
+Acceleration: -1.484131302454509 m/s^2
+Denisty 0.9143325097768726 kg/m^3
+Air Pressure 77480.0995873027 Pascals 
+
+Altitude: 553 m
+Vertical velocity: 1.7200543148469323 m/s
+Buoyancy force: 1520.101589895774 Newtons
+Airship Mass 183 KG
+Acceleration: -1.5035292415959205 m/s^2
+Denisty 0.9122021438462281 kg/m^3
+Air Pressure 77300.03010120928 Pascals 
+
+Altitude: 555 m
+Vertical velocity: 1.6941643047234711 m/s
+Buoyancy force: 1516.5488562729502 Newtons
+Airship Mass 183 KG
+Acceleration: -1.5229417719682967 m/s^2
+Denisty 0.9100701736879201 kg/m^3
+Air Pressure 77119.81625426051 Pascals 
+
+Altitude: 557 m
+Vertical velocity: 1.669486424099713 m/s
+Buoyancy force: 1512.9936820088135 Newtons
+Airship Mass 183 KG
+Acceleration: -1.5423675389848839 m/s^2
+Denisty 0.907936738918133 kg/m^3
+Air Pressure 76939.46944158609 Pascals 
+
+Altitude: 558 m
+Vertical velocity: 1.6444975349064932 m/s
+Buoyancy force: 1509.436274716791 Newtons
+Airship Mass 183 KG
+Acceleration: -1.561805574576228 m/s^2
+Denisty 0.9058019641242064 kg/m^3
+Air Pressure 76759.00058150674 Pascals 
+
+Altitude: 560 m
+Vertical velocity: 1.6191974610529436 m/s
+Buoyancy force: 1505.876850275377 Newtons
+Airship Mass 183 KG
+Acceleration: -1.5812546158468432 m/s^2
+Denisty 0.9036659788532883 kg/m^3
+Air Pressure 76578.42061486539 Pascals 
+
+Altitude: 562 m
+Vertical velocity: 1.5935860453576525 m/s
+Buoyancy force: 1502.315624959719 Newtons
+Airship Mass 183 KG
+Acceleration: -1.600713480955692 m/s^2
+Denisty 0.9015289128905551 kg/m^3
+Air Pressure 76397.74050369165 Pascals 
+
+Altitude: 563 m
+Vertical velocity: 1.567663149581045 m/s
+Buoyancy force: 1498.7528154155045 Newtons
+Airship Mass 183 KG
+Acceleration: -1.6201809860379726 m/s^2
+Denisty 0.8993908962435421 kg/m^3
+Air Pressure 76216.97122987152 Pascals 
+
+Altitude: 565 m
+Vertical velocity: 1.5397889985101434 m/s
+Buoyancy force: 1495.1886386329668 Newtons
+Airship Mass 183 KG
+Acceleration: -1.6396559453471529 m/s^2
+Denisty 0.8972520591265435 kg/m^3
+Air Pressure 76036.12379382271 Pascals 
+
+Altitude: 566 m
+Vertical velocity: 1.5132428068333044 m/s
+Buoyancy force: 1491.623330586139 Newtons
+Airship Mass 183 KG
+Acceleration: -1.6591369798024385 m/s^2
+Denisty 0.8951125431458967 kg/m^3
+Air Pressure 75855.2097410664 Pascals 
+
+Altitude: 568 m
+Vertical velocity: 1.4863848368268058 m/s
+Buoyancy force: 1488.057100478742 Newtons
+Airship Mass 183 KG
+Acceleration: -1.6786231254061548 m/s^2
+Denisty 0.8929724738432657 kg/m^3
+Air Pressure 75674.24010139088 Pascals 
+
+Altitude: 569 m
+Vertical velocity: 1.4575169140857225 m/s
+Buoyancy force: 1484.490166106118 Newtons
+Airship Mass 183 KG
+Acceleration: -1.6981131024166682 m/s^2
+Denisty 0.890831981916085 kg/m^3
+Air Pressure 75493.22591917648 Pascals 
+
+Altitude: 571 m
+Vertical velocity: 1.430035225738545 m/s
+Buoyancy force: 1480.9227646982981 Newtons
+Airship Mass 183 KG
+Acceleration: -1.7176055216985944 m/s^2
+Denisty 0.8886912097244076 kg/m^3
+Air Pressure 75312.1787949492 Pascals 
+
+Altitude: 572 m
+Vertical velocity: 1.4022416349644122 m/s
+Buoyancy force: 1477.3551058731152 Newtons
+Airship Mass 183 KG
+Acceleration: -1.73709942338329 m/s^2
+Denisty 0.886550283058403 kg/m^3
+Air Pressure 75131.10979450762 Pascals 
+
+Altitude: 573 m
+Vertical velocity: 1.3723795451005338 m/s
+Buoyancy force: 1473.7874079993055 Newtons
+Airship Mass 183 KG
+Acceleration: -1.7565935214046142 m/s^2
+Denisty 0.8844093329595957 kg/m^3
+Air Pressure 74950.02999437183 Pascals 
+
+Altitude: 575 m
+Vertical velocity: 1.3421860759965705 m/s
+Buoyancy force: 1470.2199093233742 Newtons
+Airship Mass 183 KG
+Acceleration: -1.776086417880201 m/s^2
+Denisty 0.8822685023980169 kg/m^3
+Air Pressure 74768.9510380594 Pascals 
+
+Altitude: 576 m
+Vertical velocity: 1.3116612678023487 m/s
+Buoyancy force: 1466.6528395347268 Newtons
+Airship Mass 183 KG
+Acceleration: -1.7955769526012748 m/s^2
+Denisty 0.8801279292086445 kg/m^3
+Air Pressure 74587.88457809523 Pascals 
+
+Altitude: 577 m
+Vertical velocity: 1.2808051820170747 m/s
+Buoyancy force: 1463.0864284535528 Newtons
+Airship Mass 183 KG
+Acceleration: -1.815063869721996 m/s^2
+Denisty 0.8779877513049382 kg/m^3
+Air Pressure 74406.84227468132 Pascals 
+
+Altitude: 579 m
+Vertical velocity: 1.25145244741189 m/s
+Buoyancy force: 1459.5209060050206 Newtons
+Airship Mass 183 KG
+Acceleration: -1.8345459128240424 m/s^2
+Denisty 0.8758481066633549 kg/m^3
+Air Pressure 74225.83579437762 Pascals 
+
+Altitude: 580 m
+Vertical velocity: 1.2217880948245101 m/s
+Buoyancy force: 1455.9564818063172 Newtons
+Airship Mass 183 KG
+Acceleration: -1.8540220367112408 m/s^2
+Denisty 0.873709121073676 kg/m^3
+Air Pressure 74044.87623207629 Pascals 
+
+Altitude: 581 m
+Vertical velocity: 1.1918122396687323 m/s
+Buoyancy force: 1452.3933745367397 Newtons
+Airship Mass 183 KG
+Acceleration: -1.8734909472361139 m/s^2
+Denisty 0.8715709257637919 kg/m^3
+Air Pressure 73863.9746859059 Pascals 
+
+Altitude: 582 m
+Vertical velocity: 1.1596320650303051 m/s
+Buoyancy force: 1448.831802896974 Newtons
+Airship Mass 183 KG
+Acceleration: -1.8929514493192503 m/s^2
+Denisty 0.8694336519744269 kg/m^3
+Air Pressure 73683.14225602263 Pascals 
+
+Altitude: 583 m
+Vertical velocity: 1.12712122881454 m/s
+Buoyancy force: 1445.2720064685918 Newtons
+Airship Mass 183 KG
+Acceleration: -1.9124021303391183 m/s^2
+Denisty 0.8672974434767772 kg/m^3
+Air Pressure 73502.39063417916 Pascals 
+
+Altitude: 584 m
+Vertical velocity: 1.0942799176349598 m/s
+Buoyancy force: 1441.7142155732765 Newtons
+Airship Mass 183 KG
+Acceleration: -1.9318418340929604 m/s^2
+Denisty 0.8651624384852451 kg/m^3
+Air Pressure 73321.73151206425 Pascals 
+
+Altitude: 585 m
+Vertical velocity: 1.0611083394967502 m/s
+Buoyancy force: 1438.158660487862 Newtons
+Airship Mass 183 KG
+Acceleration: -1.9512693022476189 m/s^2
+Denisty 0.8630287751873199 kg/m^3
+Air Pressure 73141.17658005693 Pascals 
+
+Altitude: 587 m
+Vertical velocity: 1.0276067237903426 m/s
+Buoyancy force: 1434.605571420302 Newtons
+Airship Mass 183 KG
+Acceleration: -1.9706832768475024 m/s^2
+Denisty 0.8608965917291557 kg/m^3
+Air Pressure 72960.73752599474 Pascals 
+
+Altitude: 588 m
+Vertical velocity: 0.9937753212827891 m/s
+Buoyancy force: 1431.0551784859272 Newtons
+Airship Mass 183 KG
+Acceleration: -1.9900825004443217 m/s^2
+Denisty 0.8587660262013245 kg/m^3
+Air Pressure 72780.42603395639 Pascals 
+
+Altitude: 588 m
+Vertical velocity: 0.9596144041069609 m/s
+Buoyancy force: 1427.5077116840034 Newtons
+Airship Mass 183 KG
+Acceleration: -2.009465716225189 m/s^2
+Denisty 0.8566372166247488 kg/m^3
+Air Pressure 72600.25378305934 Pascals 
+
+Altitude: 589 m
+Vertical velocity: 0.9251242657485973 m/s
+Buoyancy force: 1423.9634008745986 Newtons
+Airship Mass 183 KG
+Acceleration: -2.0288316681390306 m/s^2
+Denisty 0.854510300936819 kg/m^3
+Air Pressure 72420.23244627274 Pascals 
+
+Altitude: 590 m
+Vertical velocity: 0.8903052210312359 m/s
+Buoyancy force: 1420.4224757557674 Newtons
+Airship Mass 183 KG
+Acceleration: -2.0481791010212573 m/s^2
+Denisty 0.8523854169777028 kg/m^3
+Air Pressure 72240.37368924612 Pascals 
+
+Altitude: 591 m
+Vertical velocity: 0.8572251128597689 m/s
+Buoyancy force: 1416.885165841056 Newtons
+Airship Mass 183 KG
+Acceleration: -2.0675067607166904 m/s^2
+Denisty 0.8502627024768451 kg/m^3
+Air Pressure 72060.68916915408 Pascals 
+
+Altitude: 592 m
+Vertical velocity: 0.821749281165488 m/s
+Buoyancy force: 1413.3516781303404 Newtons
+Airship Mass 183 KG
+Acceleration: -2.086813629075346 m/s^2
+Denisty 0.8481422816533987 kg/m^3
+Air Pressure 71881.18990242093 Pascals 
+
+Altitude: 593 m
+Vertical velocity: 0.7880517103894112 m/s
+Buoyancy force: 1409.8222517414338 Newtons
+Airship Mass 183 KG
+Acceleration: -2.1060981735047974 m/s^2
+Denisty 0.8460242980002609 kg/m^3
+Air Pressure 71701.8875305736 Pascals 
+
+Altitude: 594 m
+Vertical velocity: 0.7519205989792968 m/s
+Buoyancy force: 1406.2970929846952 Newtons
+Airship Mass 183 KG
+Acceleration: -2.125359494712616 m/s^2
+Denisty 0.8439088753228096 kg/m^3
+Air Pressure 71522.79304355623 Pascals 
+
+Altitude: 594 m
+Vertical velocity: 0.7176070620594885 m/s
+Buoyancy force: 1402.7764406856838 Newtons
+Airship Mass 183 KG
+Acceleration: -2.1445960574880116 m/s^2
+Denisty 0.8417961569385629 kg/m^3
+Air Pressure 71343.91806289213 Pascals 
+
+Altitude: 595 m
+Vertical velocity: 0.6808223435533381 m/s
+Buoyancy force: 1399.2605003867668 Newtons
+Airship Mass 183 KG
+Acceleration: -2.163806970950021 m/s^2
+Denisty 0.8396862661920325 kg/m^3
+Air Pressure 71165.27354789665 Pascals 
+
+Altitude: 596 m
+Vertical velocity: 0.6437115016917639 m/s
+Buoyancy force: 1395.7495105370779 Newtons
+Airship Mass 183 KG
+Acceleration: -2.182990697739659 m/s^2
+Denisty 0.8375793461748459 kg/m^3
+Air Pressure 70986.8710958695 Pascals 
+
+Altitude: 596 m
+Vertical velocity: 0.6084771639363702 m/s
+Buoyancy force: 1392.2436990377014 Newtons
+Airship Mass 183 KG
+Acceleration: -2.202146109712108 m/s^2
+Denisty 0.8354755336488215 kg/m^3
+Air Pressure 70808.72228800088 Pascals 
+
+Altitude: 597 m
+Vertical velocity: 0.5707155363429817 m/s
+Buoyancy force: 1388.743270089869 Newtons
+Airship Mass 183 KG
+Acceleration: -2.221272211375795 m/s^2
+Denisty 0.8333749511536654 kg/m^3
+Air Pressure 70630.8380277391 Pascals 
+
+Altitude: 597 m
+Vertical velocity: 0.5326292894675206 m/s
+Buoyancy force: 1385.2484613783413 Newtons
+Airship Mass 183 KG
+Acceleration: -2.240367463262416 m/s^2
+Denisty 0.8312777413223104 kg/m^3
+Air Pressure 70453.22986600014 Pascals 
+
+Altitude: 598 m
+Vertical velocity: 0.4964783975325224 m/s
+Buoyancy force: 1381.7594997863525 Newtons
+Airship Mass 183 KG
+Acceleration: -2.25943074593739 m/s^2
+Denisty 0.82918404030577 kg/m^3
+Air Pressure 70275.90933459344 Pascals 
+
+Altitude: 598 m
+Vertical velocity: 0.4600230203285157 m/s
+Buoyancy force: 1378.276588013149 Newtons
+Airship Mass 183 KG
+Acceleration: -2.2784610752504175 m/s^2
+Denisty 0.8270939697424196 kg/m^3
+Air Pressure 70098.88727254447 Pascals 
+
+Altitude: 599 m
+Vertical velocity: 0.4209662485101275 m/s
+Buoyancy force: 1374.799938891083 Newtons
+Airship Mass 183 KG
+Acceleration: -2.2974571657875433 m/s^2
+Denisty 0.8250076573514382 kg/m^3
+Air Pressure 69922.17449899435 Pascals 
+
+Altitude: 599 m
+Vertical velocity: 0.3839035669120086 m/s
+Buoyancy force: 1371.3297888840007 Newtons
+Airship Mass 183 KG
+Acceleration: -2.3164175998824295 m/s^2
+Denisty 0.8229252450330975 kg/m^3
+Air Pressure 69745.7824929528 Pascals 
+
+Altitude: 599 m
+Vertical velocity: 0.34420276091067936 m/s
+Buoyancy force: 1367.8663391390073 Newtons
+Airship Mass 183 KG
+Acceleration: -2.3353415294899564 m/s^2
+Denisty 0.8208468534943429 kg/m^3
+Air Pressure 69569.72202609129 Pascals 
+
+Altitude: 600 m
+Vertical velocity: 0.3041808948852972 m/s
+Buoyancy force: 1364.4098254014361 Newtons
+Airship Mass 183 KG
+Acceleration: -2.3542274132577754 m/s^2
+Denisty 0.8187726242042713 kg/m^3
+Air Pressure 69394.00453605247 Pascals 
+
+Altitude: 600 m
+Vertical velocity: 0.26621170846559417 m/s
+Buoyancy force: 1360.9604721335954 Newtons
+Airship Mass 183 KG
+Acceleration: -2.3730741512314397 m/s^2
+Denisty 0.8167026918611159 kg/m^3
+Air Pressure 69218.64143590158 Pascals 
+
+Altitude: 600 m
+Vertical velocity: 0.22554973514178867 m/s
+Buoyancy force: 1357.5184786902373 Newtons
+Airship Mass 183 KG
+Acceleration: -2.3918807837532645 m/s^2
+Denisty 0.8146371760962444 kg/m^3
+Air Pressure 69043.64341734114 Pascals 
+
+Altitude: 600 m
+Vertical velocity: 0.18456875704949113 m/s
+Buoyancy force: 1354.0840795626193 Newtons
+Airship Mass 183 KG
+Acceleration: -2.4106457701351482 m/s^2
+Denisty 0.8125762176261914 kg/m^3
+Air Pressure 68869.02184709044 Pascals 
+
+Altitude: 600 m
+Vertical velocity: 0.14569886870362156 m/s
+Buoyancy force: 1350.6574977316873 Newtons
+Airship Mass 183 KG
+Acceleration: -2.429368021616849 m/s^2
+Denisty 0.8105199502602352 kg/m^3
+Air Pressure 68694.78806485001 Pascals 
+
+Altitude: 601 m
+Vertical velocity: 0.10653012322983177 m/s
+Buoyancy force: 1347.2389306322164 Newtons
+Airship Mass 183 KG
+Acceleration: -2.4480465921118624 m/s^2
+Denisty 0.808468492477579 kg/m^3
+Air Pressure 68520.95267545922 Pascals 
+
+Altitude: 601 m
+Vertical velocity: 0.06706323981507051 m/s
+Buoyancy force: 1343.8285862449004 Newtons
+Airship Mass 183 KG
+Acceleration: -2.4666802134225794 m/s^2
+Denisty 0.806421969085957 kg/m^3
+Air Pressure 68347.52625696982 Pascals 
+
+Altitude: 601 m
+Vertical velocity: 0.024813688029512837 m/s
+Buoyancy force: 1340.4266719996303 Newtons
+Airship Mass 183 KG
+Acceleration: -2.4852677520916275 m/s^2
+Denisty 0.80438050456257 kg/m^3
+Air Pressure 68174.51935997384 Pascals 
+
+Altitude: 601 m
+Vertical velocity: -0.015247236823363645 m/s
+Buoyancy force: 1337.0334201321057 Newtons
+Airship Mass 183 KG
+Acceleration: -2.50380780330478 m/s^2
+Denisty 0.8023442382704083 kg/m^3
+Air Pressure 68001.94322482747 Pascals 
+
+Altitude: 601 m
+Vertical velocity: -0.058126343742739 m/s
+Buoyancy force: 1333.6490255149595 Newtons
+Airship Mass 183 KG
+Acceleration: -2.5223004070220796 m/s^2
+Denisty 0.8003132871511519 kg/m^3
+Air Pressure 67829.80833982013 Pascals 
+
+Altitude: 601 m
+Vertical velocity: -0.09877825898967685 m/s
+Buoyancy force: 1330.2737193631485 Newtons
+Airship Mass 183 KG
+Acceleration: -2.5407447029336154 m/s^2
+Denisty 0.7982877899552503 kg/m^3
+Air Pressure 67658.12588881156 Pascals 
+
+Altitude: 600 m
+Vertical velocity: -0.14228360971370016 m/s
+Buoyancy force: 1326.9076951472787 Newtons
+Airship Mass 183 KG
+Acceleration: -2.559138277883724 m/s^2
+Denisty 0.7962678627830373 kg/m^3
+Air Pressure 67486.90629537399 Pascals 
+
+Altitude: 600 m
+Vertical velocity: -0.1835232877016994 m/s
+Buoyancy force: 1323.551183012259 Newtons
+Airship Mass 183 KG
+Acceleration: -2.577479874249952 m/s^2
+Denisty 0.7942536437428342 kg/m^3
+Air Pressure 67316.16068440423 Pascals 
+
+Altitude: 600 m
+Vertical velocity: -0.22765135122756916 m/s
+Buoyancy force: 1320.2043749862257 Newtons
+Airship Mass 183 KG
+Acceleration: -2.595768442698221 m/s^2
+Denisty 0.7922452480693591 kg/m^3
+Air Pressure 67145.89941252228 Pascals 
+
+Altitude: 600 m
+Vertical velocity: -0.2720893976665538 m/s
+Buoyancy force: 1316.8675000979888 Newtons
+Airship Mass 183 KG
+Acceleration: -2.6140027317049794 m/s^2
+Denisty 0.7902428132011705 kg/m^3
+Air Pressure 66976.13354336703 Pascals 
+
+Altitude: 599 m
+Vertical velocity: -0.3168364841316816 m/s
+Buoyancy force: 1313.5407751106836 Newtons
+Airship Mass 183 KG
+Acceleration: -2.6321815567722213 m/s^2
+Denisty 0.7882464692162828 kg/m^3
+Air Pressure 66806.87410633014 Pascals 
+
+Altitude: 599 m
+Vertical velocity: -0.3592413439265644 m/s
+Buoyancy force: 1310.2244160960277 Newtons
+Airship Mass 183 KG
+Acceleration: -2.6503037371801774 m/s^2
+Denisty 0.7862563457777959 kg/m^3
+Air Pressure 66638.13209605867 Pascals 
+
+Altitude: 599 m
+Vertical velocity: -0.40460360401571105 m/s
+Buoyancy force: 1306.9186119815395 Newtons
+Airship Mass 183 KG
+Acceleration: -2.668368240538036 m/s^2
+Denisty 0.7842725562597685 kg/m^3
+Air Pressure 66469.9177237132 Pascals 
+
+Altitude: 598 m
+Vertical velocity: -0.4475855852762801 m/s
+Buoyancy force: 1303.6235893322414 Newtons
+Airship Mass 183 KG
+Acceleration: -2.686373828785567 m/s^2
+Denisty 0.7822952366222582 kg/m^3
+Air Pressure 66302.24191873996 Pascals 
+
+Altitude: 598 m
+Vertical velocity: -0.49085469692337236 m/s
+Buoyancy force: 1300.3395355363825 Newtons
+Airship Mass 183 KG
+Acceleration: -2.7043194779432653 m/s^2
+Denisty 0.7803244993156193 kg/m^3
+Air Pressure 66135.11481985099 Pascals 
+
+Altitude: 597 m
+Vertical velocity: -0.5371321666744127 m/s
+Buoyancy force: 1297.066649150567 Newtons
+Airship Mass 183 KG
+Acceleration: -2.722204103002367 m/s^2
+Denisty 0.7783604634922565 kg/m^3
+Air Pressure 65968.54653184958 Pascals 
+
+Altitude: 597 m
+Vertical velocity: -0.580972590286203 m/s
+Buoyancy force: 1293.805154940149 Newtons
+Airship Mass 183 KG
+Acceleration: -2.740026475736892 m/s^2
+Denisty 0.7764032640322589 kg/m^3
+Air Pressure 65802.54788610585 Pascals 
+
+Altitude: 596 m
+Vertical velocity: -0.6278549452265746 m/s
+Buoyancy force: 1290.5552379948228 Newtons
+Airship Mass 183 KG
+Acceleration: -2.7577855847277446 m/s^2
+Denisty 0.7744530120066349 kg/m^3
+Air Pressure 65637.12891283316 Pascals 
+
+Altitude: 595 m
+Vertical velocity: -0.672262628565936 m/s
+Buoyancy force: 1287.3171218060545 Newtons
+Airship Mass 183 KG
+Acceleration: -2.7754802087100856 m/s^2
+Denisty 0.772509841531022 kg/m^3
+Air Pressure 65472.300374285456 Pascals 
+
+Altitude: 595 m
+Vertical velocity: -0.7197454874305588 m/s
+Buoyancy force: 1284.0909898690609 Newtons
+Airship Mass 183 KG
+Acceleration: -2.79310934497781 m/s^2
+Denisty 0.7705738627195939 kg/m^3
+Air Pressure 65308.07222493597 Pascals 
+
+Altitude: 594 m
+Vertical velocity: -0.7647162359003036 m/s
+Buoyancy force: 1280.8770643772941 Newtons
+Airship Mass 183 KG
+Acceleration: -2.8106717793590494 m/s^2
+Denisty 0.7686452089090595 kg/m^3
+Air Pressure 65144.45515672772 Pascals 
+
+Altitude: 593 m
+Vertical velocity: -0.8099669001873611 m/s
+Buoyancy force: 1277.6755272167807 Newtons
+Airship Mass 183 KG
+Acceleration: -2.8281665179410895 m/s^2
+Denisty 0.7667239892479288 kg/m^3
+Air Pressure 64981.45904745025 Pascals 
+
+Altitude: 592 m
+Vertical velocity: -0.85834197275736 m/s
+Buoyancy force: 1274.4865717464822 Newtons
+Airship Mass 183 KG
+Acceleration: -2.845592504117584 m/s^2
+Denisty 0.7648103197695384 kg/m^3
+Air Pressure 64819.09373919851 Pascals 
+
+Altitude: 591 m
+Vertical velocity: -0.9070120978394753 m/s
+Buoyancy force: 1271.3104182337004 Newtons
+Airship Mass 183 KG
+Acceleration: -2.862948534242075 m/s^2
+Denisty 0.7629043326547279 kg/m^3
+Air Pressure 64657.369819579784 Pascals 
+
+Altitude: 590 m
+Vertical velocity: -0.9559760669303109 m/s
+Buoyancy force: 1268.147273904535 Newtons
+Airship Mass 183 KG
+Acceleration: -2.8802334759315027 m/s^2
+Denisty 0.7610061522584048 kg/m^3
+Air Pressure 64496.297837108665 Pascals 
+
+Altitude: 589 m
+Vertical velocity: -1.0052326523478257 m/s
+Buoyancy force: 1264.9973452114582 Newtons
+Airship Mass 183 KG
+Acceleration: -2.8974462010302835 m/s^2
+Denisty 0.7591159024712282 kg/m^3
+Air Pressure 64335.888301081475 Pascals 
+
+Altitude: 588 m
+Vertical velocity: -1.0547806073033377 m/s
+Buoyancy force: 1261.860837831841 Newtons
+Airship Mass 183 KG
+Acceleration: -2.9145855856183553 m/s^2
+Denisty 0.7572337067187243 kg/m^3
+Air Pressure 64176.151681478805 Pascals 
+
+Altitude: 587 m
+Vertical velocity: -1.104618665973613 m/s
+Buoyancy force: 1258.7379566670365 Newtons
+Airship Mass 183 KG
+Acceleration: -2.931650510016194 m/s^2
+Denisty 0.7553596879607366 kg/m^3
+Air Pressure 64017.09840889622 Pascals 
+
+Altitude: 586 m
+Vertical velocity: -1.1547455435729879 m/s
+Buoyancy force: 1255.6289058420234 Newtons
+Airship Mass 183 KG
+Acceleration: -2.948639858786758 m/s^2
+Denisty 0.7534939686912118 kg/m^3
+Air Pressure 63858.73887450333 Pascals 
+
+Altitude: 585 m
+Vertical velocity: -1.2051599364254721 m/s
+Buoyancy force: 1252.5338887056105 Newtons
+Airship Mass 183 KG
+Acceleration: -2.965552520734369 m/s^2
+Denisty 0.7516366709383225 kg/m^3
+Air Pressure 63701.08343003126 Pascals 
+
+Altitude: 583 m
+Vertical velocity: -1.2528781346478803 m/s
+Buoyancy force: 1249.4531078312061 Newtons
+Airship Mass 183 KG
+Acceleration: -2.9823873889005137 m/s^2
+Denisty 0.7497879162649294 kg/m^3
+Air Pressure 63544.14238778869 Pascals 
+
+Altitude: 582 m
+Vertical velocity: -1.3038635744132012 m/s
+Buoyancy force: 1246.3867366438994 Newtons
+Airship Mass 183 KG
+Acceleration: -2.9991435156071073 m/s^2
+Denisty 0.7479478087421938 kg/m^3
+Air Pressure 63387.92521799897 Pascals 
+
+Altitude: 581 m
+Vertical velocity: -1.3551325098668594 m/s
+Buoyancy force: 1243.3349889400324 Newtons
+Airship Mass 183 KG
+Acceleration: -3.0158197325681293 m/s^2
+Denisty 0.7461164766677789 kg/m^3
+Air Pressure 63232.442160242776 Pascals 
+
+Altitude: 579 m
+Vertical velocity: -1.4066835639293087 m/s
+Buoyancy force: 1240.2980650924576 Newtons
+Airship Mass 183 KG
+Acceleration: -3.0324149448499593 m/s^2
+Denisty 0.7442940402840071 kg/m^3
+Air Pressure 63077.703414845346 Pascals 
+
+Altitude: 578 m
+Vertical velocity: -1.4554664129167367 m/s
+Buoyancy force: 1237.2761647062923 Newtons
+Airship Mass 183 KG
+Acceleration: -3.04892806171425 m/s^2
+Denisty 0.7424806193724885 kg/m^3
+Air Pressure 62923.719143006616 Pascals 
+
+Altitude: 576 m
+Vertical velocity: -1.50451214337366 m/s
+Buoyancy force: 1234.2694578989403 Newtons
+Airship Mass 183 KG
+Acceleration: -3.0653581535577032 m/s^2
+Denisty 0.740676316019466 kg/m^3
+Air Pressure 62770.49865443691 Pascals 
+
+Altitude: 575 m
+Vertical velocity: -1.5538194109697971 m/s
+Buoyancy force: 1231.2781268691806 Newtons
+Airship Mass 183 KG
+Acceleration: -3.0817042247585764 m/s^2
+Denisty 0.7388812395611304 kg/m^3
+Air Pressure 62618.05122367672 Pascals 
+
+Altitude: 573 m
+Vertical velocity: -1.6064848207882456 m/s
+Buoyancy force: 1228.3023531308183 Newtons
+Airship Mass 183 KG
+Acceleration: -3.0979652834381515 m/s^2
+Denisty 0.7370954989226238 kg/m^3
+Air Pressure 62466.38609029396 Pascals 
+
+Altitude: 572 m
+Vertical velocity: -1.6563110637180394 m/s
+Buoyancy force: 1225.342346490485 Newtons
+Airship Mass 183 KG
+Acceleration: -3.114140183112105 m/s^2
+Denisty 0.7353192200074125 kg/m^3
+Air Pressure 62315.51327862955 Pascals 
+
+Altitude: 570 m
+Vertical velocity: -1.7095249398973567 m/s
+Buoyancy force: 1222.3982740697033 Newtons
+Airship Mass 183 KG
+Acceleration: -3.1302280105480698 m/s^2
+Denisty 0.7335525031039325 kg/m^3
+Air Pressure 62165.44195302097 Pascals 
+
+Altitude: 568 m
+Vertical velocity: -1.7630108095454842 m/s
+Buoyancy force: 1219.4703443760382 Newtons
+Airship Mass 183 KG
+Acceleration: -3.1462276263604476 m/s^2
+Denisty 0.7317954733360894 kg/m^3
+Air Pressure 62016.18206766031 Pascals 
+
+Altitude: 566 m
+Vertical velocity: -1.8136050170012141 m/s
+Buoyancy force: 1216.558752225089 Newtons
+Airship Mass 183 KG
+Acceleration: -3.1621379659831215 m/s^2
+Denisty 0.7300482476113379 kg/m^3
+Air Pressure 61867.74353909491 Pascals 
+
+Altitude: 564 m
+Vertical velocity: -1.8644523470632404 m/s
+Buoyancy force: 1213.6636624155742 Newtons
+Airship Mass 183 KG
+Acceleration: -3.177958128876644 m/s^2
+Denisty 0.7283109248242157 kg/m^3
+Air Pressure 61720.13541821013 Pascals 
+
+Altitude: 563 m
+Vertical velocity: -1.915551341412613 m/s
+Buoyancy force: 1210.7852521290492 Newtons
+Airship Mass 183 KG
+Acceleration: -3.1936871468357966 m/s^2
+Denisty 0.7265836113001128 kg/m^3
+Air Pressure 61573.36672284546 Pascals 
+
+Altitude: 561 m
+Vertical velocity: -1.9701098503498808 m/s
+Buoyancy force: 1207.9236979105888 Newtons
+Airship Mass 183 KG
+Acceleration: -3.2093240551333952 m/s^2
+Denisty 0.7248664129824721 kg/m^3
+Air Pressure 61427.446438178755 Pascals 
+
+Altitude: 559 m
+Vertical velocity: -2.024932601780197 m/s
+Buoyancy force: 1205.0792051913045 Newtons
+Airship Mass 183 KG
+Acceleration: -3.224867731195058 m/s^2
+Denisty 0.7231594531490416 kg/m^3
+Air Pressure 61282.38435180542 Pascals 
+
+Altitude: 556 m
+Vertical velocity: -2.080017992956105 m/s
+Buoyancy force: 1202.2519655769893 Newtons
+Airship Mass 183 KG
+Acceleration: -3.2403171279945946 m/s^2
+Denisty 0.7214628467810934 kg/m^3
+Air Pressure 61138.190215570765 Pascals 
+
+Altitude: 554 m
+Vertical velocity: -2.132108732192118 m/s
+Buoyancy force: 1199.4421699881004 Newtons
+Airship Mass 183 KG
+Acceleration: -3.2556712022508174 m/s^2
+Denisty 0.7197767084486352 kg/m^3
+Air Pressure 60994.87374607519 Pascals 
+
+Altitude: 552 m
+Vertical velocity: -2.1877145264980538 m/s
+Buoyancy force: 1196.649978941988 Newtons
+Airship Mass 183 KG
+Acceleration: -3.2709290768197388 m/s^2
+Denisty 0.7181011344769858 kg/m^3
+Air Pressure 60852.44378454428 Pascals 
+
+Altitude: 550 m
+Vertical velocity: -2.240291960780286 m/s
+Buoyancy force: 1193.875595396968 Newtons
+Airship Mass 183 KG
+Acceleration: -3.28608964263952 m/s^2
+Denisty 0.7164362466599864 kg/m^3
+Air Pressure 60710.90998467129 Pascals 
+
+Altitude: 548 m
+Vertical velocity: -2.296411545288049 m/s
+Buoyancy force: 1191.1191785340811 Newtons
+Airship Mass 183 KG
+Acceleration: -3.30115202986841 m/s^2
+Denisty 0.7147821405210462 kg/m^3
+Air Pressure 60570.2811220254 Pascals 
+
+Altitude: 545 m
+Vertical velocity: -2.3527855025920776 m/s
+Buoyancy force: 1188.3809301978072 Newtons
+Airship Mass 183 KG
+Acceleration: -3.316115135531109 m/s^2
+Denisty 0.713138937185601 kg/m^3
+Air Pressure 60430.566789608485 Pascals 
+
+Altitude: 543 m
+Vertical velocity: -2.4094121274508784 m/s
+Buoyancy force: 1185.6610382846732 Newtons
+Airship Mass 183 KG
+Acceleration: -3.3309779328706393 m/s^2
+Denisty 0.7115067494090188 kg/m^3
+Air Pressure 60291.77654800198 Pascals 
+
+Altitude: 540 m
+Vertical velocity: -2.466289697225075 m/s
+Buoyancy force: 1182.959690077764 Newtons
+Airship Mass 183 KG
+Acceleration: -3.3457393984821646 m/s^2
+Denisty 0.7098856895785461 kg/m^3
+Air Pressure 60153.91992604888 Pascals 
+
+Altitude: 538 m
+Vertical velocity: -2.520056073420815 m/s
+Buoyancy force: 1180.2770722612233 Newtons
+Airship Mass 183 KG
+Acceleration: -3.360398512233753 m/s^2
+Denisty 0.7082758697220086 kg/m^3
+Air Pressure 60017.0064215656 Pascals 
+
+Altitude: 535 m
+Vertical velocity: -2.5774302985976174 m/s
+Buoyancy force: 1177.6133407438317 Newtons
+Airship Mass 183 KG
+Acceleration: -3.374954422164855 m/s^2
+Denisty 0.7066773833991556 kg/m^3
+Air Pressure 59881.0446485423 Pascals 
+
+Altitude: 533 m
+Vertical velocity: -2.6316607952412365 m/s
+Buoyancy force: 1174.9686946386064 Newtons
+Airship Mass 183 KG
+Acceleration: -3.389406040226195 m/s^2
+Denisty 0.7050903500962917 kg/m^3
+Air Pressure 59746.04405086936 Pascals 
+
+Altitude: 530 m
+Vertical velocity: -2.6861208355713386 m/s
+Buoyancy force: 1172.3432887244553 Newtons
+Airship Mass 183 KG
+Acceleration: -3.403752520631392 m/s^2
+Denisty 0.7035148626951376 kg/m^3
+Air Pressure 59612.01318670456 Pascals 
+
+Altitude: 527 m
+Vertical velocity: -2.7408087227128246 m/s
+Buoyancy force: 1169.7372908192524 Newtons
+Airship Mass 183 KG
+Acceleration: -3.417992946342884 m/s^2
+Denisty 0.7019510219020049 kg/m^3
+Air Pressure 59478.96059043232 Pascals 
+
+Altitude: 524 m
+Vertical velocity: -2.7957227451564 m/s
+Buoyancy force: 1167.150868301602 Newtons
+Airship Mass 183 KG
+Acceleration: -3.432126402723487 m/s^2
+Denisty 0.7003989281596026 kg/m^3
+Air Pressure 59346.89477345617 Pascals 
+
+Altitude: 522 m
+Vertical velocity: -2.850861176795534 m/s
+Buoyancy force: 1164.5841881274093 Newtons
+Airship Mass 183 KG
+Acceleration: -3.446151977445851 m/s^2
+Denisty 0.6988586816569813 kg/m^3
+Air Pressure 59215.82422501813 Pascals 
+
+Altitude: 519 m
+Vertical velocity: -2.906222276961918 m/s
+Buoyancy force: 1162.0374168469837 Newtons
+Airship Mass 183 KG
+Acceleration: -3.460068760398997 m/s^2
+Denisty 0.6973303823397957 kg/m^3
+Air Pressure 59085.757413044965 Pascals 
+
+Altitude: 516 m
+Vertical velocity: -2.9618042904593893 m/s
+Buoyancy force: 1159.5107206226721 Newtons
+Airship Mass 183 KG
+Acceleration: -3.473875843591956 m/s^2
+Denisty 0.695814129920888 kg/m^3
+Air Pressure 58956.70278502148 Pascals 
+
+Altitude: 513 m
+Vertical velocity: -3.017605447596261 m/s
+Buoyancy force: 1157.0042652470272 Newtons
+Airship Mass 183 KG
+Acceleration: -3.487572321054497 m/s^2
+Denisty 0.6943100238911883 kg/m^3
+Air Pressure 58828.668768890726 Pascals 
+
+Altitude: 510 m
+Vertical velocity: -3.0736239642160204 m/s
+Buoyancy force: 1154.5182161615041 Newtons
+Airship Mass 183 KG
+Acceleration: -3.5011572887349507 m/s^2
+Denisty 0.6928181635309366 kg/m^3
+Air Pressure 58701.66377398125 Pascals 
+
+Altitude: 507 m
+Vertical velocity: -3.1298580417263424 m/s
+Buoyancy force: 1152.0527384756938 Newtons
+Airship Mass 183 KG
+Acceleration: -3.5146298443951167 m/s^2
+Denisty 0.691338647921223 kg/m^3
+Air Pressure 58575.69619196137 Pascals 
+
+Altitude: 503 m
+Vertical velocity: -3.186305867126378 m/s
+Buoyancy force: 1149.6079969870923 Newtons
+Airship Mass 183 KG
+Acceleration: -3.5279890875022284 m/s^2
+Denisty 0.689871575955852 kg/m^3
+Air Pressure 58450.77439782054 Pascals 
+
+Altitude: 500 m
+Vertical velocity: -3.2429656130322666 m/s
+Buoyancy force: 1147.1841562013994 Newtons
+Airship Mass 183 KG
+Acceleration: -3.5412341191180365 m/s^2
+Denisty 0.6884170463535229 kg/m^3
+Air Pressure 58326.90675087782 Pascals 
+
+Altitude: 497 m
+Vertical velocity: -3.3033898017426107 m/s
+Buoyancy force: 1144.7813803533575 Newtons
+Airship Mass 183 KG
+Acceleration: -3.5543640417849325 m/s^2
+Denisty 0.6869751576703355 kg/m^3
+Air Pressure 58204.10159581746 Pascals 
+
+Altitude: 493 m
+Vertical velocity: -3.3640352241759977 m/s
+Buoyancy force: 1142.3998643935388 Newtons
+Airship Mass 183 KG
+Acceleration: -3.5673777901992425 m/s^2
+Denisty 0.6855460268947408 kg/m^3
+Air Pressure 58082.36813863963 Pascals 
+
+Altitude: 490 m
+Vertical velocity: -3.4213196141939632 m/s
+Buoyancy force: 1140.039789169519 Newtons
+Airship Mass 183 KG
+Acceleration: -3.580274376122847 m/s^2
+Denisty 0.6841297625520814 kg/m^3
+Air Pressure 57961.71556859234 Pascals 
+
+Altitude: 487 m
+Vertical velocity: -3.478808461915713 m/s
+Buoyancy force: 1137.7013041824866 Newtons
+Airship Mass 183 KG
+Acceleration: -3.593052982609363 m/s^2
+Denisty 0.6827264543569564 kg/m^3
+Air Pressure 57842.1521818963 Pascals 
+
+Altitude: 483 m
+Vertical velocity: -3.5364998654049553 m/s
+Buoyancy force: 1135.3845725917915 Newtons
+Airship Mass 183 KG
+Acceleration: -3.6057127180776423 m/s^2
+Denisty 0.6813362002201304 kg/m^3
+Air Pressure 57723.686264744356 Pascals 
+
+Altitude: 479 m
+Vertical velocity: -3.594391908473639 m/s
+Buoyancy force: 1133.08975740193 Newtons
+Airship Mass 183 KG
+Acceleration: -3.6182526917927325 m/s^2
+Denisty 0.6799590979594413 kg/m^3
+Air Pressure 57606.32609447531 Pascals 
+
+Altitude: 476 m
+Vertical velocity: -3.656113332707119 m/s
+Buoyancy force: 1130.8170214866516 Newtons
+Airship Mass 183 KG
+Acceleration: -3.630672013734145 m/s^2
+Denisty 0.6785952453142668 kg/m^3
+Air Pressure 57490.079940775155 Pascals 
+
+Altitude: 472 m
+Vertical velocity: -3.718043816310879 m/s
+Buoyancy force: 1128.5665588536435 Newtons
+Airship Mass 183 KG
+Acceleration: -3.6429696237505826 m/s^2
+Denisty 0.6772447587072391 kg/m^3
+Air Pressure 57374.95694927773 Pascals 
 
