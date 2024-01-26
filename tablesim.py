@@ -22,12 +22,12 @@ altitude = 0
 while altitude <= 2000:
     atmosphere.temperature = Constants.standard_temperature_at_sea_level - (Constants.temperature_lapse_rate * altitude)#now correct
     
-    expo_constant = (Constants.gravity_on_earth * Constants.air_density_sea_level) / (Constants.gas_constant / Constants.temperature_lapse_rate)
-    
-    atmosphere.pressure = Constants.standard_pressure_sea_level * (1 - Constants.temperature_lapse_rate * altitude / Constants.standard_temperature_at_sea_level) ** expo_constant
-        
-    atmosphere.density = atmosphere.pressure / (Constants.gas_constant * Constants.standard_temperature_at_sea_level *
-                                                        (1 + 0.001 * altitude / Constants.standard_temperature_at_sea_level))
+    atmosphere.pressure = Constants.standard_pressure_sea_level * math.exp(
+            -Constants.gravity_on_earth * Constants.molar_mass_of_air * altitude / (Constants.gas_constant * (atmosphere.temperature + 273.15))#temp converted to kelvin for mathing
+    )
+    #density = pressure * molar_mass_of_air / gas constant * temperature(in kelvin)   
+    atmosphere.density = (atmosphere.pressure * Constants.molar_mass_of_air) / (Constants.gas_constant * (atmosphere.temperature + 273.15))
+
 
     # Calculate buoyancy force, and the netforce
     bforce = atmosphere.density * Constants.gravity_on_earth * airship.volume
@@ -47,7 +47,7 @@ while altitude <= 2000:
 
         sys.stdout = sys.__stdout__
  
-    altitude += altitude_increment
+    altitude += 100#altitude_increment * Constants.temperature_lapse_rate
 
 #NOTES
 #Something in the calculation for pressure is not right, it's dropping way to fast and doesn't match the suposed altitude of ship

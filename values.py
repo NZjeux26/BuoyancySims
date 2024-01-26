@@ -25,12 +25,13 @@ class BuoyancyData:
         self.acceleration = acceleration
 
 class Constants:
-    gravity_on_earth = 9.81  # m/s^2
+    gravity_on_earth = 9.80665  # m/s^2
     air_density_sea_level = 1.225 # kg/m^3
     standard_pressure_sea_level = 101325  # Pascals
-    gas_constant = 8.3144#287.058  # J/(kg·K)
-    temperature_lapse_rate = 0.0065  # 6.5c per kilometer(0.0065c per meter)
-    standard_temperature_at_sea_level = 15 #celsius
+    gas_constant = 8.3144598  # J/(kg·K) Wiki says this but the density is way off.
+    temperature_lapse_rate = 0.0065  # 6.5c per kilometer(0.0065c per meter) Also 0.0065 Kelvin per meter
+    standard_temperature_at_sea_level = 15 #celsius (288.15 Kelvin)
     exponent_constant = 5.2561
     inertia_coefficient = 0.09
-    #Troposphere (0 - 11 km): Lapse rate is -6.4914 K/km, so the exponent for pressure and density is ~5.2561.
+    molar_mass_of_air = 0.0289644  # kg/mol
+  

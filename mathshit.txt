@@ -1,0 +1,65 @@
+Formulas and Constants for Atmospheric Properties Calculation
+
+1. Temperature at Altitude (ISA model):
+   T = T0 - L * altitude
+
+   Where:
+   - T is the temperature at the given altitude.
+   - T0 is the sea level temperature (288.15 K).
+   - L is the temperature lapse rate (0.0065 K/m).
+   - altitude is the input altitude.
+
+2. Pressure at Altitude (ISA model):
+   P = P0 * (1 - L * altitude / T0)^(g / (L * R))
+
+   Where:
+   - P is the pressure at the given altitude.
+   - P0 is the sea level pressure (101325 Pa).
+   - L is the temperature lapse rate (0.0065 K/m).
+   - g is the acceleration due to gravity (9.8 m/s²).
+   - R is the molar gas constant (8.314462 J/(mol·K)).
+   - altitude is the input altitude.
+
+3. Density at Altitude (Ideal Gas Law):
+   ρ = (P * M) / (R * T)
+
+   Where:
+   - ρ is the density at the given altitude.
+   - P is the pressure at the given altitude.
+   - M is the molar mass of Earth's air (0.0289644 kg/mol).
+   - R is the molar gas constant (8.314462 J/(mol·K)).
+   - T is the temperature at the given altitude.
+
+Constants:
+- Sea level temperature (T0): 288.15 K
+- Temperature lapse rate (L): 0.0065 K/m
+- Sea level pressure (P0): 101325 Pa
+- Acceleration due to gravity (g): 9.8 m/s²
+- Molar gas constant (R): 8.314462 J/(mol·K)
+- Molar mass of Earth's air (M): 0.0289644 kg/mol
+
+
+Buoyant Force Calculation for Hydrogen Gas
+
+Formula:
+F_buoyant = ρ_fluid * V_displaced * g
+
+Where:
+- F_buoyant is the buoyant force (lifting force),
+- ρ_fluid is the density of the fluid (hydrogen gas),
+- V_displaced is the volume of the fluid displaced by the object,
+- g is the acceleration due to gravity (approximately 9.8 m/s²).
+
+For Hydrogen Gas:
+- Density of Hydrogen (at STP): 0.08988 kg/m³
+
+Buoyant Force Formula for Hydrogen Gas:
+F_buoyant = Density_of_Hydrogen * Volume_of_Hydrogen * g
+
+Note: Use consistent units for the calculation. If the volume is given in cubic meters, the density in kg/m³, and gravity in m/s², the result will be in Newtons (N), which is the unit of force.
+
+
+Websites: 
+Pressure: https://www.mide.com/air-pressure-at-altitude-calculator
+Denisty: https://www.calctool.org/atmospheric-thermodynamics/air-density
+Barometric Formula: https://en.wikipedia.org/wiki/Barometric_formula

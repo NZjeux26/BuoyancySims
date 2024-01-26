@@ -1,147 +1,148 @@
 Altitude: 0 m
-Buoyancy force: 39213.64594479665 Newtons
+Buoyancy force: 2040.6178439880362 Newtons
 Airship Mass 183 KG
-Denisty 23.53182980442977 kg/m^3
+Denisty 1.224978558652761 kg/m^3
 Air Pressure 101325.0 Pascals
 Air Temperature 15.0 Celsius
 
 Altitude: 100 m
-Buoyancy force: 38953.48335136228 Newtons
+Buoyancy force: 2021.0724650257746 Newtons
 Airship Mass 183 KG
-Denisty 23.375708083975745 kg/m^3
-Air Pressure 101323.77856866563 Pascals
+Denisty 1.2132455091648073 kg/m^3
+Air Pressure 100128.11559624504 Pascals
 Air Temperature 14.35 Celsius
 
 Altitude: 200 m
-Buoyancy force: 38696.72232878703 Newtons
+Buoyancy force: 2001.616732885849 Newtons
 Airship Mass 183 KG
-Denisty 23.221627621981522 kg/m^3
-Air Pressure 101322.50052504374 Pascals
+Denisty 1.2015662744739437 kg/m^3
+Air Pressure 98940.04092444334 Pascals
 Air Temperature 13.7 Celsius
 
 Altitude: 300 m
-Buoyancy force: 38443.29409096233 Newtons
+Buoyancy force: 1982.2509906282876 Newtons
 Airship Mass 183 KG
-Denisty 23.069547140392977 kg/m^3
-Air Pressure 101321.16036431199 Pascals
+Denisty 1.189941060518377 kg/m^3
+Air Pressure 97760.76278012116 Pascals
 Air Temperature 13.05 Celsius
 
 Altitude: 400 m
-Buoyancy force: 38193.131320216635 Newtons
+Buoyancy force: 1962.9755784863244 Newtons
 Airship Mass 183 KG
-Denisty 22.91942624235459 kg/m^3
-Air Pressure 101319.75173747848 Pascals
+Denisty 1.1783700715393948 kg/m^3
+Air Pressure 96590.26766600726 Pascals
 Air Temperature 12.4 Celsius
 
 Altitude: 500 m
-Buoyancy force: 37946.16805180069 Newtons
+Buoyancy force: 1943.790833814345 Newtons
 Airship Mass 183 KG
-Denisty 22.771225342889874 kg/m^3
-Air Pressure 101318.26726942886 Pascals
+Denisty 1.1668535100501185 kg/m^3
+Air Pressure 95428.54179106049 Pascals
 Air Temperature 11.75 Celsius
 
 Altitude: 600 m
-Buoyancy force: 37702.33954352858 Newtons
+Buoyancy force: 1924.6970910355265 Newtons
 Airship Mass 183 KG
-Denisty 22.624905590673904 kg/m^3
-Air Pressure 101316.69832514365 Pascals
+Denisty 1.1553915768040712 kg/m^3
+Air Pressure 94275.57106951743 Pascals
 Air Temperature 11.1 Celsius
 
 Altitude: 700 m
-Buoyancy force: 37461.58212428774 Newtons
+Buoyancy force: 1905.6946815891797 Newtons
 Airship Mass 183 KG
-Denisty 22.480428777125258 kg/m^3
-Air Pressure 101315.03470529315 Pascals
+Denisty 1.1439844707635676 kg/m^3
+Air Pressure 93131.3411199605 Pascals
 Air Temperature 10.45 Celsius
 
 Altitude: 800 m
-Buoyancy force: 37223.83301233959 Newtons
+Buoyancy force: 1886.7839338777899 Newtons
 Airship Mass 183 KG
-Denisty 22.337757227369487 kg/m^3
-Air Pressure 101313.26424395283 Pascals
+Denisty 1.132632389067922 kg/m^3
+Air Pressure 91995.837264407 Pascals
 Air Temperature 9.8 Celsius
 
 Altitude: 900 m
-Buoyancy force: 36989.03008999826 Newtons
+Buoyancy force: 1867.965173213772 Newtons
 Airship Mass 183 KG
-Denisty 22.196853665025472 kg/m^3
-Air Pressure 101311.37226806063 Pascals
+Denisty 1.1213355270014864 kg/m^3
+Air Pressure 90869.04452741948 Pascals
 Air Temperature 9.15 Celsius
 
+
+Buoyancy force: 1849.2387217659311 Newtons
 Altitude: 1000 m
-Buoyancy force: 36757.11161437063 Newtons
 Airship Mass 183 KG
-Denisty 22.057681038622533 kg/m^3
-Air Pressure 101309.3408573585 Pascals
+Denisty 1.1100940779615105 kg/m^3
+Air Pressure 89750.94763523809 Pascals
 Air Temperature 8.5 Celsius
 
 Altitude: 1100 m
-Buoyancy force: 36528.0158325157 Newtons
+Buoyancy force: 1830.60489850565 Newtons
 Airship Mass 183 KG
-Denisty 21.920202290660352 kg/m^3
-Air Pressure 101307.14780935331 Pascals
+Denisty 1.098908233425838 kg/m^3
+Air Pressure 88641.5310149352 Pascals
 Air Temperature 7.8500000000000005 Celsius
 
 Altitude: 1200 m
-Buoyancy force: 36301.680450180465 Newtons
+Buoyancy force: 1812.0640191527943 Newtons
 Airship Mass 183 KG
-Denisty 21.78438003880111 kg/m^3
-Air Pressure 101304.76515588634 Pascals
+Denisty 1.0877781829204338 kg/m^3
+Air Pressure 87540.77879359285 Pascals
 Air Temperature 7.2 Celsius
 
 Altitude: 1300 m
-Buoyancy force: 36078.04186943962 Newtons
+Buoyancy force: 1793.6163961213472 Newtons
 Airship Mass 183 KG
-Denisty 21.650176118382532 kg/m^3
-Air Pressure 101302.15697590764 Pascals
+Denisty 1.0767041139867486 kg/m^3
+Air Pressure 86448.67479750354 Pascals
 Air Temperature 6.550000000000001 Celsius
 
 Altitude: 1400 m
-Buoyancy force: 35857.0340482584 Newtons
+Buoyancy force: 1775.262338464784 Newtons
 Airship Mass 183 KG
-Denisty 21.51755089804965 kg/m^3
-Air Pressure 101299.2760613543 Pascals
+Denisty 1.0656862121489274 kg/m^3
+Air Pressure 85365.20255139473 Pascals
 Air Temperature 5.9 Celsius
 
 Altitude: 1500 m
-Buoyancy force: 35638.586714046505 Newtons
+Buoyancy force: 1757.002151821181 Newtons
 Airship Mass 183 KG
-Denisty 21.38646220772123 kg/m^3
-Air Pressure 101296.05862899667 Pascals
+Denisty 1.0547246608808585 kg/m^3
+Air Pressure 84290.34527767771 Pascals
 Air Temperature 5.25 Celsius
 
 Altitude: 1600 m
-Buoyancy force: 35422.62241325817 Newtons
+Buoyancy force: 1738.8361383580768 Newtons
 Airship Mass 183 KG
-Denisty 21.256863568075786 kg/m^3
-Air Pressure 101292.41551927 Pascals
+Denisty 1.0438196415730736 kg/m^3
+Air Pressure 83224.08589572119 Pascals
 Air Temperature 4.6 Celsius
 
 Altitude: 1700 m
-Buoyancy force: 35209.05132100741 Newtons
+Buoyancy force: 1720.7645967170852 Newtons
 Airship Mass 183 KG
-Denisty 21.128701075838617 kg/m^3
-Air Pressure 101288.21664624895 Pascals
+Denisty 1.0329713334994992 kg/m^3
+Air Pressure 82166.40702115027 Pascals
 Air Temperature 3.950000000000001 Celsius
 
 Altitude: 1800 m
-Buoyancy force: 34997.761362658755 Newtons
+Buoyancy force: 1702.7878219582647 Newtons
 Airship Mass 183 KG
-Denisty 21.00190747581874 kg/m^3
-Air Pressure 101283.26134405208 Pascals
+Denisty 1.022179913784062 kg/m^3
+Air Pressure 81117.29096517102 Pascals
 Air Temperature 3.3000000000000007 Celsius
 
 Altitude: 1900 m
-Buoyancy force: 34788.59737492146 Newtons
+Buoyancy force: 1684.9061055042619 Newtons
 Airship Mass 183 KG
-Denisty 20.876389655629847 kg/m^3
-Air Pressure 101277.2157838419 Pascals
+Denisty 1.0114455573671581 kg/m^3
+Air Pressure 80076.71973392153 Pascals
 Air Temperature 2.6500000000000004 Celsius
 
 Altitude: 2000 m
-Buoyancy force: 34581.31037041522 Newtons
+Buoyancy force: 1667.1197350842222 Newtons
 Airship Mass 183 KG
-Denisty 20.751998199717338 kg/m^3
-Air Pressure 101269.4606866458 Pascals
+Denisty 1.0007684369719823 kg/m^3
+Air Pressure 79044.67502784975 Pascals
 Air Temperature 2.0 Celsius
 
