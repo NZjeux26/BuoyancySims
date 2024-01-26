@@ -28,9 +28,9 @@ class Constants:
     gravity_on_earth = 9.81  # m/s^2
     air_density_sea_level = 1.225 # kg/m^3
     standard_pressure_sea_level = 101325  # Pascals
-    gas_constant = 287.058  # J/(kg·K)
-    temperature_lapse_rate = 0.0065  # degrees Celsius per meter
-    standard_temperature_at_sea_level = 294.65 # Kelvin Might need ot change to Celsius
-    exponent_constant = 0.19#5.255
-    inertia_coefficient = 0.01
+    gas_constant = 8.3144#287.058  # J/(kg·K)
+    temperature_lapse_rate = 0.0065  # 6.5c per kilometer(0.0065c per meter)
+    standard_temperature_at_sea_level = 15 #celsius
+    exponent_constant = 5.2561
+    inertia_coefficient = 0.09
     #Troposphere (0 - 11 km): Lapse rate is -6.4914 K/km, so the exponent for pressure and density is ~5.2561.
