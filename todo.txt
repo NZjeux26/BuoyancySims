@@ -1,0 +1,2 @@
+# Work out acceleration from the lifting mass, mass of the ship and its inertia
+# Seperate program to create a table of max mass lift at each altitude

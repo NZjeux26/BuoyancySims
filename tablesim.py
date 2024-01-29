@@ -31,7 +31,8 @@ while altitude <= 2000:
 
     # Calculate buoyancy force, and the netforce
     bforce = (atmosphere.density - Constants.hydrogen_density) * Constants.gravity_on_earth * airship.volume
-
+    acceleration = bforce / airship.mass
+    
         #airship.yval += a
         #airship.ypos += airship.yval
     with open("output.txt", "a") as file:
