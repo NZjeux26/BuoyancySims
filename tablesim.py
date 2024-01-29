@@ -3,7 +3,7 @@ from values import Airship, Atmosphere, Constants
 import math
 
 # Create airship
-airship = Airship(23.25, 3.05, 183, 0, 0, 100, 0)
+airship = Airship(23.25, 3.05, 180, 0, 0, 100, 0)
 
 # Create the atmosphere
 atmosphere = Atmosphere(
@@ -30,7 +30,7 @@ while altitude <= 2000:
 
 
     # Calculate buoyancy force, and the netforce
-    bforce = atmosphere.density * Constants.gravity_on_earth * airship.volume
+    bforce = (atmosphere.density - Constants.hydrogen_density) * Constants.gravity_on_earth * airship.volume
 
         #airship.yval += a
         #airship.ypos += airship.yval
@@ -41,6 +41,7 @@ while altitude <= 2000:
         print("Altitude:", altitude, "m")
         print("Buoyancy force:", bforce, "Newtons")
         print("Airship Mass", airship.mass, "KG")
+        print("Airship Volume", airship.volume, "m^3")
         print("Denisty", atmosphere.density, "kg/m^3")
         print("Air Pressure", atmosphere.pressure, "Pascals")
         print("Air Temperature", atmosphere.temperature, "Celsius\n")

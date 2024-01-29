@@ -27,6 +27,7 @@ class BuoyancyData:
 class Constants:
     gravity_on_earth = 9.80665  # m/s^2
     air_density_sea_level = 1.225 # kg/m^3
+    hydrogen_density = 0.008375 #kg/m^3
     standard_pressure_sea_level = 101325  # Pascals
     gas_constant = 8.3144598  # J/(kg·K) Wiki says this but the density is way off.
     temperature_lapse_rate = 0.0065  # 6.5c per kilometer(0.0065c per meter) Also 0.0065 Kelvin per meter
@@ -34,4 +35,5 @@ class Constants:
     exponent_constant = 5.2561
     inertia_coefficient = 0.09
     molar_mass_of_air = 0.0289644  # kg/mol
+    molar_mass_of_hydrogen = 0.00201588 #kg/mol
   

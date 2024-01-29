@@ -58,8 +58,22 @@ F_buoyant = Density_of_Hydrogen * Volume_of_Hydrogen * g
 
 Note: Use consistent units for the calculation. If the volume is given in cubic meters, the density in kg/m³, and gravity in m/s², the result will be in Newtons (N), which is the unit of force.
 
+FB = (ρair - ρgas) × g × V
+(1.292 - 0.090) kg/m3 = 1.202 kg/m3
+1 m3 × 1.202 kg/m3 × 9.8 N/kg= 11.8 N <- In the Amiga version you could just precalculate this figure and then just read from a table or something.
+
+That formula looks like: 
+HL = V * 1.202 * 9.81
+HL = Hydrogen lift in Newtons
+V = Volume in Cubic meters
+1.202 = Lifting capicity of hydrogen (1.202 KG per m3 of Hydrogen)
+9.81 = Gravity
+
 
 Websites: 
 Pressure: https://www.mide.com/air-pressure-at-altitude-calculator
 Denisty: https://www.calctool.org/atmospheric-thermodynamics/air-density
 Barometric Formula: https://en.wikipedia.org/wiki/Barometric_formula
+Hydrogen Calculator: https://calculator.academy/hydrogen-lift-calculator/
+Lifting Gas Formula: https://en.wikipedia.org/wiki/Lifting_gas#:~:text=Therefore%2C%20the%20amount%20of%20mass,m3%20%3D%201.202%20kg%2Fm&text=and%20the%20buoyant%20force%20for,9.8%20N%2Fkg%3D%2011.8%20N
+ICA Wiki: https://en.wikipedia.org/wiki/International_Standard_Atmosphere#ICAO_Standard_Atmosphere
