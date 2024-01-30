@@ -1,2 +1,6 @@
-# Work out acceleration from the lifting mass, mass of the ship and its inertia
+# Work out acceleration from the lifting mass, mass of the ship and its inertia                     DONE
 # Seperate program to create a table of max mass lift at each altitude
+# Add Air resistance to the simulation. 
+        # Need Drag Co-efficent of the object   
+        # Need Reference Area
+        

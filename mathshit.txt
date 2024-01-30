@@ -69,7 +69,33 @@ V = Volume in Cubic meters
 1.202 = Lifting capicity of hydrogen (1.202 KG per m3 of Hydrogen)
 9.81 = Gravity
 
+Newtons of an object is N = gravity * mass 
 
+Acceleration with Buoyant Force:
+
+1. Calculate Gravitational Force:
+   F_gravity = m * g
+   where:
+     - m is the mass of the object
+     - g is the acceleration due to gravity (approx. 9.8 m/s^2 on Earth)
+
+2. Calculate Buoyant Force:
+   F_buoyant = ρ * V * g
+   where:
+     - ρ is the density of the fluid
+     - V is the volume of fluid displaced by the object
+
+   If the object is fully submerged:
+     V = m / ρ_object
+     where ρ_object is the density of the object
+
+3. Determine Net Force:
+   F_net = F_buoyant - F_gravity
+
+4. Calculate Acceleration:
+   a = F_net / m
+
+   v = a * time 
 Websites: 
 Pressure: https://www.mide.com/air-pressure-at-altitude-calculator
 Denisty: https://www.calctool.org/atmospheric-thermodynamics/air-density
