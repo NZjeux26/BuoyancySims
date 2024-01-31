@@ -46,9 +46,14 @@ while running:
         elif event.type == pygame.KEYDOWN:
             if event.key == pygame.K_UP:
                 airship.yval += 0.2
-        elif event.type == pygame.KEYDOWN:
-            if event.key == pygame.K_DOWN: 
+                trust += 0.2
+            elif event.key == pygame.K_DOWN: 
                 airship.yval -= 0.2
+                trust -= 0.2
+            elif event.key == pygame.K_LEFT:
+                airship.xval -= 5
+            elif event.key == pygame.K_RIGHT:
+                airship.xval += 5
 
     dt = clock.tick(60) / 1000.0  # 60 frames per second 
     font = pygame.font.Font(None,32)
@@ -75,10 +80,12 @@ while running:
     acceleration = net_force / airship.mass
     
     #Update position and velocity. V is calculated bu taking the acceleration and multiplying it by the time.
-    airship.yval += (acceleration + trust) * dt #V = a * t
+    airship.yval += acceleration * dt #V = a * t
     airship.ypos += airship.yval
+    airship.xpos += airship.xval * dt
     
     airrectangle.y = max(0, min(screen_height - airrectangle.height, airship.ypos))
+    airrectangle.x = max(0, min(screen_width - airrectangle.width, airship.xpos))
     
     # Draw the rectangle on the screen
     screen.fill((255, 255, 255))
@@ -87,11 +94,14 @@ while running:
     alt_txt = font.render("Altitude: {} m".format(airship.ypos),True,(0, 0, 0))
     acc_txt = font.render("Acceleration: {} m/s^2".format(acceleration),True,(0, 0, 0))
     vertvelo_txt = font.render("Vertical Velocity: {} m/s".format(airship.yval),True,(0, 0, 0))
+    horvelo_txt = font.render("Horizontal Velocity: {} m/s".format(airship.xval),True,(0, 0, 0))
     trust_txt = font.render("Engine Trust: {} m/s".format(trust),True,(0, 0, 0))
+   
     screen.blit(alt_txt, (screen_width - 800, 20))
     screen.blit(acc_txt, (screen_width - 800, 60))
     screen.blit(vertvelo_txt, (screen_width - 800, 100))
-    screen.blit(trust_txt, (screen_width - 800, 140))
+    screen.blit(horvelo_txt, (screen_width - 800, 140))
+    screen.blit(trust_txt, (screen_width - 800, 180))
     
     # Update the display
     pygame.display.flip()
