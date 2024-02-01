@@ -96,6 +96,19 @@ Acceleration with Buoyant Force:
    a = F_net / m
 
    v = a * time 
+
+Current Airship is loosely based on LZ-127 Graf Zeppelin & the USS Los Angles
+Length: 236.6 m (776 ft 3 in)
+Diameter: 30.5 m (100 ft 1 in) maximum
+Fineness ratio: 7.25
+Height: 33.5 m (109 ft 11 in)
+
+Drag Coefficent (USS Los Angles): 0.023
+
+
+
+
+
 Websites: 
 Pressure: https://www.mide.com/air-pressure-at-altitude-calculator
 Denisty: https://www.calctool.org/atmospheric-thermodynamics/air-density

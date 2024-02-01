@@ -5,12 +5,14 @@ class Airship:
         self.length = length #in meters
         self.diameter = diameter #in meters
         self.mass = mass #in Kilograms
+        self.cd = 0.024 #drag coefficent 
         self.xval = xval
         self.yval = yval
         self.xpos = xpos
         self.ypos = ypos
         self.radius = diameter / 2  # Derived from diameter
         self.volume = math.pi * (diameter / 2)**2 * length  # Derived from dimensions
+        self.frontalarea = math.pi * self.radius**2
 
 class Atmosphere:
     def __init__(self, pressure, density, temperature):
@@ -29,7 +31,7 @@ class Constants:
     air_density_sea_level = 1.225 # kg/m^3
     hydrogen_density = 0.008375 #kg/m^3
     standard_pressure_sea_level = 101325  # Pascals
-    gas_constant = 8.3144598  # J/(kg·K) Wiki says this but the density is way off.
+    gas_constant = 8.3144598  # J/(kg·K) 
     temperature_lapse_rate = 0.0065  # 6.5c per kilometer(0.0065c per meter) Also 0.0065 Kelvin per meter
     standard_temperature_at_sea_level = 15 #celsius (288.15 Kelvin)
     exponent_constant = 5.2561

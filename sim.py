@@ -11,8 +11,8 @@ screen_width = 1600
 screen_height = 1600
 
 # Create airship
-airship = Airship(23.25, 3.05, 195, 0, 0, 100, 0)
-
+airship = Airship(23.25, 3.05, 195, 0, 0, 100, 0,0) #CD based on USS Arkon which is slightly fatter.
+            # Length Diameter Mass xval yval xpos ypos
 # Create the atmosphere
 atmosphere = Atmosphere(
     pressure = Constants.standard_pressure_sea_level,
@@ -73,6 +73,9 @@ while running:
     bforce = (atmosphere.density - Constants.hydrogen_density) * Constants.gravity_on_earth * airship.volume
     #Calculate the mass of the object in newtons which is mass * gravity
     force_gravity = airship.mass * Constants.gravity_on_earth
+    #drag on ship
+    ship_dragY = (atmosphere.density / 2) * airship.yval**2 * airship.cd * airship.frontalarea #< this needs to be the top surfacearea not the front since it's traveling up not forwards
+    ship_dragX = (atmosphere.density / 2) * airship.xval**2 * airship.cd * airship.frontalarea
     #the net force is the difference between the two
     net_force = bforce - force_gravity
     
