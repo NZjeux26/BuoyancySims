@@ -8,6 +8,8 @@ It now integrates drag into its force calculations but the airship doesn't 'feel
 
 It's more than enough for AirshipACE purposes so anything further would be more for curiosity than anything.
 
+Under the default figures the airship likes to hover around the 600m range. 
+
 ## Things that need to be added
  - Autopilot
       - Need an autopilot to maintain set heights with engine thrust to compensate for any buoyancy trim issues
