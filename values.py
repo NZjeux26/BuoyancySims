@@ -5,14 +5,15 @@ class Airship:
         self.length = length #in meters
         self.diameter = diameter #in meters
         self.mass = mass #in Kilograms
-        self.cd = 0.024 #drag coefficent 
+        self.cd = 0.029 #drag coefficent derived from the USS Los Angles (+ 0.05 for extras like gondalas and different shape)
         self.xval = xval
         self.yval = yval
         self.xpos = xpos
         self.ypos = ypos
         self.radius = diameter / 2  # Derived from diameter
         self.volume = math.pi * (diameter / 2)**2 * length  # Derived from dimensions
-        self.frontalarea = math.pi * self.radius**2
+        self.frontal_area = math.pi * self.radius**2
+        self.lateral_area = 2 * math.pi * self.radius * self.length # Lateral surface area
 
 class Atmosphere:
     def __init__(self, pressure, density, temperature):

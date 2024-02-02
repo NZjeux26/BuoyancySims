@@ -11,8 +11,16 @@ screen_width = 1600
 screen_height = 1600
 
 # Create airship
-airship = Airship(23.25, 3.05, 195, 0, 0, 100, 0,0) #CD based on USS Arkon which is slightly fatter.
-            # Length Diameter Mass xval yval xpos ypos
+airship = Airship(
+    length = 23.25, 
+    diameter = 3.05, 
+    mass = 195, 
+    xval = 0, 
+    yval = 0, 
+    xpos = 100, 
+    ypos = 0
+)
+            
 # Create the atmosphere
 atmosphere = Atmosphere(
     pressure = Constants.standard_pressure_sea_level,
@@ -46,14 +54,14 @@ while running:
         elif event.type == pygame.KEYDOWN:
             if event.key == pygame.K_UP:
                 airship.yval += 0.2
-                trust += 0.2
+           
             elif event.key == pygame.K_DOWN: 
                 airship.yval -= 0.2
-                trust -= 0.2
+                
             elif event.key == pygame.K_LEFT:
-                airship.xval -= 5
+                airship.xval -= 2.5
             elif event.key == pygame.K_RIGHT:
-                airship.xval += 5
+                airship.xval += 2.5
 
     dt = clock.tick(60) / 1000.0  # 60 frames per second 
     font = pygame.font.Font(None,32)
@@ -68,24 +76,29 @@ while running:
     #density = pressure * molar_mass_of_air / gas constant * temperature(in kelvin)   
     atmosphere.density = (atmosphere.pressure * Constants.molar_mass_of_air) / (Constants.gas_constant * (atmosphere.temperature + 273.15))
 
-
     #Calculate buoyancy force of the object
     bforce = (atmosphere.density - Constants.hydrogen_density) * Constants.gravity_on_earth * airship.volume
+    
     #Calculate the mass of the object in newtons which is mass * gravity
     force_gravity = airship.mass * Constants.gravity_on_earth
-    #drag on ship
-    ship_dragY = (atmosphere.density / 2) * airship.yval**2 * airship.cd * airship.frontalarea #< this needs to be the top surfacearea not the front since it's traveling up not forwards
-    ship_dragX = (atmosphere.density / 2) * airship.xval**2 * airship.cd * airship.frontalarea
+    
+    #drag on ship in X and Y axis
+    ship_dragY = (atmosphere.density / 2) * airship.yval**2 * airship.cd * airship.lateral_area #< this needs to be the top surfacearea not the front since it's traveling up not forwards
+    ship_dragX = (atmosphere.density / 2) * airship.xval**2 * airship.cd * airship.frontal_area
+    
     #the net force is the difference between the two
-    net_force = bforce - force_gravity
+    net_force_y = bforce - force_gravity - ship_dragY
+    net_force_x = -ship_dragX
     
     #calculate acceleration which is the net force divided by the mass of the object
-    acceleration = net_force / airship.mass
+    acceleration_y = net_force_y / airship.mass
+    acceleration_x = net_force_x / airship.mass
     
     #Update position and velocity. V is calculated bu taking the acceleration and multiplying it by the time.
-    airship.yval += acceleration * dt #V = a * t
+    airship.yval += acceleration_y * dt
+    airship.xval += acceleration_x * dt
     airship.ypos += airship.yval
-    airship.xpos += airship.xval * dt
+    airship.xpos += airship.xval
     
     airrectangle.y = max(0, min(screen_height - airrectangle.height, airship.ypos))
     airrectangle.x = max(0, min(screen_width - airrectangle.width, airship.xpos))
@@ -95,16 +108,16 @@ while running:
     pygame.draw.rect(screen, rectangle_color, airrectangle)
 
     alt_txt = font.render("Altitude: {} m".format(airship.ypos),True,(0, 0, 0))
-    acc_txt = font.render("Acceleration: {} m/s^2".format(acceleration),True,(0, 0, 0))
+    acc_txt = font.render("Acceleration: {} m/s^2".format(acceleration_y),True,(0, 0, 0))
     vertvelo_txt = font.render("Vertical Velocity: {} m/s".format(airship.yval),True,(0, 0, 0))
     horvelo_txt = font.render("Horizontal Velocity: {} m/s".format(airship.xval),True,(0, 0, 0))
-    trust_txt = font.render("Engine Trust: {} m/s".format(trust),True,(0, 0, 0))
+   # trust_txt = font.render("Engine Trust: {} m/s".format(trust),True,(0, 0, 0))
    
     screen.blit(alt_txt, (screen_width - 800, 20))
     screen.blit(acc_txt, (screen_width - 800, 60))
     screen.blit(vertvelo_txt, (screen_width - 800, 100))
     screen.blit(horvelo_txt, (screen_width - 800, 140))
-    screen.blit(trust_txt, (screen_width - 800, 180))
+    #screen.blit(trust_txt, (screen_width - 800, 180))
     
     # Update the display
     pygame.display.flip()
