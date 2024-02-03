@@ -105,7 +105,27 @@ Height: 33.5 m (109 ft 11 in)
 
 Drag Coefficent (USS Los Angles): 0.023
 
+Propeller Thrust Calculation Formulas:
 
+1. Basic Thrust Formula:
+   T = η * ρ * A * V * (V - V₀)
+
+   Where:
+   - T is the thrust,
+   - η is the propeller efficiency (0.7 to 0.9),
+   - ρ is the air density,
+   - A is the disc area swept by the propeller,
+   - V is the effective airspeed,
+   - V₀ is the airspeed of the aircraft (if any) in still air.
+
+2. Disc Area (\(A\)) Calculation for Two-Bladed Propeller:
+   A = π * (D/2)^2 (Area of a circle)
+
+3. Disc Area (\(A\)) Calculation for Three-Bladed Propeller:
+   A = (sqrt(3) * π * D²) / 4
+
+   Where:
+   - D is the diameter of the propeller.
 
 
 

@@ -1,26 +1,33 @@
 import pygame
 import sys
-from values import Airship, Atmosphere, Constants
+from values import Airship, Atmosphere, Constants, Engine
 import math
 
 # Initialize pygame
 pygame.init()
 
 # Define screen size
-screen_width = 1600
-screen_height = 1600
+screen_width = 1200
+screen_height = 1080
 
-# Create airship
+# Create airship Based around the LZ-129 Graf Zeppelin
 airship = Airship(
     length = 23.25, 
     diameter = 3.05, 
-    mass = 195, 
+    height = 3.35,
+    dry_mass = 67,
+    fuelmass = 36,
+    ballast =  92,
+    num_engines = 4,
     xval = 0, 
     yval = 0, 
     xpos = 100, 
     ypos = 0
 )
-            
+#Based roughly on the Lycoming O-540
+engines = Engine(
+    
+)         
 # Create the atmosphere
 atmosphere = Atmosphere(
     pressure = Constants.standard_pressure_sea_level,
@@ -52,7 +59,9 @@ while running:
         if event.type == pygame.QUIT:
             running = False
         elif event.type == pygame.KEYDOWN:
-            if event.key == pygame.K_UP:
+            if event.key == pygame.K_ESCAPE:
+                running = False
+            elif event.key == pygame.K_UP:
                 airship.yval += 0.2
            
             elif event.key == pygame.K_DOWN: 
