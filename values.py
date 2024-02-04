@@ -1,11 +1,26 @@
 import math
+class Engine:
+    def __init__(self, mass, fuelflow, prop_diameter, prop_efficiency, HP, thrust):
+        self.mass = mass
+        self.fuelflow = fuelflow
+        self.prop_diameter = prop_diameter
+        self.prop_area = math.pi * (prop_diameter / 2) **2
+        self.prop_efficiency = prop_efficiency
+        self.hp = HP
+        self.thrust = thrust
 
 class Airship:
-    def __init__(self, length, diameter, mass, xval, yval, xpos, ypos):
+    def __init__(self, length, diameter,height,dry_mass,ballast,fuelmass,num_engines,cd,engine,xval, yval, xpos, ypos):
         self.length = length #in meters
         self.diameter = diameter #in meters
-        self.mass = mass #in Kilograms
-        self.cd = 0.029 #drag coefficent derived from the USS Los Angles (+ 0.05 for extras like gondalas and different shape)
+        self.height = height #in meters
+        self.fuelmass = fuelmass #in Kilograms
+        self.dry_mass = dry_mass #in Kilograms
+        self.ballest = ballast #in Kilograms
+        self.engines = [engine for _ in range(num_engines)]
+        self.num_engines = num_engines
+        self.mass = fuelmass + dry_mass + ballast #+ engine_mass#in Kilograms
+        self.cd = cd 
         self.xval = xval
         self.yval = yval
         self.xpos = xpos
@@ -14,7 +29,7 @@ class Airship:
         self.volume = math.pi * (diameter / 2)**2 * length  # Derived from dimensions
         self.frontal_area = math.pi * self.radius**2
         self.lateral_area = 2 * math.pi * self.radius * self.length # Lateral surface area
-
+        
 class Atmosphere:
     def __init__(self, pressure, density, temperature):
         self.pressure = pressure

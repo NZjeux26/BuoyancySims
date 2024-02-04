@@ -105,9 +105,46 @@ Height: 33.5 m (109 ft 11 in)
 
 Drag Coefficent (USS Los Angles): 0.023
 
+Propeller Thrust Calculation Formulas:
 
+1. Basic Thrust Formula:
+   T = η * ρ * A * V * (V - V₀)
 
+   Where:
+   - T is the thrust,
+   - η is the propeller efficiency (0.7 to 0.9),
+   - ρ is the air density,
+   - A is the disc area swept by the propeller,
+   - V is the effective airspeed,
+   - V₀ is the airspeed of the aircraft (if any) in still air.
 
+2. Disc Area (\(A\)) Calculation for Two-Bladed Propeller:
+   A = π * (D/2)^2 (Area of a circle)
+
+3. Disc Area (\(A\)) Calculation for Three-Bladed Propeller:
+   A = (sqrt(3) * π * D²) / 4
+
+   Where:
+   - D is the diameter of the propeller.
+
+OR sue the more correct formula
+F = 0.5 * rho * A * (Ve^2 - V0^2)
+
+Where:
+
+F is the thrust (force) in Newtons
+rho is the air density in kilograms per cubic meter (kg/m³)
+A is the propeller disk area in square meters (m²)
+Ve is the exit velocity of the air behind the propeller in meters per second (m/s)
+V0 is the inflow velocity of the air entering the propeller in meters per second (m/s)
+
+Engine Data
+Fuel flow:
+   100% = 19 Gallons per Hour
+   50% = 8 Gallons per Hour
+   Idle = 0.5 Gallons per Hour
+
+Fuel mass is 0.719KG per Litre
 
 Websites: 
 Pressure: https://www.mide.com/air-pressure-at-altitude-calculator
@@ -116,3 +153,5 @@ Barometric Formula: https://en.wikipedia.org/wiki/Barometric_formula
 Hydrogen Calculator: https://calculator.academy/hydrogen-lift-calculator/
 Lifting Gas Formula: https://en.wikipedia.org/wiki/Lifting_gas#:~:text=Therefore%2C%20the%20amount%20of%20mass,m3%20%3D%201.202%20kg%2Fm&text=and%20the%20buoyant%20force%20for,9.8%20N%2Fkg%3D%2011.8%20N
 ICA Wiki: https://en.wikipedia.org/wiki/International_Standard_Atmosphere#ICAO_Standard_Atmosphere
+Engine Manual: https://www.lycoming.com/sites/default/files/attachments/O%2520%2526%2520IO-540%2520Oper%2520Manual%252060297-10.pdf
+Fuel Calculator: https://e6bx.com/unit-converter/fuel/

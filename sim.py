@@ -1,26 +1,43 @@
 import pygame
 import sys
-from values import Airship, Atmosphere, Constants
+from values import Airship, Atmosphere, Constants, Engine
 import math
 
 # Initialize pygame
 pygame.init()
 
 # Define screen size
-screen_width = 1600
-screen_height = 1600
+screen_width = 1200
+screen_height = 1080
 
-# Create airship
+#Based roughly on the Lycoming O-540
+engines = Engine( #egines need to be created before the airship, done in this OO so airships can swap out engines
+    mass = 2,
+    fuelflow = 0.719, #this will change based on the max thrust
+    prop_diameter = 2.032, #meters based on the C2R40500STP propeller
+    HP = 419, #not actually sure this is going to be used
+    prop_efficiency = 0.83,
+    thrust = 0
+    #thrust needs calcualted per frame as it changes based on height
+) 
+
+# Create airship Based around the LZ-129 Graf Zeppelin
 airship = Airship(
     length = 23.25, 
     diameter = 3.05, 
-    mass = 195, 
+    height = 3.35,
+    dry_mass = 67,
+    fuelmass = 36,
+    ballast =  92,
+    engine = engines,
+    num_engines = 4,
+    cd = 0.029, #drag coefficent derived from the USS Los Angles (+ 0.05 for extras like gondalas and different shape)
     xval = 0, 
     yval = 0, 
     xpos = 100, 
     ypos = 0
 )
-            
+
 # Create the atmosphere
 atmosphere = Atmosphere(
     pressure = Constants.standard_pressure_sea_level,
@@ -52,7 +69,9 @@ while running:
         if event.type == pygame.QUIT:
             running = False
         elif event.type == pygame.KEYDOWN:
-            if event.key == pygame.K_UP:
+            if event.key == pygame.K_ESCAPE:
+                running = False
+            elif event.key == pygame.K_UP:
                 airship.yval += 0.2
            
             elif event.key == pygame.K_DOWN: 
@@ -111,13 +130,14 @@ while running:
     acc_txt = font.render("Acceleration: {} m/s^2".format(acceleration_y),True,(0, 0, 0))
     vertvelo_txt = font.render("Vertical Velocity: {} m/s".format(airship.yval),True,(0, 0, 0))
     horvelo_txt = font.render("Horizontal Velocity: {} m/s".format(airship.xval),True,(0, 0, 0))
+    mass_txt = font.render("Mass: {} KG".format(airship.mass),True,(0, 0, 0))
    # trust_txt = font.render("Engine Trust: {} m/s".format(trust),True,(0, 0, 0))
    
     screen.blit(alt_txt, (screen_width - 800, 20))
     screen.blit(acc_txt, (screen_width - 800, 60))
     screen.blit(vertvelo_txt, (screen_width - 800, 100))
     screen.blit(horvelo_txt, (screen_width - 800, 140))
-    #screen.blit(trust_txt, (screen_width - 800, 180))
+    screen.blit(mass_txt, (screen_width - 800, 180))
     
     # Update the display
     pygame.display.flip()
