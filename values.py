@@ -35,7 +35,15 @@ class Atmosphere:
         self.pressure = pressure
         self.density = density
         self.temperature = temperature
-
+    def cal_temperature(self,altitude):
+        return Constants.standard_temperature_at_sea_level - (Constants.temperature_lapse_rate * altitude)
+    def cal_pressure(self,altitude,temperature):
+        return Constants.standard_pressure_sea_level * math.exp(
+            -Constants.gravity_on_earth * Constants.molar_mass_of_air * altitude / (Constants.gas_constant * (temperature + 273.15))#temp converted to kelvin for mathing
+    )
+    def cal_density(self,pressure,temperature):
+        return (pressure * Constants.molar_mass_of_air) / (Constants.gas_constant * (temperature + 273.15))
+    
 class BuoyancyData:
     def __init__(self, buoyancy_force, mass_lifted, acceleration):
         self.buoyancy_force = buoyancy_force
@@ -54,4 +62,3 @@ class Constants:
     inertia_coefficient = 0.09
     molar_mass_of_air = 0.0289644  # kg/mol
     molar_mass_of_hydrogen = 0.00201588 #kg/mol
-  
