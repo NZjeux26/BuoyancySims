@@ -61,6 +61,13 @@ airrectangle = pygame.Rect(airship.xpos, airship.ypos, 100, 100)
 clock = pygame.time.Clock()
 
 trust = 0.0
+throttle_y = 0
+throttle_x = 0
+# Flags to track key state
+increase_throttle_y = False
+decrease_throttle_y = False
+increase_throttle_x = False
+decrease_throttle_x = False
 
 # Main loop
 running = True
@@ -69,18 +76,33 @@ while running:
         if event.type == pygame.QUIT:
             running = False
         elif event.type == pygame.KEYDOWN:
-            if event.key == pygame.K_ESCAPE:
-                running = False
-            elif event.key == pygame.K_UP:
-                airship.yval += 0.2
-           
+            if event.key == pygame.K_UP:
+                increase_throttle_y = True
             elif event.key == pygame.K_DOWN: 
-                airship.yval -= 0.2
-                
+                decrease_throttle_y = True
             elif event.key == pygame.K_LEFT:
-                airship.xval -= 2.5
+                decrease_throttle_x = True
             elif event.key == pygame.K_RIGHT:
-                airship.xval += 2.5
+                increase_throttle_x = True
+        elif event.type == pygame.KEYUP:
+            if event.key == pygame.K_UP:
+                increase_throttle_y = False
+            elif event.key == pygame.K_DOWN: 
+                decrease_throttle_y = False
+            elif event.key == pygame.K_LEFT:
+                decrease_throttle_x = False
+            elif event.key == pygame.K_RIGHT:
+                increase_throttle_x = False
+
+    # Adjust throttle based on key state
+    if increase_throttle_y:
+        throttle_y += 1
+    if decrease_throttle_y:
+        throttle_y -= 1
+    if increase_throttle_x:
+        throttle_x += 1
+    if decrease_throttle_x:
+        throttle_x -= 1
 
     dt = clock.tick(60) / 1000.0  # 60 frames per second 
     font = pygame.font.Font(None,32)
@@ -95,6 +117,10 @@ while running:
     #density = pressure * molar_mass_of_air / gas constant * temperature(in kelvin)   
     atmosphere.density = (atmosphere.pressure * Constants.molar_mass_of_air) / (Constants.gas_constant * (atmosphere.temperature + 273.15))
 
+    engines.thrust = 0.5 * atmosphere.density * engines.prop_area * (3.5**2 - airship.yval**2) #this is the max thrust from ONE engine. 3m/s is a random value 
+    engine_thrust_y = engines.thrust * (throttle_y / 100.0)
+    engine_thrust_x = engines.thrust * (throttle_x / 100.0)
+    
     #Calculate buoyancy force of the object
     bforce = (atmosphere.density - Constants.hydrogen_density) * Constants.gravity_on_earth * airship.volume
     
@@ -106,8 +132,8 @@ while running:
     ship_dragX = (atmosphere.density / 2) * airship.xval**2 * airship.cd * airship.frontal_area
     
     #the net force is the difference between the two
-    net_force_y = bforce - force_gravity - ship_dragY
-    net_force_x = -ship_dragX
+    net_force_y = bforce - force_gravity - ship_dragY + (engine_thrust_y * airship.num_engines)
+    net_force_x = (engine_thrust_x * airship.num_engines) - ship_dragX 
     
     #calculate acceleration which is the net force divided by the mass of the object
     acceleration_y = net_force_y / airship.mass
@@ -131,6 +157,9 @@ while running:
     vertvelo_txt = font.render("Vertical Velocity: {} m/s".format(airship.yval),True,(0, 0, 0))
     horvelo_txt = font.render("Horizontal Velocity: {} m/s".format(airship.xval),True,(0, 0, 0))
     mass_txt = font.render("Mass: {} KG".format(airship.mass),True,(0, 0, 0))
+    maxthrust_txt = font.render("Max Power: {} N".format(engines.thrust * airship.num_engines),True,(0, 0, 0))
+    actual_thrust_txt = font.render("Actual Thrust: {} N".format(engine_thrust_y * airship.num_engines),True,(0, 0, 0))
+    throttle_y_txt = font.render("Throttle: {} %".format(throttle_y),True,(0, 0, 0))
    # trust_txt = font.render("Engine Trust: {} m/s".format(trust),True,(0, 0, 0))
    
     screen.blit(alt_txt, (screen_width - 800, 20))
@@ -138,7 +167,9 @@ while running:
     screen.blit(vertvelo_txt, (screen_width - 800, 100))
     screen.blit(horvelo_txt, (screen_width - 800, 140))
     screen.blit(mass_txt, (screen_width - 800, 180))
-    
+    screen.blit(maxthrust_txt, (screen_width - 800, 220))
+    screen.blit(actual_thrust_txt, (screen_width - 800, 260))
+    screen.blit(throttle_y_txt, (screen_width - 800, 300))
     # Update the display
     pygame.display.flip()
     
