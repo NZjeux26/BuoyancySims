@@ -49,6 +49,8 @@ class BuoyancyData:
         self.buoyancy_force = buoyancy_force
         self.mass_lifted = mass_lifted
         self.acceleration = acceleration
+    def cal_buoyancy_force(density,volume):
+        return (density - Constants.hydrogen_density) * Constants.gravity_on_earth * volume
 
 class Constants:
     gravity_on_earth = 9.80665  # m/s^2

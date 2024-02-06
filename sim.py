@@ -1,6 +1,6 @@
 import pygame
 import sys
-from values import Airship, Atmosphere, Constants, Engine
+from values import Airship, Atmosphere, Constants, Engine, BuoyancyData
 import math
 
 # Initialize pygame
@@ -109,20 +109,19 @@ while running:
     
     #if the temp is not correct, the pressure will not be and thus the density will not either
     #Temp is the sea level temp - the (lasp rate * the altitude)
-    atmosphere.temperature = atmosphere.cal_temperature(airship.ypos)#Constants.standard_temperature_at_sea_level - (Constants.temperature_lapse_rate * airship.ypos)#now correct
+    atmosphere.temperature = atmosphere.cal_temperature(airship.ypos)
     
-    atmosphere.pressure = atmosphere.cal_pressure(airship.ypos,atmosphere.temperature) #Constants.standard_pressure_sea_level * math.exp(
-           # -Constants.gravity_on_earth * Constants.molar_mass_of_air * airship.ypos / (Constants.gas_constant * (atmosphere.temperature + 273.15))#temp converted to kelvin for mathing
-    ##)
+    atmosphere.pressure = atmosphere.cal_pressure(airship.ypos,atmosphere.temperature)
+  
     #density = pressure * molar_mass_of_air / gas constant * temperature(in kelvin)   
-    atmosphere.density = atmosphere.cal_density(atmosphere.pressure,atmosphere.temperature)#(atmosphere.pressure * Constants.molar_mass_of_air) / (Constants.gas_constant * (atmosphere.temperature + 273.15))
+    atmosphere.density = atmosphere.cal_density(atmosphere.pressure,atmosphere.temperature)
 
     engines.thrust = 0.5 * atmosphere.density * engines.prop_area * (3.5**2 - airship.yval**2) #this is the max thrust from ONE engine. 3m/s is a random value 
     engine_thrust_y = engines.thrust * (throttle_y / 100.0)
     engine_thrust_x = engines.thrust * (throttle_x / 100.0)
     
     #Calculate buoyancy force of the object
-    bforce = (atmosphere.density - Constants.hydrogen_density) * Constants.gravity_on_earth * airship.volume
+    bforce = BuoyancyData.cal_buoyancy_force(atmosphere.density,airship.volume)  #(atmosphere.density - Constants.hydrogen_density) * Constants.gravity_on_earth * airship.volume
     
     #Calculate the mass of the object in newtons which is mass * gravity
     force_gravity = airship.mass * Constants.gravity_on_earth
