@@ -13,8 +13,10 @@ def draw_things():
     horvelo_txt = font.render("Horizontal Velocity: {} m/s".format(airship.xval),True,(0, 0, 0))
     mass_txt = font.render("Mass: {} KG".format(airship.mass),True,(0, 0, 0))
     maxthrust_txt = font.render("Max Power: {} N".format(engines.thrust * airship.num_engines),True,(0, 0, 0))
-    actual_thrust_txt = font.render("Actual Thrust: {} N".format(engine_thrust_y * airship.num_engines),True,(0, 0, 0))
-    throttle_y_txt = font.render("Throttle: {} %".format(throttle_y),True,(0, 0, 0))
+    actual_thrust_txt = font.render("Y-Thrust: {} N".format(engine_thrust_y * airship.num_engines),True,(0, 0, 0))
+    throttle_y_txt = font.render("Y-Throttle: {} %".format(throttle_y),True,(0, 0, 0))
+    actual_thrustX_txt = font.render("X-Thrust: {} N".format(engine_thrust_x * airship.num_engines),True,(0, 0, 0))
+    throttle_x_txt = font.render("X-Throttle: {} %".format(throttle_x),True,(0, 0, 0))
    # trust_txt = font.render("Engine Trust: {} m/s".format(trust),True,(0, 0, 0))
    
     screen.blit(alt_txt, (screen_width - 800, 20))
@@ -25,6 +27,8 @@ def draw_things():
     screen.blit(maxthrust_txt, (screen_width - 800, 220))
     screen.blit(actual_thrust_txt, (screen_width - 800, 260))
     screen.blit(throttle_y_txt, (screen_width - 800, 300))
+    screen.blit(actual_thrustX_txt, (screen_width - 800, 360))
+    screen.blit(throttle_x_txt, (screen_width - 800, 400))
 
 # Define screen size
 screen_width = 1200
@@ -146,8 +150,8 @@ while running:
     force_gravity = BuoyancyData.cal_gravity_force(airship.mass)
     
     #drag on ship in X and Y axis
-    ship_dragY = (atmosphere.density / 2) * airship.yval**2 * airship.cd * airship.lateral_area #< this needs to be the top surfacearea not the front since it's traveling up not forwards
-    ship_dragX = (atmosphere.density / 2) * airship.xval**2 * airship.cd * airship.frontal_area
+    ship_dragY = airship.cal_drag_y(atmosphere.density)
+    ship_dragX = airship.cal_drag_x(atmosphere.density)
     
     #the net force is the difference between the two
     net_force_y = bforce - force_gravity - ship_dragY + (engine_thrust_y * airship.num_engines)

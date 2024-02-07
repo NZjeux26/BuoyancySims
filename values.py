@@ -8,14 +8,14 @@ class Engine:
         self.prop_efficiency = prop_efficiency
         self.hp = HP
         self.thrust = thrust
-    def cal_engine_thrust(self,density,velocity): #this is the max thrust from ONE engine. 3m/s is a random value It should be Ve which is the exit velocity of the moved mass by the propellor sanding still.
+    def cal_engine_thrust(self,density,velocity): #this is the max thrust from ONE engine. 3.5m/s is a random value It should be Ve which is the exit velocity of the moved mass by the propellor sanding still.
         return 0.5 * density * self.prop_area * (3.5**2 - velocity**2)
 
 class Airship:
     def __init__(self, length, diameter,height,dry_mass,ballast,fuelmass,num_engines,cd,engine,xval, yval, xpos, ypos):
         self.length = length #in meters
         self.diameter = diameter #in meters
-        self.height = height #in meters
+        self.height = height #in meters Not used but if i wanted to switch to using math for an Elliposid then i need it
         self.fuelmass = fuelmass #in Kilograms
         self.dry_mass = dry_mass #in Kilograms
         self.ballest = ballast #in Kilograms
@@ -28,9 +28,15 @@ class Airship:
         self.xpos = xpos
         self.ypos = ypos
         self.radius = diameter / 2  # Derived from diameter
+         #the frontal area and lateral area are assuming a cylinder when most airships are infact Ellipsoid. To keep this simple i have stuck with a cylinder
         self.volume = math.pi * (diameter / 2)**2 * length  # Derived from dimensions
-        self.frontal_area = math.pi * self.radius**2
+        self.frontal_area = math.pi * self.radius**2 
         self.lateral_area = 2 * math.pi * self.radius * self.length # Lateral surface area
+    #returns the drag on the Y or X axis. 
+    def cal_drag_y(self, density):
+        return (density / 2) * self.yval**2 * self.cd * self.lateral_area
+    def cal_drag_x(self, density):
+        return (density / 2) * self.xval**2 * self.cd * self.frontal_area
         
 class Atmosphere:
     def __init__(self, pressure, density, temperature):
