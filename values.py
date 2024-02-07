@@ -8,6 +8,8 @@ class Engine:
         self.prop_efficiency = prop_efficiency
         self.hp = HP
         self.thrust = thrust
+    def cal_engine_thrust(self,density,velocity): #this is the max thrust from ONE engine. 3m/s is a random value It should be Ve which is the exit velocity of the moved mass by the propellor sanding still.
+        return 0.5 * density * self.prop_area * (3.5**2 - velocity**2)
 
 class Airship:
     def __init__(self, length, diameter,height,dry_mass,ballast,fuelmass,num_engines,cd,engine,xval, yval, xpos, ypos):
@@ -35,14 +37,14 @@ class Atmosphere:
         self.pressure = pressure
         self.density = density
         self.temperature = temperature
-    def cal_temperature(self,altitude):
+    def cal_temperature(self,altitude): #Temp is the sea level temp - the (lasp rate * the altitude)
         return Constants.standard_temperature_at_sea_level - (Constants.temperature_lapse_rate * altitude)
-    def cal_pressure(self,altitude,temperature):
+    def cal_pressure(self,altitude):
         return Constants.standard_pressure_sea_level * math.exp(
-            -Constants.gravity_on_earth * Constants.molar_mass_of_air * altitude / (Constants.gas_constant * (temperature + 273.15))#temp converted to kelvin for mathing
+            -Constants.gravity_on_earth * Constants.molar_mass_of_air * altitude / (Constants.gas_constant * (self.temperature + 273.15))#temp converted to kelvin for mathing
     )
-    def cal_density(self,pressure,temperature):
-        return (pressure * Constants.molar_mass_of_air) / (Constants.gas_constant * (temperature + 273.15))
+    def cal_density(self): #density = pressure * molar_mass_of_air / gas constant * temperature(in kelvin) 
+        return (self.pressure * Constants.molar_mass_of_air) / (Constants.gas_constant * (self.temperature + 273.15))
     
 class BuoyancyData:
     def __init__(self, buoyancy_force, mass_lifted, acceleration):
@@ -51,6 +53,8 @@ class BuoyancyData:
         self.acceleration = acceleration
     def cal_buoyancy_force(density,volume):
         return (density - Constants.hydrogen_density) * Constants.gravity_on_earth * volume
+    def cal_gravity_force(mass):
+        return mass * Constants.gravity_on_earth
 
 class Constants:
     gravity_on_earth = 9.80665  # m/s^2

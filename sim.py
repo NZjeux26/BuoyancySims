@@ -6,6 +6,26 @@ import math
 # Initialize pygame
 pygame.init()
 
+def draw_things():
+    alt_txt = font.render("Altitude: {} m".format(airship.ypos),True,(0, 0, 0))
+    acc_txt = font.render("Acceleration: {} m/s^2".format(acceleration_y),True,(0, 0, 0))
+    vertvelo_txt = font.render("Vertical Velocity: {} m/s".format(airship.yval),True,(0, 0, 0))
+    horvelo_txt = font.render("Horizontal Velocity: {} m/s".format(airship.xval),True,(0, 0, 0))
+    mass_txt = font.render("Mass: {} KG".format(airship.mass),True,(0, 0, 0))
+    maxthrust_txt = font.render("Max Power: {} N".format(engines.thrust * airship.num_engines),True,(0, 0, 0))
+    actual_thrust_txt = font.render("Actual Thrust: {} N".format(engine_thrust_y * airship.num_engines),True,(0, 0, 0))
+    throttle_y_txt = font.render("Throttle: {} %".format(throttle_y),True,(0, 0, 0))
+   # trust_txt = font.render("Engine Trust: {} m/s".format(trust),True,(0, 0, 0))
+   
+    screen.blit(alt_txt, (screen_width - 800, 20))
+    screen.blit(acc_txt, (screen_width - 800, 60))
+    screen.blit(vertvelo_txt, (screen_width - 800, 100))
+    screen.blit(horvelo_txt, (screen_width - 800, 140))
+    screen.blit(mass_txt, (screen_width - 800, 180))
+    screen.blit(maxthrust_txt, (screen_width - 800, 220))
+    screen.blit(actual_thrust_txt, (screen_width - 800, 260))
+    screen.blit(throttle_y_txt, (screen_width - 800, 300))
+
 # Define screen size
 screen_width = 1200
 screen_height = 1080
@@ -108,23 +128,22 @@ while running:
     font = pygame.font.Font(None,32)
     
     #if the temp is not correct, the pressure will not be and thus the density will not either
-    #Temp is the sea level temp - the (lasp rate * the altitude)
+  
     atmosphere.temperature = atmosphere.cal_temperature(airship.ypos)
     
-    atmosphere.pressure = atmosphere.cal_pressure(airship.ypos,atmosphere.temperature)
-  
-    #density = pressure * molar_mass_of_air / gas constant * temperature(in kelvin)   
-    atmosphere.density = atmosphere.cal_density(atmosphere.pressure,atmosphere.temperature)
+    atmosphere.pressure = atmosphere.cal_pressure(airship.ypos)
+    
+    atmosphere.density = atmosphere.cal_density()
 
-    engines.thrust = 0.5 * atmosphere.density * engines.prop_area * (3.5**2 - airship.yval**2) #this is the max thrust from ONE engine. 3m/s is a random value 
+    engines.thrust = engines.cal_engine_thrust(atmosphere.density,airship.yval)#this is the max thrust from ONE engine. 3m/s is a random value 
     engine_thrust_y = engines.thrust * (throttle_y / 100.0)
     engine_thrust_x = engines.thrust * (throttle_x / 100.0)
     
     #Calculate buoyancy force of the object
-    bforce = BuoyancyData.cal_buoyancy_force(atmosphere.density,airship.volume)  #(atmosphere.density - Constants.hydrogen_density) * Constants.gravity_on_earth * airship.volume
+    bforce = BuoyancyData.cal_buoyancy_force(atmosphere.density,airship.volume)
     
     #Calculate the mass of the object in newtons which is mass * gravity
-    force_gravity = airship.mass * Constants.gravity_on_earth
+    force_gravity = BuoyancyData.cal_gravity_force(airship.mass)
     
     #drag on ship in X and Y axis
     ship_dragY = (atmosphere.density / 2) * airship.yval**2 * airship.cd * airship.lateral_area #< this needs to be the top surfacearea not the front since it's traveling up not forwards
@@ -151,24 +170,8 @@ while running:
     screen.fill((255, 255, 255))
     pygame.draw.rect(screen, rectangle_color, airrectangle)
 
-    alt_txt = font.render("Altitude: {} m".format(airship.ypos),True,(0, 0, 0))
-    acc_txt = font.render("Acceleration: {} m/s^2".format(acceleration_y),True,(0, 0, 0))
-    vertvelo_txt = font.render("Vertical Velocity: {} m/s".format(airship.yval),True,(0, 0, 0))
-    horvelo_txt = font.render("Horizontal Velocity: {} m/s".format(airship.xval),True,(0, 0, 0))
-    mass_txt = font.render("Mass: {} KG".format(airship.mass),True,(0, 0, 0))
-    maxthrust_txt = font.render("Max Power: {} N".format(engines.thrust * airship.num_engines),True,(0, 0, 0))
-    actual_thrust_txt = font.render("Actual Thrust: {} N".format(engine_thrust_y * airship.num_engines),True,(0, 0, 0))
-    throttle_y_txt = font.render("Throttle: {} %".format(throttle_y),True,(0, 0, 0))
-   # trust_txt = font.render("Engine Trust: {} m/s".format(trust),True,(0, 0, 0))
-   
-    screen.blit(alt_txt, (screen_width - 800, 20))
-    screen.blit(acc_txt, (screen_width - 800, 60))
-    screen.blit(vertvelo_txt, (screen_width - 800, 100))
-    screen.blit(horvelo_txt, (screen_width - 800, 140))
-    screen.blit(mass_txt, (screen_width - 800, 180))
-    screen.blit(maxthrust_txt, (screen_width - 800, 220))
-    screen.blit(actual_thrust_txt, (screen_width - 800, 260))
-    screen.blit(throttle_y_txt, (screen_width - 800, 300))
+    draw_things()
+    
     # Update the display
     pygame.display.flip()
     
@@ -177,7 +180,6 @@ while running:
 
 # Quit pygame
 pygame.quit()
-
 
 #NOTES
 #Something in the calculation for pressure is not right, it's dropping way to fast and doesn't match the suposed altitude of ship
