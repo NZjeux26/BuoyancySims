@@ -1,6 +1,6 @@
 import pygame
 import sys
-from values import Airship, Atmosphere, Constants, Engine, BuoyancyData
+from values import Airship, Atmosphere, Constants, Engine, BuoyancyData, Weapons
 import math
 
 # Initialize pygame
@@ -17,6 +17,7 @@ def draw_things():
     throttle_y_txt = font.render("Y-Throttle: {} %".format(throttle_y),True,(0, 0, 0))
     actual_thrustX_txt = font.render("X-Thrust: {} N".format(engine_thrust_x * airship.num_engines),True,(0, 0, 0))
     throttle_x_txt = font.render("X-Throttle: {} %".format(throttle_x),True,(0, 0, 0))
+    mouse_x_text = font.render("X-PosM: {} %".format(mouse_x),True,(0, 0, 0))
    # trust_txt = font.render("Engine Trust: {} m/s".format(trust),True,(0, 0, 0))
    
     screen.blit(alt_txt, (screen_width - 800, 20))
@@ -27,12 +28,26 @@ def draw_things():
     screen.blit(maxthrust_txt, (screen_width - 800, 220))
     screen.blit(actual_thrust_txt, (screen_width - 800, 260))
     screen.blit(throttle_y_txt, (screen_width - 800, 300))
-    screen.blit(actual_thrustX_txt, (screen_width - 800, 360))
-    screen.blit(throttle_x_txt, (screen_width - 800, 400))
+    screen.blit(actual_thrustX_txt, (screen_width - 800, 340))
+    screen.blit(throttle_x_txt, (screen_width - 800, 380))
+    screen.blit(mouse_x_text, (screen_width - 800, 400))
 
 # Define screen size
 screen_width = 1200
 screen_height = 1080
+#based on the Bofors L/70
+autocannon = Weapons(
+    dry_mass = 24,
+    barrel_length = 3.25,
+    max_ammo = 300,
+    type = 1, 
+    mag_size = 20000,
+    rate_of_fire = 4, # rounds per second
+    catridge_mass = 0.096,
+    reload_time = 2.5,
+    muzzle_velocity = 100,
+    crew_requirement = 4
+)
 
 #Based roughly on the Lycoming O-540
 engines = Engine( #egines need to be created before the airship, done in this OO so airships can swap out engines
@@ -52,7 +67,7 @@ airship = Airship(
     height = 3.35,
     dry_mass = 67,
     fuelmass = 36,
-    ballast =  92,
+    ballast =  91,
     engine = engines,
     num_engines = 4,
     cd = 0.029, #drag coefficent derived from the USS Los Angles (+ 0.05 for extras like gondalas and different shape)
@@ -92,7 +107,7 @@ increase_throttle_y = False
 decrease_throttle_y = False
 increase_throttle_x = False
 decrease_throttle_x = False
-
+fire_weapon = False
 # Main loop
 running = True
 while running:
@@ -108,6 +123,9 @@ while running:
                 decrease_throttle_x = True
             elif event.key == pygame.K_RIGHT:
                 increase_throttle_x = True
+            elif event.key == pygame.K_SPACE:
+                fire_weapon = True
+                pygame.draw.rect(screen,rectangle_color, (190, 200, 20,20))
         elif event.type == pygame.KEYUP:
             if event.key == pygame.K_UP:
                 increase_throttle_y = False
@@ -117,7 +135,11 @@ while running:
                 decrease_throttle_x = False
             elif event.key == pygame.K_RIGHT:
                 increase_throttle_x = False
-
+            elif event.key == pygame.K_SPACE:
+                fire_weapon = False
+    
+    #get the mouse X/Y
+    mouse_x, mouse_y = pygame.mouse.get_pos()
     # Adjust throttle based on key state
     if increase_throttle_y:
         throttle_y += 1
@@ -131,12 +153,19 @@ while running:
     dt = clock.tick(60) / 1000.0  # 60 frames per second 
     font = pygame.font.Font(None,32)
     
-    #if the temp is not correct, the pressure will not be and thus the density will not either
+    projectiles = []
+    
+    autocannon.weapon_pos(airship.xpos,airship.ypos)
   
+
+    autocannon.update_projectile()
+    
+    #if the temp is not correct, the pressure will not be and thus the density will not either
+    
     atmosphere.temperature = atmosphere.cal_temperature(airship.ypos)
     
     atmosphere.pressure = atmosphere.cal_pressure(airship.ypos)
-    
+         
     atmosphere.density = atmosphere.cal_density()
 
     engines.thrust = engines.cal_engine_thrust(atmosphere.density,airship.yval)#this is the max thrust from ONE engine. 3m/s is a random value 
@@ -173,7 +202,11 @@ while running:
     # Draw the rectangle on the screen
     screen.fill((255, 255, 255))
     pygame.draw.rect(screen, rectangle_color, airrectangle)
-
+    
+    if fire_weapon:
+        autocannon.fire_projectile()
+        pygame.draw.circle(screen,rectangle_color,(int(autocannon.projectile.x), int(autocannon.projectile.y)), 5)
+        
     draw_things()
     
     # Update the display
@@ -185,7 +218,4 @@ while running:
 # Quit pygame
 pygame.quit()
 
-#NOTES
-#Something in the calculation for pressure is not right, it's dropping way to fast and doesn't match the suposed altitude of ship
-#Change the values to use consistant values, either all Kelvin or all Celcius
  

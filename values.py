@@ -1,4 +1,57 @@
 import math
+import pygame
+class Projectile:
+    def __init__(self, x, y, velocity, angle):
+        self.x = x
+        self.y = y
+        self.velocity = velocity
+        self.angle = angle
+    def update(self):
+        self.x += self.velocity * math.cos(math.radians(self.angle))
+        self.y += self.velocity * math.sin(math.radians(self.angle))
+    
+class Weapons:
+    def __init__(self,dry_mass,barrel_length,type,max_ammo,mag_size,rate_of_fire,catridge_mass,reload_time,muzzle_velocity,crew_requirement):
+        self.xval = 0
+        self.yval = 0
+        self.xpos = 0
+        self.ypos = 0
+        self.dry_mass = dry_mass
+        self.barrel_length = barrel_length #in meters
+        self.type  = type #types are for later so restrictions etc can be generalised.
+        self.max_ammo = max_ammo#max ammo the weapon can "carry"
+        self.mag_size = mag_size #max mag size before reloading
+        self.current_mag = mag_size
+        self.rate_of_fire = rate_of_fire #how many rounds are fire in a sec
+        self.catridge_mass = catridge_mass #mass of the entire catridge
+        self.bullet_mass = self.catridge_mass - 0.015 #mass of just the bullet
+        self.ammo_mass = self.catridge_mass * self.max_ammo #mass of the entire ammo supply of the weapon
+        self.total_mass = self.dry_mass + self.ammo_mass #total mass of the weapon, dry mass plus the ammo
+        self.reload_time = reload_time #time to reload mags in seconds
+        self.muzzle_velocity = muzzle_velocity #velocity of the round in m/s
+        self.muzzle_energy = (self.ammo_mass / 2) * muzzle_velocity**2
+        self.crew_requirement = crew_requirement
+        self.projectile = None
+    def cal_recoil_force(self):
+        d_t = self.barrel_length / self.muzzle_velocity
+        recoil_force = self.bullet_mass / (self.muzzle_velocity / d_t)
+    def weapon_pos(self, X, Y):
+        self.xpos = X
+        self.ypos = Y
+    def fire_projectile(self):
+        if self.projectile is None:
+            self.projectile = Projectile(self.xpos,self.ypos, self.muzzle_velocity, 0)
+    def update_projectile(self):
+        if self.projectile:
+            self.projectile.update()
+    def reset_projectile(self):
+        self.projectile = None
+
+ 
+
+        
+        
+
 class Engine:
     def __init__(self, mass, fuelflow, prop_diameter, prop_efficiency, HP, thrust):
         self.mass = mass
