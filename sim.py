@@ -146,7 +146,7 @@ while running:
     if decrease_throttle_y:
         throttle_y -= 1
     if increase_throttle_x:
-        throttle_x += 1
+        throttle_x += 1 
     if decrease_throttle_x:
         throttle_x -= 1
 
@@ -156,9 +156,6 @@ while running:
     projectiles = []
     
     autocannon.weapon_pos(airship.xpos,airship.ypos)
-  
-
-    autocannon.update_projectile()
     
     #if the temp is not correct, the pressure will not be and thus the density will not either
     
@@ -204,7 +201,10 @@ while running:
     pygame.draw.rect(screen, rectangle_color, airrectangle)
     
     if fire_weapon:
-        autocannon.fire_projectile()
+        autocannon.fire_projectile(mouse_x,mouse_y)
+    
+    autocannon.update_projectile()
+    if autocannon.projectile:
         pygame.draw.circle(screen,rectangle_color,(int(autocannon.projectile.x), int(autocannon.projectile.y)), 5)
         
     draw_things()

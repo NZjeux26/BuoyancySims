@@ -21,7 +21,7 @@ class Weapons:
         self.type  = type #types are for later so restrictions etc can be generalised.
         self.max_ammo = max_ammo#max ammo the weapon can "carry"
         self.mag_size = mag_size #max mag size before reloading
-        self.current_mag = mag_size
+        self.current_mag = [mag_size]
         self.rate_of_fire = rate_of_fire #how many rounds are fire in a sec
         self.catridge_mass = catridge_mass #mass of the entire catridge
         self.bullet_mass = self.catridge_mass - 0.015 #mass of just the bullet
@@ -31,26 +31,26 @@ class Weapons:
         self.muzzle_velocity = muzzle_velocity #velocity of the round in m/s
         self.muzzle_energy = (self.ammo_mass / 2) * muzzle_velocity**2
         self.crew_requirement = crew_requirement
-        self.projectile = None
+        self.projectiles = None
     def cal_recoil_force(self):
         d_t = self.barrel_length / self.muzzle_velocity
         recoil_force = self.bullet_mass / (self.muzzle_velocity / d_t)
     def weapon_pos(self, X, Y):
-        self.xpos = X
-        self.ypos = Y
-    def fire_projectile(self):
+        self.xpos = X / 2
+        self.ypos = Y / 2
+    def fire_projectile(self,mousex,mousey):
         if self.projectile is None:
-            self.projectile = Projectile(self.xpos,self.ypos, self.muzzle_velocity, 0)
+            angle = math.degrees(math.atan2(mousey - self.ypos, mousex - self.xpos))
+            self.projectile = Projectile(self.xpos,self.ypos, self.muzzle_velocity, angle)
+        
     def update_projectile(self):
-        if self.projectile:
-            self.projectile.update()
+      if self.projectile:
+        self.projectile.update()
+        if not (0 <= self.projectile.x < 1200 and 0 <= self.projectile.y < 1080):
+            self.reset_projectile()
+            
     def reset_projectile(self):
         self.projectile = None
-
- 
-
-        
-        
 
 class Engine:
     def __init__(self, mass, fuelflow, prop_diameter, prop_efficiency, HP, thrust):
