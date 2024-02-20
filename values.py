@@ -1,17 +1,19 @@
 import math
 import pygame
+import time
 class Projectile:
-    def __init__(self, x, y, velocity, angle):
+    def __init__(self, x, y, velocity, angle, mass):
         self.x = x
         self.y = y
         self.velocity = velocity
         self.angle = angle
+        self.mass = mass
     def update(self):
         self.x += self.velocity * math.cos(math.radians(self.angle))
         self.y += self.velocity * math.sin(math.radians(self.angle))
     
 class Weapons:
-    def __init__(self,dry_mass,barrel_length,type,max_ammo,mag_size,rate_of_fire,catridge_mass,reload_time,muzzle_velocity,crew_requirement):
+    def __init__(self,dry_mass,barrel_length,type,max_ammo,mag_size,rate_of_fire,catridge_mass,reload_time,muzzle_velocity,crew_requirement,proj):
         self.xval = 0
         self.yval = 0
         self.xpos = 0
@@ -21,36 +23,53 @@ class Weapons:
         self.type  = type #types are for later so restrictions etc can be generalised.
         self.max_ammo = max_ammo#max ammo the weapon can "carry"
         self.mag_size = mag_size #max mag size before reloading
-        self.current_mag = [mag_size]
+        self.current_mag = mag_size
         self.rate_of_fire = rate_of_fire #how many rounds are fire in a sec
         self.catridge_mass = catridge_mass #mass of the entire catridge
-        self.bullet_mass = self.catridge_mass - 0.015 #mass of just the bullet
         self.ammo_mass = self.catridge_mass * self.max_ammo #mass of the entire ammo supply of the weapon
         self.total_mass = self.dry_mass + self.ammo_mass #total mass of the weapon, dry mass plus the ammo
         self.reload_time = reload_time #time to reload mags in seconds
         self.muzzle_velocity = muzzle_velocity #velocity of the round in m/s
         self.muzzle_energy = (self.ammo_mass / 2) * muzzle_velocity**2
         self.crew_requirement = crew_requirement
-        self.projectiles = None
+        self.proj = Projectile
+        self.projectiles = []
+        self.last_shot_time = 0
+    #calculates the recoil force of the projectile fiting
     def cal_recoil_force(self):
         d_t = self.barrel_length / self.muzzle_velocity
         recoil_force = self.bullet_mass / (self.muzzle_velocity / d_t)
+        return recoil_force
     def weapon_pos(self, X, Y):
-        self.xpos = X / 2
-        self.ypos = Y / 2
+        self.xpos = X
+        self.ypos = Y
+    #fires the projectile. Gets the current time for ROF, angle which is the difference between mouse and ship and adds this info to the proejctile list 
     def fire_projectile(self,mousex,mousey):
-        if self.projectile is None:
-            angle = math.degrees(math.atan2(mousey - self.ypos, mousex - self.xpos))
-            self.projectile = Projectile(self.xpos,self.ypos, self.muzzle_velocity, angle)
-        
+        current_time = time.time()
+        if current_time - self.last_shot_time >= 1 / self.rate_of_fire:
+            if self.current_mag > 0:
+                angle = math.degrees(math.atan2(mousey - self.ypos, mousex - self.xpos))
+                projectile = Projectile(self.xpos,self.ypos, self.muzzle_velocity, angle)
+                self.projectiles.append(projectile)
+                self.last_shot_time = current_time
+                self.current_mag -= 1
+    #updates the projectiles pos based on its velocity and angle
     def update_projectile(self):
-      if self.projectile:
-        self.projectile.update()
-        if not (0 <= self.projectile.x < 1200 and 0 <= self.projectile.y < 1080):
-            self.reset_projectile()
+        for projectile in self.projectiles:
+            projectile.update()
+            if not (0 <= projectile.x < 1200 and 0 <= projectile.y < 1080):
+                self.projectiles.remove(projectile)
+    #draws the projectile on screen
+    def draw_projectile(self, screen):
+        for projectile in self.projectiles:
+            pygame.draw.circle(screen, (255, 0, 0), (int(projectile.x), int(projectile.y)), 2)
             
+    def reload_mag(self):
+        self.reset_projectile()
+        self.current_mag = self.mag_size 
+           
     def reset_projectile(self):
-        self.projectile = None
+        self.projectiles = []
 
 class Engine:
     def __init__(self, mass, fuelflow, prop_diameter, prop_efficiency, HP, thrust):
@@ -119,7 +138,8 @@ class Constants:
     gravity_on_earth = 9.80665  # m/s^2
     air_density_sea_level = 1.225 # kg/m^3
     hydrogen_density = 0.008375 #kg/m^3
-    standard_pressure_sea_level = 101325  # Pascals
+    standard_pressure_sea_level = 101325 # Pascals
+    standard_pressure_sea_level_Hec = 101.325 # Hecta pascals
     gas_constant = 8.3144598  # J/(kg·K) 
     temperature_lapse_rate = 0.0065  # 6.5c per kilometer(0.0065c per meter) Also 0.0065 Kelvin per meter
     standard_temperature_at_sea_level = 15 #celsius (288.15 Kelvin)

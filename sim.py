@@ -1,6 +1,6 @@
 import pygame
 import sys
-from values import Airship, Atmosphere, Constants, Engine, BuoyancyData, Weapons
+from values import Airship, Atmosphere, Constants, Engine, BuoyancyData, Weapons, Projectile
 import math
 
 # Initialize pygame
@@ -17,7 +17,7 @@ def draw_things():
     throttle_y_txt = font.render("Y-Throttle: {} %".format(throttle_y),True,(0, 0, 0))
     actual_thrustX_txt = font.render("X-Thrust: {} N".format(engine_thrust_x * airship.num_engines),True,(0, 0, 0))
     throttle_x_txt = font.render("X-Throttle: {} %".format(throttle_x),True,(0, 0, 0))
-    mouse_x_text = font.render("X-PosM: {} %".format(mouse_x),True,(0, 0, 0))
+    mag_text = font.render("Current_mag: {}".format(autocannon.current_mag),True,(0, 0, 0))
    # trust_txt = font.render("Engine Trust: {} m/s".format(trust),True,(0, 0, 0))
    
     screen.blit(alt_txt, (screen_width - 800, 20))
@@ -30,23 +30,38 @@ def draw_things():
     screen.blit(throttle_y_txt, (screen_width - 800, 300))
     screen.blit(actual_thrustX_txt, (screen_width - 800, 340))
     screen.blit(throttle_x_txt, (screen_width - 800, 380))
-    screen.blit(mouse_x_text, (screen_width - 800, 400))
+    screen.blit(mag_text, (screen_width - 800, 400))
 
 # Define screen size
 screen_width = 1200
 screen_height = 1080
+#Based on the L118 light gun
+lightcannon = Weapons(
+    dry_mass = 19,
+    barrel_length = 4,
+    max_ammo= 50,
+    type=2,
+    mag_size=1,
+    rate_of_fire=0.2,
+    catridge_mass=16,
+    reload_time=10,
+    muzzle_velocity=70,
+    crew_requirement=6,
+    proj= Projectile(0,0,0,0,1.5)
+)
 #based on the Bofors L/70
 autocannon = Weapons(
     dry_mass = 24,
     barrel_length = 3.25,
     max_ammo = 300,
     type = 1, 
-    mag_size = 20000,
+    mag_size = 20,
     rate_of_fire = 4, # rounds per second
     catridge_mass = 0.096,
     reload_time = 2.5,
     muzzle_velocity = 100,
-    crew_requirement = 4
+    crew_requirement = 4,
+    proj=
 )
 
 #Based roughly on the Lycoming O-540
@@ -108,6 +123,7 @@ decrease_throttle_y = False
 increase_throttle_x = False
 decrease_throttle_x = False
 fire_weapon = False
+reload_weapon = False
 # Main loop
 running = True
 while running:
@@ -125,7 +141,8 @@ while running:
                 increase_throttle_x = True
             elif event.key == pygame.K_SPACE:
                 fire_weapon = True
-                pygame.draw.rect(screen,rectangle_color, (190, 200, 20,20))
+            elif event.key == pygame.K_r:
+                reload_weapon = True
         elif event.type == pygame.KEYUP:
             if event.key == pygame.K_UP:
                 increase_throttle_y = False
@@ -137,6 +154,8 @@ while running:
                 increase_throttle_x = False
             elif event.key == pygame.K_SPACE:
                 fire_weapon = False
+            elif event.key == pygame.K_r:
+                reload_weapon = False
     
     #get the mouse X/Y
     mouse_x, mouse_y = pygame.mouse.get_pos()
@@ -202,10 +221,11 @@ while running:
     
     if fire_weapon:
         autocannon.fire_projectile(mouse_x,mouse_y)
+    if reload_weapon:
+        autocannon.reload_mag()
     
     autocannon.update_projectile()
-    if autocannon.projectile:
-        pygame.draw.circle(screen,rectangle_color,(int(autocannon.projectile.x), int(autocannon.projectile.y)), 5)
+    autocannon.draw_projectile(screen)
         
     draw_things()
     
