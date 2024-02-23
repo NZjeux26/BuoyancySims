@@ -17,7 +17,9 @@ def draw_things():
     throttle_y_txt = font.render("Y-Throttle: {} %".format(throttle_y),True,(0, 0, 0))
     actual_thrustX_txt = font.render("X-Thrust: {} N".format(engine_thrust_x * airship.num_engines),True,(0, 0, 0))
     throttle_x_txt = font.render("X-Throttle: {} %".format(throttle_x),True,(0, 0, 0))
-    mag_text = font.render("Current_mag: {}".format(autocannon.current_mag),True,(0, 0, 0))
+    mag_text = font.render("Current_mag: {}".format(lightcannon.current_mag),True,(0, 0, 0))
+    recoil_Y = font.render("RecoilY: {}".format(recoil_force_y),True,(0, 0, 0))
+    recoil_X = font.render("RecoilX: {}".format(recoil_force_x),True,(0, 0, 0))
    # trust_txt = font.render("Engine Trust: {} m/s".format(trust),True,(0, 0, 0))
    
     screen.blit(alt_txt, (screen_width - 800, 20))
@@ -31,37 +33,39 @@ def draw_things():
     screen.blit(actual_thrustX_txt, (screen_width - 800, 340))
     screen.blit(throttle_x_txt, (screen_width - 800, 380))
     screen.blit(mag_text, (screen_width - 800, 400))
+    screen.blit(recoil_Y, (screen_width - 800, 420))
+    screen.blit(recoil_X, (screen_width - 800, 440))
 
 # Define screen size
 screen_width = 1200
 screen_height = 1080
 #Based on the L118 light gun
 lightcannon = Weapons(
-    dry_mass = 19,
+    dry_mass = 1.9, #1.9t but in KG
     barrel_length = 4,
     max_ammo= 50,
     type=2,
-    mag_size=1,
-    rate_of_fire=0.2,
-    catridge_mass=16,
+    mag_size=4,
+    rate_of_fire=2,
+    catridge_mass=0.18,
     reload_time=10,
-    muzzle_velocity=70,
+    muzzle_velocity=70.8,
     crew_requirement=6,
-    proj= Projectile(0,0,0,0,1.5)
+    proj= Projectile(0,0,0,0,0.15)
 )
 #based on the Bofors L/70
 autocannon = Weapons(
-    dry_mass = 24,
+    dry_mass = 4.8,
     barrel_length = 3.25,
     max_ammo = 300,
     type = 1, 
-    mag_size = 20,
+    mag_size = 26,
     rate_of_fire = 4, # rounds per second
-    catridge_mass = 0.096,
+    catridge_mass = 0.221,
     reload_time = 2.5,
     muzzle_velocity = 100,
     crew_requirement = 4,
-    proj=
+    proj = Projectile(0,0,0,0,0.096)
 )
 
 #Based roughly on the Lycoming O-540
@@ -117,6 +121,8 @@ clock = pygame.time.Clock()
 trust = 0.0
 throttle_y = 0
 throttle_x = 0
+recoil_force_x = 0
+recoil_force_y = 0
 # Flags to track key state
 increase_throttle_y = False
 decrease_throttle_y = False
@@ -174,8 +180,8 @@ while running:
     
     projectiles = []
     
-    autocannon.weapon_pos(airship.xpos,airship.ypos)
-    
+    autocannon.weapon_pos(airship.xpos,airship.ypos,airrectangle.w,airrectangle.h)
+    lightcannon.weapon_pos(airship.xpos,airship.ypos,airrectangle.w,airrectangle.h)
     #if the temp is not correct, the pressure will not be and thus the density will not either
     
     atmosphere.temperature = atmosphere.cal_temperature(airship.ypos)
@@ -198,9 +204,11 @@ while running:
     ship_dragY = airship.cal_drag_y(atmosphere.density)
     ship_dragX = airship.cal_drag_x(atmosphere.density)
     
+    #add prints for the recoil force. It's way too small
+    
     #the net force is the difference between the two
-    net_force_y = bforce - force_gravity - ship_dragY + (engine_thrust_y * airship.num_engines)
-    net_force_x = (engine_thrust_x * airship.num_engines) - ship_dragX 
+    net_force_y = bforce - force_gravity - ship_dragY + (engine_thrust_y * airship.num_engines) - recoil_force_y
+    net_force_x = (engine_thrust_x * airship.num_engines) - ship_dragX - recoil_force_x
     
     #calculate acceleration which is the net force divided by the mass of the object
     acceleration_y = net_force_y / airship.mass
@@ -220,12 +228,13 @@ while running:
     pygame.draw.rect(screen, rectangle_color, airrectangle)
     
     if fire_weapon:
-        autocannon.fire_projectile(mouse_x,mouse_y)
+        lightcannon.fire_projectile(mouse_x,mouse_y)
+        recoil_force_y, recoil_force_x = lightcannon.cal_recoil_force()
     if reload_weapon:
-        autocannon.reload_mag()
+        lightcannon.reload_mag()
     
-    autocannon.update_projectile()
-    autocannon.draw_projectile(screen)
+    lightcannon.update_projectile()
+    lightcannon.draw_projectile(screen)
         
     draw_things()
     

@@ -30,29 +30,43 @@ class Weapons:
         self.total_mass = self.dry_mass + self.ammo_mass #total mass of the weapon, dry mass plus the ammo
         self.reload_time = reload_time #time to reload mags in seconds
         self.muzzle_velocity = muzzle_velocity #velocity of the round in m/s
-        self.muzzle_energy = (self.ammo_mass / 2) * muzzle_velocity**2
         self.crew_requirement = crew_requirement
-        self.proj = Projectile
+        self.proj = proj
         self.projectiles = []
         self.last_shot_time = 0
     #calculates the recoil force of the projectile fiting
     def cal_recoil_force(self):
-        d_t = self.barrel_length / self.muzzle_velocity
-        recoil_force = self.bullet_mass / (self.muzzle_velocity / d_t)
-        return recoil_force
-    def weapon_pos(self, X, Y):
-        self.xpos = X
-        self.ypos = Y
+        delta_t = (2 * self.barrel_length) / self.muzzle_velocity #time to travel through barrel
+        acc = self.muzzle_velocity / delta_t #acceleration of the projectile
+        for projectile in self.projectiles:
+            recoil_force = self.proj.mass * acc #recoil force is F=MA so projectile mass * the acceleration 
+            recoil_x = recoil_force * math.sin(math.radians(projectile.angle))
+            recoil_y = recoil_force * math.cos(math.radians(projectile.angle))
+        print("DT: ", delta_t)
+        print("A: ", acc)
+        print("Recoil: ", recoil_force)
+        print("X: ", recoil_x)
+        print("Angle: ", projectile.angle)
+        print("Y: ", recoil_y)
+        print("M: ", projectile.mass)
+        return recoil_x,recoil_y
+    def weapon_pos(self, X, Y, W,H):#to get the centre of the rectangle i should pass in the rectangle size
+        self.xpos = X + W / 2
+        self.ypos = Y + H / 2
     #fires the projectile. Gets the current time for ROF, angle which is the difference between mouse and ship and adds this info to the proejctile list 
     def fire_projectile(self,mousex,mousey):
         current_time = time.time()
         if current_time - self.last_shot_time >= 1 / self.rate_of_fire:
-            if self.current_mag > 0:
-                angle = math.degrees(math.atan2(mousey - self.ypos, mousex - self.xpos))
-                projectile = Projectile(self.xpos,self.ypos, self.muzzle_velocity, angle)
-                self.projectiles.append(projectile)
-                self.last_shot_time = current_time
-                self.current_mag -= 1
+            if self.current_mag > 0: #if the mag has a round in it, fire
+                angle = math.degrees(math.atan2(mousey - self.ypos, mousex - self.xpos)) # get the angle between the x/y of the weapon and the mouse
+                self.proj.x = self.xpos #take the vars from the weapon that are needed and assign them to the proj which is supplied
+                self.proj.y = self.ypos
+                self.proj.velocity = self.muzzle_velocity
+                self.proj.angle = angle
+    
+                self.projectiles.append(self.proj)  #add this projectile into the list
+                self.last_shot_time = current_time  #reset timer
+                self.current_mag -= 1               #deduct from the mag
     #updates the projectiles pos based on its velocity and angle
     def update_projectile(self):
         for projectile in self.projectiles:
@@ -62,7 +76,7 @@ class Weapons:
     #draws the projectile on screen
     def draw_projectile(self, screen):
         for projectile in self.projectiles:
-            pygame.draw.circle(screen, (255, 0, 0), (int(projectile.x), int(projectile.y)), 2)
+            pygame.draw.circle(screen, (255, 0, 0), (int(projectile.x), int(projectile.y)), 4)
             
     def reload_mag(self):
         self.reset_projectile()
