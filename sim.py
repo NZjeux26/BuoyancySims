@@ -20,6 +20,9 @@ def draw_things():
     mag_text = font.render("Current_mag: {}".format(lightcannon.current_mag),True,(0, 0, 0))
     recoil_Y = font.render("RecoilY: {}".format(recoil_force_y),True,(0, 0, 0))
     recoil_X = font.render("RecoilX: {}".format(recoil_force_x),True,(0, 0, 0))
+    dt_font = font.render("DT: {}".format(dt),True,(0, 0, 0))
+   
+   
    # trust_txt = font.render("Engine Trust: {} m/s".format(trust),True,(0, 0, 0))
    
     screen.blit(alt_txt, (screen_width - 800, 20))
@@ -35,7 +38,7 @@ def draw_things():
     screen.blit(mag_text, (screen_width - 800, 400))
     screen.blit(recoil_Y, (screen_width - 800, 420))
     screen.blit(recoil_X, (screen_width - 800, 440))
-
+    screen.blit(dt_font, (screen_width - 800, 460))
 # Define screen size
 screen_width = 1200
 screen_height = 1080
@@ -86,7 +89,7 @@ airship = Airship(
     height = 3.35,
     dry_mass = 67,
     fuelmass = 36,
-    ballast =  91,
+    ballast =  99,
     engine = engines,
     num_engines = 4,
     cd = 0.029, #drag coefficent derived from the USS Los Angles (+ 0.05 for extras like gondalas and different shape)
@@ -113,7 +116,7 @@ pygame.display.set_caption("Buoyancy Simulation")
 rectangle_color = (255, 0, 0)
 
 # Create the rectangle object
-airrectangle = pygame.Rect(airship.xpos, airship.ypos, 100, 100)
+airrectangle = pygame.Rect(airship.xpos, airship.ypos, 14, 14)
 
 # Set up the clock to control the frame rate
 clock = pygame.time.Clock()
@@ -227,7 +230,7 @@ while running:
     screen.fill((255, 255, 255))
     pygame.draw.rect(screen, rectangle_color, airrectangle)
     
-    if fire_weapon:
+    if fire_weapon and lightcannon.current_mag > 0:
         lightcannon.fire_projectile(mouse_x,mouse_y)
         recoil_force_y, recoil_force_x = lightcannon.cal_recoil_force()
     if reload_weapon:

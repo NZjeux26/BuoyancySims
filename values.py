@@ -38,18 +38,21 @@ class Weapons:
     def cal_recoil_force(self):
         delta_t = (2 * self.barrel_length) / self.muzzle_velocity #time to travel through barrel
         acc = self.muzzle_velocity / delta_t #acceleration of the projectile
-        for projectile in self.projectiles:
-            recoil_force = self.proj.mass * acc #recoil force is F=MA so projectile mass * the acceleration 
-            recoil_x = recoil_force * math.sin(math.radians(projectile.angle))
-            recoil_y = recoil_force * math.cos(math.radians(projectile.angle))
-        print("DT: ", delta_t)
-        print("A: ", acc)
-        print("Recoil: ", recoil_force)
-        print("X: ", recoil_x)
-        print("Angle: ", projectile.angle)
-        print("Y: ", recoil_y)
-        print("M: ", projectile.mass)
-        return recoil_x,recoil_y
+        if self.current_mag > 0:
+            for projectile in self.projectiles:
+                recoil_force = self.proj.mass * acc #recoil force is F=MA so projectile mass * the acceleration 
+                recoil_x = recoil_force * math.cos(math.radians(projectile.angle))
+                recoil_y = recoil_force * math.sin(math.radians(projectile.angle))
+            # print("DT: ", delta_t)
+            # print("A: ", acc)
+            # print("Recoil: ", recoil_force)
+            # print("X: ", recoil_x)
+            # print("Angle: ", projectile.angle)
+            # print("Y: ", recoil_y)
+            # print("M: ", projectile.mass)
+            return recoil_y,recoil_x
+        else:
+            return 0,0
     def weapon_pos(self, X, Y, W,H):#to get the centre of the rectangle i should pass in the rectangle size
         self.xpos = X + W / 2
         self.ypos = Y + H / 2
