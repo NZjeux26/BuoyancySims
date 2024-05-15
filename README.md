@@ -10,15 +10,6 @@ It's more than enough for AirshipACE purposes so anything further would be more 
 
 Under the default figures the airship likes to hover around the 600m range. 
 
-## Things that need to be added
- - Autopilot
-      - Need an autopilot to maintain set heights with engine thrust to compensate for any buoyancy trim issues
- - Correct engine thrusting
-      - Currently, I'm directly controlling the airship x and y-axis velocity values. I would like to change that to using engine "thrust" and not be stuck in a strict X/Y separation EG thrust forward at 45 pitch up or something.
-      - This would require the "engines" to apply a thrust force not just play with the y/xvals
-      - Maybe to include fuel burn rates (and thus slowly decreasing mass as well) 
-
-
 ## Controls ##
 Up Arrow - Increase Y-axis velocity
 Down Arrow - Decrease Y-axis velocity
